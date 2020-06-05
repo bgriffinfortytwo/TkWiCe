@@ -1,6 +1,6 @@
 #!/bin/sh
 #\
-exec tclsh8.5 "$0" "$@"
+    exec tclsh8.6 "$0" "$@"
 
 
 # we need to work with the Tk toolkit and msgcat ...
@@ -9,14 +9,14 @@ package require msgcat
 
 
 # ttk
-set bTtk 0
-if { [ info tclversion ] != {8.4} } {
-	package require Ttk [ info tclversion ]
-	if { [ lsearch -exact [ttk::themes] {clam} ] > 0 } {
-		set sTheme clam
-		ttk::setTheme ${sTheme}
-	}
-	set bTtk 1
+set ::bTtk 0
+if {![catch {package require Ttk} TtkVersion] } {
+    package require Ttk [ info tclversion ]
+    if { [ lsearch -exact [ttk::themes] {clam} ] >= 0 } {
+	set sTheme clam
+	ttk::setTheme ${sTheme}
+    }
+    set ::bTtk 1
 }
 
 
@@ -276,7 +276,7 @@ if { ${prog_dir2} != ${prog_dir} } {
 
 # Tile only for the tile theme
 if { ( ${onecolor} == {false} && ${colortheme} != {tile} ) || ${onecolor} != {false} } {
-	set bTtk 0
+	set ::bTtk 0
 }
 
 
@@ -1660,7 +1660,7 @@ frame .menu2 -padx 2 -pady 0
     button .menu2.frame.0 -text [::msgcat::mc {All}] -padx 7 -pady 0 -font ${smallfont} -relief groove -background ${lightcolor} -borderwidth 2 -command { selectcountry "" 0 }
   pack .menu2.frame.0 -side left
   .menu2.canvas create window 0 0 -window .menu2.frame -anchor nw
-grid .menu2 -sticky ewns
+#grid .menu2 -sticky ewns
 
 
 # winelist
@@ -1688,7 +1688,7 @@ if { [ string range ${tablelist_version} 0 [ expr "[ string first {.} ${tablelis
 .winelist.text columnconfigure 5 -maxwidth 4 -stretchable false
 .winelist.text columnconfigure 6 -maxwidth 3 -stretchable false -align right
 pack .winelist.text -side left -fill both -expand true
-if { ${bTtk} } {
+if { $::bTtk } {
 	ttk::scrollbar .winelist.yscroll -command { .winelist.text yview } -orient vertical
 } else {
 	scrollbar .winelist.yscroll -command { .winelist.text yview } -orient vertical
@@ -1826,7 +1826,7 @@ bind [ .winelist.text bodytag ] <Button-3> {
 # filterframe
 frame .winelist.filter -padx 0 -pady 0
 
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::scrollbar .winelist.filter.scroll -command { .menu2.canvas xview } -orient horizontal
 	} else {
 		scrollbar .winelist.filter.scroll -command { .menu2.canvas xview } -orient horizontal

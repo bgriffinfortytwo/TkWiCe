@@ -2,7 +2,7 @@
 {mikrobiologisch} {hefig}                  {Brioche}
 {mikrobiologisch} {milchig}                {Buttermilch}
 {mikrobiologisch} {milchig}                {Sauerkraut}
-{mikrobiologisch} {milchig}                {schweiﬂig}
+{mikrobiologisch} {milchig}                {schwei√üig}
 {mikrobiologisch} {milchig}                {Joghurt}
 {mikrobiologisch} {animalisch}             {Pferd}
 {mikrobiologisch} {animalisch}             "M\u00e4usenest"
@@ -45,13 +45,13 @@
 {vegetativ}       {getrocknet / Natur}     {Heu / Stroh}
 {vegetativ}       {getrocknet / Natur}     {Tee}
 {vegetativ}       {getrocknet / Natur}     {Tabak}
-{nussig}          {Walnuﬂ}                 {}
-{nussig}          {Haselnuﬂ}               {}
+{nussig}          {Walnu√ü}                 {}
+{nussig}          {Haselnu√ü}               {}
 {nussig}          {Mandel}                 {}
 {karamelisiert}   {Honig}                  {}
 {karamelisiert}   {Karamelbonbon}          {}
 {karamelisiert}   {Butter / diacetyl}      {}
-{karamelisiert}   {Sojasoﬂe}               {}
+{karamelisiert}   {Sojaso√üe}               {}
 {karamelisiert}   {Schokolade}             {}
 {karamelisiert}   {Zuckersirup}            {}
 {holzig}          {harzig}                 {Vanille}
@@ -85,6 +85,6 @@
 {chemisch}        {stechend}               {Essig}
 {chemisch}        {stechend}               {Methanol}
 {chemisch}        {stechend}               {Schwefeldioxid}
-{scharf}          {heiﬂ}                   {Alkohol}
+{scharf}          {hei√ü}                   {Alkohol}
 {scharf}          {kalt}                   {Menthol}
 {oxydiert}        {Sherry}                 {}

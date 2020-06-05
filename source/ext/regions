@@ -154,7 +154,7 @@
 {Chile} {CL} {Valle Central} {Rapel/Cachapoal}
 {Chile} {CL} {Valle Central} {Rapel/Colchagua}
 {Deutschland} {DE} {Ahr} {}
-{Deutschland} {DE} {Baden} {Badische Bergstraße}
+{Deutschland} {DE} {Baden} {Badische BergstraÃŸe}
 {Deutschland} {DE} {Baden} {Badisches Frankenland}
 {Deutschland} {DE} {Baden} {Bodensee}
 {Deutschland} {DE} {Baden} {Breisgau}
@@ -165,7 +165,7 @@
 {Deutschland} {DE} {Baden} {Ortenau}
 {Deutschland} {DE} {Baden} {Tuniberg}
 {Deutschland} {DE} {Franken} {}
-{Deutschland} {DE} {Hessische Bergstraße} {}
+{Deutschland} {DE} {Hessische BergstraÃŸe} {}
 {Deutschland} {DE} {Mittelrhein} {}
 {Deutschland} {DE} {Mosel-Saar-Ruwer} {Mosel}
 {Deutschland} {DE} {Mosel-Saar-Ruwer} {Mosel/Mittelmosel}
@@ -506,7 +506,7 @@
 {France} {FR} {Jura} {Arbois}
 {France} {FR} {Jura} "C\u00f4tes du Jura"
 {France} {FR} {Jura} "Ch\u00e2teau-Chalon"
-{France} {FR} {Jura} {L´Etoile}
+{France} {FR} {Jura} {LÂ´Etoile}
 {France} {FR} {Languedoc} "Cabard\u00e8s"
 {France} {FR} {Languedoc} {Clairette de Bellegarde}
 {France} {FR} {Languedoc} {Clairette du Languedoc}
@@ -540,7 +540,7 @@
 {France} {FR} {Loire/Anjou-Saumur} {Anjou-Coteaux de la Loire}
 {France} {FR} {Loire/Anjou-Saumur} {Anjou-Villages}
 {France} {FR} {Loire/Anjou-Saumur} {Anjou-Villages-Brissac}
-{France} {FR} {Loire/Anjou-Saumur} {Coteaux de L´Aubance}
+{France} {FR} {Loire/Anjou-Saumur} {Coteaux de LÂ´Aubance}
 {France} {FR} {Loire/Anjou-Saumur} {Coteaux de Saumur}
 {France} {FR} {Loire/Anjou-Saumur} {Coteaux du Layon}
 {France} {FR} {Loire/Anjou-Saumur} {Coteaux du Layon/Bonnezeaux}
@@ -551,7 +551,7 @@
 {France} {FR} {Loire/Anjou-Saumur} "Savenni\u00e8res"
 {France} {FR} {Loire/Anjou-Saumur} "Savenni\u00e8res/Coul\u00e9e de Serrant"
 {France} {FR} {Loire/Anjou-Saumur} "Savenni\u00e8res/La Roche-Aux-Moines"
-{France} {FR} {Loire/Pays Nantais} {Coteaux d´Ancenis}
+{France} {FR} {Loire/Pays Nantais} {Coteaux dÂ´Ancenis}
 {France} {FR} {Loire/Pays Nantais} "Fiefs Vend\u00e9ens"
 {France} {FR} {Loire/Pays Nantais} {Coteaux de la Loire}
 {France} {FR} {Loire/Pays Nantais} "C\u00f4tes de Grand-Lieu"
@@ -559,7 +559,7 @@
 {France} {FR} {Loire/Touraine} {Bourgueil}
 {France} {FR} {Loire/Touraine} {Cheverny}
 {France} {FR} {Loire/Touraine} {Chinon}
-{France} {FR} {Loire/Touraine} {Chinon/Clos de L´Echo}
+{France} {FR} {Loire/Touraine} {Chinon/Clos de LÂ´Echo}
 {France} {FR} {Loire/Touraine} {Coteaux du Loir}
 {France} {FR} {Loire/Touraine} {Cour-Cheverny}
 {France} {FR} {Loire/Touraine} {Montlouis}
@@ -591,8 +591,8 @@
 {France} {FR} {Provence} {Bandol}
 {France} {FR} {Provence} {Bellet}
 {France} {FR} {Provence} {Cassis}
-{France} {FR} {Provence} "C\u00f4teaux D´Aix-en-Provence"
-{France} {FR} {Provence} "C\u00f4teaux D´Aix-en-Provence/Palette"
+{France} {FR} {Provence} "C\u00f4teaux DÂ´Aix-en-Provence"
+{France} {FR} {Provence} "C\u00f4teaux DÂ´Aix-en-Provence/Palette"
 {France} {FR} {Provence} "C\u00f4teaux Varois"
 {France} {FR} {Provence} "C\u00f4tes de Provence"
 {France} {FR} {Provence} "C\u00f4tes du Lub\u00e9ron"
@@ -696,7 +696,7 @@
 {Helvetica} {CH} {Ouest} "Gen\u00e8ve/Entre Rh\u00f4ne et Arve"
 {Helvetica} {CH} {Ouest} "Gen\u00e8ve/Mandement"
 {Helvetica} {CH} {Ouest} {Valais}
-{Helvetica} {CH} {Ouest} {Valais/Val d´Anniviers}
+{Helvetica} {CH} {Ouest} {Valais/Val dÂ´Anniviers}
 {Helvetica} {CH} {Ouest} {Vaud}
 {Helvetica} {CH} {Ouest} {Vaud/Chablais}
 {Helvetica} {CH} {Ouest} {Vaud/Chablais/Aigle}
@@ -785,14 +785,14 @@
 {Italia} {IT} {Kampanien} {Campi Flegrei}
 {Italia} {IT} {Kampanien} {Castel San Lorenzo}
 {Italia} {IT} {Kampanien} {Cilento}
-{Italia} {IT} {Kampanien} {Costa d´Amalfi}
+{Italia} {IT} {Kampanien} {Costa dÂ´Amalfi}
 {Italia} {IT} {Kampanien} {Falerno del Massico}
 {Italia} {IT} {Kampanien} {Galluccio}
 {Italia} {IT} {Kampanien} {Guardiolo}
 {Italia} {IT} {Kampanien} {Ischia}
 {Italia} {IT} {Kampanien} {Penisola Sorrentina}
 {Italia} {IT} {Kampanien} {Sannio}
-{Italia} {IT} {Kampanien} {Sant´Agata dei Goti}
+{Italia} {IT} {Kampanien} {SantÂ´Agata dei Goti}
 {Italia} {IT} {Kampanien} {Solopaca}
 {Italia} {IT} {Kampanien} {Sorrent}
 {Italia} {IT} {Kampanien} {Taburno}
@@ -826,8 +826,8 @@
 {Italia} {IT} {Piemont} {Ghemme}
 {Italia} {IT} {Piemont} {Langhe}
 {Italia} {IT} {Piemont} {Langhe/Alba}
-{Italia} {IT} {Piemont} {Langhe/Dolcetto d´Alba}
-{Italia} {IT} {Piemont} {Langhe/Dolcetto di Diano d´Alba}
+{Italia} {IT} {Piemont} {Langhe/Dolcetto dÂ´Alba}
+{Italia} {IT} {Piemont} {Langhe/Dolcetto di Diano dÂ´Alba}
 {Italia} {IT} {Piemont} {Langhe/Dolcetto di Dogliani}
 {Italia} {IT} {Piemont} {Langhe/Dolcetto delle Langhe Monregalesi}
 {Italia} {IT} {Piemont} {Langhe/Roero}
@@ -835,7 +835,7 @@
 {Italia} {IT} {Piemont} {Monferrato}
 {Italia} {IT} {Piemont} {Monferrato/Alessandria}
 {Italia} {IT} {Piemont} {Monferrato/Asti}
-{Italia} {IT} {Piemont} {Monferrato/Dolcetto d´Asti}
+{Italia} {IT} {Piemont} {Monferrato/Dolcetto dÂ´Asti}
 {Italia} {IT} {Piemont} {Monferrato/Dolcetto di Ovada}
 {Italia} {IT} {Puglia} {Castel del Monte}
 {Italia} {IT} {Puglia} {Giola di Colle}
@@ -902,7 +902,7 @@
 {Italia} {IT} {Umbrien} {Orvieto Classico}
 {Italia} {IT} {Umbrien} {Perugia}
 {Italia} {IT} {Umbrien} {Torgiano}
-{Italia} {IT} {Valle D´Aosta} {}
+{Italia} {IT} {Valle DÂ´Aosta} {}
 {Kibris} {CY} {} {}
 {Lebanon} {LB} {Bekaa Tal} {}
 {Lebanon} {LB} {Ghazir} {}
@@ -1088,7 +1088,7 @@
 {Tunisie} {TN} {Bizerte} {}
 {Tunisie} {TN} {Cap Bon} {}
 {Tunisie} {TN} "Coteaux de T\u00e9bourba" {}
-{Tunisie} {TN} {Coteaux d´Utique} {}
+{Tunisie} {TN} {Coteaux dÂ´Utique} {}
 {Tunisie} {TN} "K\u00e9libia" {}
 {Tunisie} {TN} {Mornag} {}
 {Tunisie} {TN} {Nabeul} {}

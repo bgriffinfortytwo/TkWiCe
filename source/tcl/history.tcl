@@ -8,14 +8,14 @@ package require msgcat
 
 
 # ttk
-set bTtk 0
+set ::bTtk 0
 if { [ info tclversion ] != {8.4} } {
 	package require Ttk [ info tclversion ]
-	if { [ lsearch -exact [ttk::themes] {clam} ] > 0 } {
+	if { [ lsearch -exact [ttk::themes] {clam} ] >= 0 } {
 		set sTheme clam
 		ttk::setTheme ${sTheme}
 	}
-	set bTtk 1
+	set ::bTtk 1
 }
 
 
@@ -31,7 +31,7 @@ source ${conffile}
 
 # Tile only for the tile theme
 if { ( ${onecolor} == {false} && ${colortheme} != {tile} ) || ${onecolor} != {false} } {
-	set bTtk 0
+	set ::bTtk 0
 }
 
 
@@ -126,7 +126,7 @@ proc checktext {widget validate_option string_id char} {
 
 # edit an entry of the tablelist
 proc do_edit {} {
-  global dataset dateformat show_list textfont titlefont lightcolor currency note wine_edit country price name_space changeline file delete okay closebutton bTtk
+  global dataset dateformat show_list textfont titlefont lightcolor currency note wine_edit country price name_space changeline file delete okay closebutton ::bTtk
 
   # set up vars
   if { ${show_list} == {hist_in} } {
@@ -171,7 +171,7 @@ proc do_edit {} {
     wm transient .edit .
 
     # build gui
-		if { ${bTtk} } {
+		if { $::bTtk } {
     	ttk::labelframe .edit.frame1 -text ${titlename}
 		} else {
 			labelframe .edit.frame1 -text ${titlename} -padx 2 -pady 2
@@ -373,7 +373,7 @@ frame .list
   .list.box columnconfigure 4 -maxwidth 2  -stretchable false -align right
   .list.box columnconfigure 5 -maxwidth 7  -stretchable false -align right
   pack .list.box -side left -fill both -expand true
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::scrollbar .list.yscroll -command { .list.box yview } -orient vertical
 	} else {
 		scrollbar .list.yscroll -command { .list.box yview } -orient vertical
@@ -621,7 +621,7 @@ frame .stats
   grid  .stats.74 -column 4 -row 7 -sticky we -padx 10
 
 frame .buttons
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::button .buttons.ok -image ${closebutton} -text [::msgcat::mc {Close}] -compound left -command { exit }
 	} else {
 		button .buttons.ok -image ${closebutton} -text [::msgcat::mc {Close}] -font ${titlefont} -compound left -pady 2 -padx 7 -relief raised -borderwidth 2 -command { exit }
@@ -871,7 +871,7 @@ proc hist_out {view} {
 
 # proc buy history
 proc hist_in {view} {
-  global conffile prog_dir today_year today_month dateformat currency titlefont textfont history_out
+  global conffile prog_dir today_year today_month dateformat currency titlefont textfont history_out dataset
   # clear tablelist
   if { ${view} == {yes} } { .list.box delete 0 [ .list.box size ] }
   .headline.ed configure -state disabled

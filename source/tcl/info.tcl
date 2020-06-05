@@ -22,7 +22,7 @@ if { [ winfo exists .info ] } {
   set yesimage   [ image create photo -file [ file join ${prog_dir} img okay.gif ] ]
 
   # draw elements
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::labelframe .info.frame1 -text ${infotitle}
 	} else {
 		labelframe .info.frame1 -font ${titlefont} -text ${infotitle} -padx 8 -pady 0
@@ -36,7 +36,7 @@ if { [ winfo exists .info ] } {
     if { ${infotype} == {yesno} } {
       global infobutton
       set infobutton {no}
-			if { ${bTtk} } {
+			if { $::bTtk } {
 				ttk::button .info.frame2.yes -image ${yesimage} -text [::msgcat::mc {Yes}] -compound left -command {
 					set infobutton {yes}
 					destroy .info
@@ -47,7 +47,7 @@ if { [ winfo exists .info ] } {
 					destroy .info
 				}
 			}
-			if { ${bTtk} } {
+			if { $::bTtk } {
 				ttk::button .info.frame2.no -image ${closeimage} -text [::msgcat::mc {No}] -compound left -command {
 					set infobutton {no}
 					destroy .info
@@ -60,7 +60,7 @@ if { [ winfo exists .info ] } {
 			}
       pack .info.frame2.yes .info.frame2.no -side left -fill x -expand true
     } elseif { ${infotype} == {info} } {
-			if { ${bTtk} } {
+			if { $::bTtk } {
       	ttk::button .info.frame2.close -image ${closeimage} -text [::msgcat::mc {Close}] -compound left -command { destroy .info }
 			} else {
 				button .info.frame2.close -image ${closeimage} -text [::msgcat::mc {Close}] -font ${titlefont} -compound left -pady 2 -padx 7 -relief raised -borderwidth 2 -command { destroy .info }

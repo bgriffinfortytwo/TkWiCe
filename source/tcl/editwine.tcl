@@ -5,14 +5,14 @@ package require msgcat
 
 
 # ttk
-set bTtk 0
+set ::bTtk 0
 if { [ info tclversion ] != {8.4} } {
 	package require Ttk [ info tclversion ]
-	if { [ lsearch -exact [ttk::themes] {clam} ] > 0 } {
+	if { [ lsearch -exact [ttk::themes] {clam} ] >= 0 } {
 		set sTheme clam
 		ttk::setTheme ${sTheme}
 	}
-	set bTtk 1
+	set ::bTtk 1
 }
 
 
@@ -28,7 +28,7 @@ source ${conffile}
 
 # Tile only for the tile theme
 if { ( ${onecolor} == {false} && ${colortheme} != {tile} ) || ${onecolor} != {false} } {
-	set bTtk 0
+	set ::bTtk 0
 }
 
 
@@ -1273,7 +1273,7 @@ ${setyearmenu} add command -label [ expr "${today_year} + 15"  ]   -command { ${
 
 
 frame .editleft
-if { ${bTtk} } {
+if { $::bTtk } {
 	ttk::labelframe .editleft.0 -text [::msgcat::mc {Winery}]
 } else {
 	labelframe .editleft.0 -text [::msgcat::mc {Winery}] -padx 2 -pady 2
@@ -1366,7 +1366,7 @@ label .editleft.0.domainnotes1 -text "[::msgcat::mc {Various}] " -font ${titlefo
 grid  .editleft.0.domainnotes1 -column 0 -row 6 -sticky nw
 frame .editleft.0.domainnotes2
 text  .editleft.0.domainnotes2.text -wrap word -width 35 -height 3 -background ${lightcolor} -yscrollcommand ".editleft.0.domainnotes2.scroll set"
-if { ${bTtk} } {
+if { $::bTtk } {
 	ttk::scrollbar .editleft.0.domainnotes2.scroll -command ".editleft.0.domainnotes2.text yview"
 } else {
 	scrollbar .editleft.0.domainnotes2.scroll -command ".editleft.0.domainnotes2.text yview"
@@ -1381,7 +1381,7 @@ grid  .editleft.0.domainnotes2 -column 1 -row 6 -sticky news
 frame .editleft.blank -height 4
 
 
-if { ${bTtk} } {
+if { $::bTtk } {
 	ttk::labelframe .editleft.1
 } else {
 	labelframe .editleft.1 -padx 2 -pady 2
@@ -1536,8 +1536,7 @@ frame .editleft.1.color2
     .editleft.1.color2.type configure -text [::msgcat::mc {Still}]
     set type {Normal}
   }
-  grid .editleft.1.color2.type -column 1 -row 3 -sticky w
-  bind .editleft.1.color2.type <Button-3> { tk_popup ${typemenu} %X %Y }
+bind .editleft.1.color2.type <Button-3> { tk_popup ${typemenu} %X %Y }
 pack .editleft.1.color2.color .editleft.1.color2.space .editleft.1.color2.type -side left
 grid .editleft.1.color2 -column 1 -row 2 -sticky w
 
@@ -1949,7 +1948,7 @@ label .editleft.1.notes1 -text "[::msgcat::mc {Notes}] " -font ${titlefont} -anc
 grid  .editleft.1.notes1 -column 0 -row 15 -sticky nw
 frame .editleft.1.notes2
 text  .editleft.1.notes2.text -wrap word -width 35 -height 3 -background ${lightcolor} -yscrollcommand ".editleft.1.notes2.scroll set"
-if { ${bTtk} } {
+if { $::bTtk } {
 	ttk::scrollbar .editleft.1.notes2.scroll -command ".editleft.1.notes2.text yview"
 } else {
 	scrollbar .editleft.1.notes2.scroll -command ".editleft.1.notes2.text yview"
@@ -1970,7 +1969,7 @@ grid rowconfigure .editleft.1 15 -weight 1
 
 
 frame .editright
-if { ${bTtk} } {
+if { $::bTtk } {
 	ttk::labelframe .editright.0 -text [::msgcat::mc {Shopping / Quantity}]
 } else {
 	labelframe .editright.0 -text [::msgcat::mc {Shopping / Quantity}] -padx 2 -pady 2
@@ -2010,7 +2009,7 @@ label  .editright.0.history1 -text "[::msgcat::mc {History}] " -font ${titlefont
 frame  .editright.0.history2
   text .editright.0.history2.message -width 41 -height 3 -wrap word -relief flat -yscrollcommand ".editright.0.history2.scroll set"
   ::conmen .editright.0.history2.message
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::scrollbar .editright.0.history2.scroll -command ".editright.0.history2.message yview"
 	} else {
 		scrollbar .editright.0.history2.scroll -command ".editright.0.history2.message yview"
@@ -2137,7 +2136,7 @@ proc switchmode {} {
 }
 
 
-if { ${bTtk} } {
+if { $::bTtk } {
 	ttk::labelframe .editright.1
 } else {
 	labelframe .editright.1 -padx 2 -pady 2
@@ -2197,7 +2196,7 @@ pack .editright.1.labeltext.2      -side left -padx 3
 label  .editright.1.text11 -text "[::msgcat::mc {Look}] " -font ${titlefont} -anchor nw
 frame  .editright.1.text12
   text .editright.1.text12.message -background ${lightcolor} -width 40 -height 3 -wrap word -yscrollcommand ".editright.1.text12.scroll set"
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::scrollbar .editright.1.text12.scroll -command ".editright.1.text12.message yview"
 	} else {
 		scrollbar .editright.1.text12.scroll -command ".editright.1.text12.message yview"
@@ -2210,7 +2209,7 @@ pack .editright.1.text12.scroll  -side right -fill y
 label  .editright.1.text21 -text "[::msgcat::mc {Nose}] " -font ${titlefont} -anchor nw
 frame  .editright.1.text22
   text .editright.1.text22.message -background ${lightcolor} -width 40 -height 3 -wrap word -yscrollcommand ".editright.1.text22.scroll set"
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::scrollbar .editright.1.text22.scroll -command ".editright.1.text22.message yview"
 	} else {
 		scrollbar .editright.1.text22.scroll -command ".editright.1.text22.message yview"
@@ -2223,7 +2222,7 @@ pack .editright.1.text22.scroll  -side right -fill y
 label  .editright.1.text31 -text "[::msgcat::mc {Taste}] " -font ${titlefont} -anchor nw
 frame  .editright.1.text32
   text .editright.1.text32.message -background ${lightcolor} -width 40 -height 3 -wrap word -yscrollcommand ".editright.1.text32.scroll set"
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::scrollbar .editright.1.text32.scroll -command ".editright.1.text32.message yview"
 	} else {
 		scrollbar .editright.1.text32.scroll -command ".editright.1.text32.message yview"
@@ -2236,7 +2235,7 @@ pack .editright.1.text32.scroll  -side right -fill y
 label  .editright.1.text41 -text "[::msgcat::mc {Impression}] " -font ${titlefont} -anchor nw
 frame  .editright.1.text42
   text .editright.1.text42.message -background ${lightcolor} -width 40 -height 3 -wrap word -yscrollcommand ".editright.1.text42.scroll set"
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::scrollbar .editright.1.text42.scroll -command ".editright.1.text42.message yview"
 	} else {
 		scrollbar .editright.1.text42.scroll -command ".editright.1.text42.message yview"
@@ -2326,7 +2325,7 @@ frame .editright.1.text51
   label .editright.1.text51.text -text "[::msgcat::mc {Points}] " -font ${titlefont} -anchor nw
   label .editright.1.text51.points -text {} -font ${smallfont} -anchor nw
 pack .editright.1.text51.text .editright.1.text51.points -fill x
-if { ${bTtk} } {
+if { $::bTtk } {
 	ttk::labelframe .editright.1.text52
 } else {
 	labelframe .editright.1.text52
@@ -2663,7 +2662,7 @@ frame .editright.1.air2
   frame .editright.1.air2.temperature2
     if { ${tempscale} == {fahrenheit} } {
       spinbox .editright.1.air2.temperature2.spin -textvariable temperature -from 40 -to 66 -width 4 -background ${lightcolor} -justify right -validate key -vcmd { expr { [ string is integer %P ] && [ string length %P ] < 3 } }
-      label .editright.1.air2.temperature2.text -text {°F}
+      label .editright.1.air2.temperature2.text -text {Â°F}
       menubutton .editright.1.air2.temperature2.help -image ${helpbutton} -width 16 -height 16 -relief flat -borderwidth 0 -highlightthickness 0 -menu .editright.1.air2.temperature2.help.menu
       set temperaturemenu [ menu .editright.1.air2.temperature2.help.menu -tearoff 0 ]
       ${temperaturemenu} add command -label "40" -command { .editright.1.air2.temperature2.spin set "40" }
@@ -2682,7 +2681,7 @@ frame .editright.1.air2
       ${temperaturemenu} add command -label "66" -command { .editright.1.air2.temperature2.spin set "66" }
     } else {
       spinbox .editright.1.air2.temperature2.spin -textvariable temperature -from 5 -to 18 -width 4 -background ${lightcolor} -justify right -validate key -vcmd { expr { [ string is integer %P ] && [ string length %P ] < 3 } }
-      label .editright.1.air2.temperature2.text -text {°C}
+      label .editright.1.air2.temperature2.text -text {Â°C}
       menubutton .editright.1.air2.temperature2.help -image ${helpbutton} -width 16 -height 16 -relief flat -borderwidth 0 -highlightthickness 0 -menu .editright.1.air2.temperature2.help.menu
       set temperaturemenu [ menu .editright.1.air2.temperature2.help.menu -tearoff 0 ]
       ${temperaturemenu} add command -label {5} -command { .editright.1.air2.temperature2.spin set {5} }
@@ -4954,7 +4953,7 @@ label  .editright.1.history1 -text "[::msgcat::mc {History}] " -font ${titlefont
 frame  .editright.1.history2
   text .editright.1.history2.message -width 40 -height 3 -wrap word -relief flat -yscrollcommand ".editright.1.history2.scroll set"
   ::conmen .editright.1.history2.message
-	if { ${bTtk} } {
+	if { $::bTtk } {
   	ttk::scrollbar .editright.1.history2.scroll -command ".editright.1.history2.message yview"
 	} else {
 		scrollbar .editright.1.history2.scroll -command ".editright.1.history2.message yview"

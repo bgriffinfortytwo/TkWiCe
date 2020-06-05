@@ -46,8 +46,8 @@
 "Alca\u00f1\u00f3n" {} {} {}
 {Aleatico} {} {} {}
 {Alepou} {Roditis} {} {}
-{Alexandermuskat} {Muscat d¥Alexandrie} {} {}
-{Alexandria-Muskateller} {Muscat d¥Alexandrie} {} {}
+{Alexandermuskat} {Muscat d¬¥Alexandrie} {} {}
+{Alexandria-Muskateller} {Muscat d¬¥Alexandrie} {} {}
 {Alfrocheiro} {} {} {}
 {Alibernet} {} {Teinturier x Cabernet Sauvignon} {}
 {Alicante Boucher} {Teinturier} {} {}
@@ -78,13 +78,13 @@
 {Arbois} {} {} {}
 {Arcytico} {Assyrtiko} {} {}
 {Arganda} {Tempranillo} {} {}
-{Ariana} {} {Weiﬂer Riesling x St. Laurent x Zweigelt} {}
+{Ariana} {} {Wei√üer Riesling x St. Laurent x Zweigelt} {}
 {Arinto} {} {} {}
 {Arneis} {} {} {}
 {Arnsburger} {} {Riesling 88Gm x Riesling 64Gm} {}
 {Arrise} {Negro Amaro} {} {}
 {Arrufiac} {} {} {}
-{Arvine Grande} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Arvine Grande} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Arvine} {Petite Arvine} {} {}
 {Aspirinio} {} {} {}
 {Asprouda Mykinon} {} {} {}
@@ -96,7 +96,7 @@
 {Aubeine} {Chardonnay} {} {}
 {Aubin Blanc} {} {} {}
 {Aubun} {} {} {}
-{Aurelius} {} {Neuburger x Weiﬂer Riesling} {}
+{Aurelius} {} {Neuburger x Wei√üer Riesling} {}
 {Auvernat} {any Auvernat grape} {} {}
 {Auvernat Blanc} {Chardonnay} {} {}
 {Auvernat Franco} {Pinot Blanc} {} {}
@@ -270,7 +270,7 @@
 {Calabrese d'Avola} {Nero d'Avola} {} {}
 {Calabrese de Calabria} {Nero d'Avola} {} {}
 {Calabrese di Noto} {Nero d'Avola} {} {}
-{Calabreser Froelich} {Weiﬂer Calabreser} {} {}
+{Calabreser Froelich} {Wei√üer Calabreser} {} {}
 {Calabrese} {Nero d'Avola or Sangiovese} {} {}
 {Calabre} {Cinsaut} {} {}
 {Caladoc} {} {Grenache x Malbec} {}
@@ -309,7 +309,7 @@
 {Catarratto Bianco Lucido} {} {} {}
 {Catarratto} {Catarratto Bianco Commune or Catarratto Bianco Lucido} {} {}
 {Catauba} {} {} {}
-"Cavaill\u00e8s" {Len de l¥El} {} {}
+"Cavaill\u00e8s" {Len de l¬¥El} {} {}
 "Ca\u00ed\u00f1o Blanco" {} {} {}
 "Ca\u00ed\u00f1o Tonto" "Borra\u00e7al" {} {}
 {Cencibel} {Tempranillo} {} {}
@@ -418,8 +418,8 @@
 {Deckrot} {} {Pinot Gris x Teinturier} {}
 {Dedal} {Rkatsiteli} {} {}
 {Delaware} {} {} {}
-{Devin} "D\u011bv\355n" {Roter Traminer x Rotweiﬂer Veltliner} {}
-"D\u011bv\355n" {} {Roter Traminer x Rotweiﬂer Veltliner} {}
+{Devin} "D\u011bv\355n" {Roter Traminer x Rotwei√üer Veltliner} {}
+"D\u011bv\355n" {} {Roter Traminer x Rotwei√üer Veltliner} {}
 {Diana} {} "Silvaner x M\u00fcller-Thurgau" {}
 {Diego} {} {} {}
 {Dimiat} {Dimyat} {} {}
@@ -431,7 +431,7 @@
 {Dolcetto} {} {} {}
 {Dolsin Nero} {Dolcetto} {} {}
 {Domina} {} {Portugieser x Pinot Noir} {}
-{Donauriesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Donauriesling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Doppelte Spanische} {Chasselas} {} {}
 {Dorado} {Loureiro Blanco} {} {}
 {Dorin} {Chasselas} {} {}
@@ -516,7 +516,7 @@
 {Franc-Blanc} {Chenin Blanc} {} {}
 {Franche} {Chenin Blanc} {} {}
 {Franconia} "Blaufr\u00e4nkisch" {} {}
-{Frankenriesling} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Frankenriesling} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Frankinja Crna} {Gamay} {} {}
 {Frankovka} "Blaufr\u00e4nkisch" {} {}
 {Frappato} {} {} {}
@@ -528,7 +528,7 @@
 {Friulano} {Muscadelle or Raboso Veronese} {} {}
 {Friularo} {Raboso del Piave} {} {}
 {Fromenteau} {Roussanne} {} {}
-{Fromentin} {Weiﬂer Traminer} {} {}
+{Fromentin} {Wei√üer Traminer} {} {}
 {Fromentot} {Pinot Gris} {} {}
 {Frontignac} "Muscat Blanc \u00e0 Petits Grains" {} {}
 "Fr\u00eencusa" {} {} {}
@@ -555,7 +555,7 @@
 "Gamay Six Pi\u00e8ces" {Gamay de Chaudenay} {} {}
 {Gamay de Bouze} {} {} {}
 {Gamay de Chaudenay} {} {} {}
-{Gamay d¥Auvergne} {Gamay} {} {}
+{Gamay d¬¥Auvergne} {Gamay} {} {}
 "Gamay-Fr\u00e9au" {Teinturier} {} {}
 {Gamay} {} {} {}
 {Gamet Blanc} {Chenin Blanc} {} {}
@@ -577,12 +577,12 @@
 {Gelber Muskateller} {Moscato Giallo} {} {}
 {Gelber Orleans} {} {} {}
 {Gelber Ortlieber} {Ortlieber} {} {}
-{Gelber Weiﬂburgunder} {Chardonnay} {} {}
+{Gelber Wei√üburgunder} {Chardonnay} {} {}
 {Gelbriesling} {Goldriesling} {} {}
-{Gentil Blanc} {Weiﬂer Traminer} {} {}
-{Gentil Vert} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Gentil Blanc} {Wei√üer Traminer} {} {}
+{Gentil Vert} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 "Gentin \u00e0 Romorantin" {Sauvignon Blanc} {} {}
-"Gew\374rztraube" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"Gew\374rztraube" {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 "Gew\u00fcrztraminer" {} {} {}
 {Giallo} {Trebbiano di Soave} {} {}
 {Giboudot Blanc} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
@@ -602,7 +602,7 @@
 {Gouveio} {} {} {}
 {Graciana} {Graciano} {} {}
 {Graciano} {} {} {}
-"Gr\344fenberger" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"Gr\344fenberger" {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Grande Vidure} "Carmen\u00e8re or Cabernet Sauvignon" {} {}
 {Grande-Vidure} "Carmen\u00e8re or Cabernet Sauvignon" {} {}
 {Granoir} {Garanoir} {} {}
@@ -629,13 +629,13 @@
 {Grenache Poilu} {Grenache} {} {}
 {Grenache Tomenteux} {Grenache} {} {}
 {Grenache Velu} {Grenache} {} {}
-{Grenache d¥Afrique} {Grenache} {} {}
+{Grenache d¬¥Afrique} {Grenache} {} {}
 {Grenache} {} {} {}
 {Grenash Crni} {Grenache} {} {}
 {Grifforin} {Malbec} {} {}
 {Grignolino} {} {} {}
 {Grillo} {} {} {}
-{Gringet} {Weiﬂer Traminer} {} {}
+{Gringet} {Wei√üer Traminer} {} {}
 {Gris Meunier} {Pinot Meunier} {} {}
 {Griset Blanc} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
 {Grk} {} {} {}
@@ -656,23 +656,23 @@
 {Gros Noir} {Malbec} {} {}
 {Gros Pineau} {Chenin Blanc} {} {}
 {Gros Plant} {Folle Blanche} {} {}
-{Gros Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Gros Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Gros Sauvignon} {Sauvignon Blanc} {} {}
 {Gros Vien} {Ner d'Ala} {} {}
-{Gros-Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Gros-Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Groslot} {} {} {}
 {Grosse Roussette} {Marsanne} {} {}
 {Grosse Sainte-Marie} {Melon} {} {}
 {Grosse-Vidure} {Cabernet Franc} {} {}
 {Grosso Nero} {} {} {}
-{Groﬂmuttertraube} {Babeasca Neagra} {} {}
-{Groﬂriesler} {Elbling} {} {}
-{Groﬂvernatsch} {Vernatsch} {} {}
+{Gro√ümuttertraube} {Babeasca Neagra} {} {}
+{Gro√üriesler} {Elbling} {} {}
+{Gro√üvernatsch} {Vernatsch} {} {}
 {Grunzinskii} {Rkatsiteli} {} {}
 "Gr\u00fcner Burgunder" {Neuburger} {} {Roter Veltliner x Silvaner}
-"Gr\u00fcner Silvaner" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Gr\u00fcner Silvaner" {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 "Gr\u00fcner Veltliner" {} {} {}
-"Gr\u00fcner V\u00f6slauer" {Weiﬂer Portugieser} {} {}
+"Gr\u00fcner V\u00f6slauer" {Wei√üer Portugieser} {} {}
 "Gr\u00fcnmuskateller" "Gr\u00fcner Veltliner" {} {}
 {Gual} {} {} {}
 {Guanico} {Aglianico} {} {}
@@ -680,19 +680,19 @@
 {Gumpoldskircher} {Zierfandler} {} {Traminer x Roter Veltliner}
 {Gutedel} {Chasselas} {} {}
 {Hachat Lovelin} "H\u00e1rslevel\u00fc" {} {}
-{Hanepoot} {Muscat d¥Alexandrie} {} {}
+{Hanepoot} {Muscat d¬¥Alexandrie} {} {}
 {Harriague} {Tannat} {} {}
 {Hegel} {} {Helfensteiner x Heroldrebe} {}
-{Heida} {Weiﬂer Traminer} {} {}
+{Heida} {Wei√üer Traminer} {} {}
 {Helfensteiner} {} "Gew\u00fcrztraminer x Vernatsch" {}
 {Helios} {} {Merzling x Freiburg 986-60} {}
 {Hermitage Blanc} {Marsanne} {} {}
 {Hermitage} {Cinsaut} {} {}
 {Heroldrebe} {} "Blaufr\u00e4nkisch x Portugieser" {}
 {Heunisch} {} {} {}
-{Hibernal} {} {Weiﬂer Riesling x Seibel 7053} {}
+{Hibernal} {} {Wei√üer Riesling x Seibel 7053} {}
 {Hibia} {} {Hibernal x Bianca} {}
-{Hochheimer} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Hochheimer} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Hondarrabi Beltza} {Ondarribi Beltza} {} {}
 {Hondarrabi Zuri} {Ondarribi Zuri} {} {}
 {Hondarrabi} {Ondarrabi Beltza or Ondarrabi Zuri} {} {}
@@ -714,8 +714,8 @@
 {Jaciuera} {Tempranillo} {} {}
 "Jacqu\u00e8re" {} {} {}
 "Ja\u00e9n" {} {} {}
-{Johannisberg Riesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Johannisberger} {Silvaner oder Weiﬂer Riesling} {} {}
+{Johannisberg Riesling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Johannisberger} {Silvaner oder Wei√üer Riesling} {} {}
 {Johanniter} {} "Riesling x Rul\u00e4nder x Chasselas" {}
 {Jonico} {Negro Amaro} {} {}
 "Jo\u00e3o de Santar\u00e9m" {Periquita} {} {}
@@ -734,19 +734,19 @@
 {Kalambaki} {Limnio} {} {}
 {Kalecik} {} {} {}
 {Kanzler} {} "M\u00fcller-Thurgau x Silvaner" {}
-{Karbacher Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Karbacher Rieseling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Karvouniaris} {Agiorgitiko} {} {}
-{Kastellberger} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Kastellberger} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Keratzuda} {} {} {}
 {Kerner} {} {Vernatsch x Riesling} {}
 {Kernling} {} {} {}
 "Kir\u00e1lyle\u00e1nyka" {Feteasca Regala} {Grasa x Feteasca Alba} {}
 {Kleinberger} {Elbling} {} {}
-{Kleinrieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Kleinriesler} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Kleinrieseling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Kleinriesler} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Kleinvernatsch} {Vernatsch} {} {}
 {Klevner} "Pinot Noir or Pinot Blanc or Pinot Gris or Gew\u00fcrztraminer or Chardonnay" {} {}
-{Klingelberger} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Klingelberger} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Knipperle} {Ortlieber} {} {}
 {Kofanka} {Laurot} "Merlot x Blaufr\u00e4nkisch x St. Laurent x Siebel 13666" {}
 {Koroleki} {Rkatsiteli} {} {}
@@ -801,7 +801,7 @@
 {Laurot} {} "Merlot x Blaufr\u00e4nkisch x St. Laurent x Siebel 13666" {}
 {Lauzet} {} {} {}
 {Lemberger} "Blaufr\u00e4nkisch" {} {}
-{Len de l¥El} {} {} {}
+{Len de l¬¥El} {} {} {}
 "Le\341\u0148ka" {Feteasca Regala} {Grasa x Feteasca Alba} {}
 "Le\u00e1yka" {Feteasca Regala} {Grasa x Feteasca Alba} {}
 "Le\u00e1nyka" {Feteasca Alba} {} {}
@@ -824,7 +824,7 @@
 {Lladoner Pelut} {Grenache} {} {}
 {Lladoner} {Grenache} {} {}
 {Lledoner Pelut} {Grenache} {} {}
-{Loin de l¥OEil} {Len de l¥El} {} {}
+{Loin de l¬¥OEil} {Len de l¬¥El} {} {}
 "Lou Salba\u00efre" {Malbec} {} {}
 {Loureira} {Loureiro Blanco} {} {}
 {Loureiro Blanco} {} {} {}
@@ -929,7 +929,7 @@
 {Melnik} {} {} {}
 {Melon Blanc} {Chardonnay or Melon de Bourgogne} {} {}
 {Melon de Bourgogne} {} {} {}
-{Melon d¥Arbois} {Chardonnay} {} {Pinot Noir x Heunisch}
+{Melon d¬¥Arbois} {Chardonnay} {} {Pinot Noir x Heunisch}
 {Melon} {Melon de Bourgogne} {} {}
 "Menc\u00eda" "Menc\u00eda or Cabernet Franc" {} {}
 {Merenzao} {} {} {}
@@ -944,7 +944,7 @@
 {Merzling} {} "Seyve Villard 5-276 x (Riesling x Rul\u00e4nder)" {}
 {Mesenikola} {Messenikola} {} {}
 {Messenikola} {} {} {}
-{Meunier Blanc} {Weiﬂer Traminer} {} {}
+{Meunier Blanc} {Wei√üer Traminer} {} {}
 {Meunier} {Pinot Meunier} {} {}
 {Michet} {Nebbiolo} {} {}
 {Milgranet} {} {} {}
@@ -969,14 +969,14 @@
 {Monemvassia} {} {} {}
 {Monica} {} {} {}
 {Montepulciano} {} {} {}
-{Monterey Riesling} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Monterey Riesling} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Montonico} {} {} {}
 "Mont\u00f9" {} {} {}
 {Mopr} "Mu\u0161k\341t moravsk\375" {Muscat Ottonel x Prachttraube} {}
 {Morastell} "Mourv\u00e8dre" {} {}
 {Moravia} {Cabernet Moravia} {Cabernet Franc x Zweigel} {}
 {Moravka} "Blaufr\u00e4nkisch" {} {}
-"Mor\u00e1fka" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Mor\u00e1fka" {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Morellino} {Sangiovese} {} {}
 {Morellone} {Montepulciano} {} {}
 {Moreto} {} {} {}
@@ -985,13 +985,13 @@
 {Moristel} {} {} {}
 {Morrastel} "Graciano or Mourv\u00e8dre" {} {}
 "Mort\u00e1gua" {Touriga Nacional or Trincadeira} {} {}
-{Moscadel Gordo Blanco} {Muscat d¥Alexandrie} {} {}
+{Moscadel Gordo Blanco} {Muscat d¬¥Alexandrie} {} {}
 {Moscadello} "Muscat Blanc \u00e0 Petits Grains" {} {}
-{Moscadel} {Muscat d¥Alexandrie} {} {}
+{Moscadel} {Muscat d¬¥Alexandrie} {} {}
 {Moscate Roxo} {Moscatel Galego Roxo} {} {}
 {Moscatel Galego Roxo} {} {} {}
-"Moscatel Gra\u00fado" {Muscat d¥Alexandrie} {} {}
-{Moscatel de Alejandria} {Muscat d¥Alexandrie} {} {}
+"Moscatel Gra\u00fado" {Muscat d¬¥Alexandrie} {} {}
+{Moscatel de Alejandria} {Muscat d¬¥Alexandrie} {} {}
 {Moscatel de Grano Menudo} "Muscat Blanc \u00e0 Petits Grains" {} {}
 "Moscatel de Set\u00fabal" {Muscat d'Alexandrie} {} {}
 {Moscatel} "Muscat Blanc \u00e0 Petits Grains" {} {}
@@ -999,11 +999,11 @@
 {Moscato Giallo} {} {} {}
 {Moscato Rosa} {} {} {}
 {Moscato di Alessandria} {Muscat d'Alexandrie} {} {}
-{Moscato d¥Amburgo} {Muscat d¥Hamburg} {} {}
+{Moscato d¬¥Amburgo} {Muscat d¬¥Hamburg} {} {}
 {Moscato} {any Muscat grape} {} {}
 {Moschophilero} {Moskofilero} {} {}
 {Moscofilero} {Moskofilero} {} {}
-{Moselriesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Moselriesling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Moskofilero} {} {} {}
 {Mosler} {Furmint} {} {}
 {Moslovac Bijeli} {Furmint} {} {}
@@ -1026,20 +1026,20 @@
 {Muscat Gordo Blanc} {} {} {}
 {Muscat Ottonel} {} {} {}
 "Mu\u0161k\341t Ottonel" {Muscat Ottonel} {} {}
-{Muscat Romain} {Muscat d¥Alexandrie} {} {}
+{Muscat Romain} {Muscat d¬¥Alexandrie} {} {}
 {Muscat Spinas} {} {} {}
 {Muscat d'Alexandrie} {} {} {}
 {Muscat de Frontignan} "Muscat Blanc \u00e0 Petits Grains" {} {}
 {Muscat de Marseille} {} {} {}
 {Muscat de Provence} {} {} {}
 {Muscat de Rivesaltes} "Muscat Blanc \u00e0 Petits Grains" {} {}
-{Muscat d¥Alexandrie} {} {} {}
-{Muscat d¥Aubagne} {} {} {}
-{Muscat d¥Hamburg} {} {} {}
+{Muscat d¬¥Alexandrie} {} {} {}
+{Muscat d¬¥Aubagne} {} {} {}
+{Muscat d¬¥Hamburg} {} {} {}
 {Muscatel} "Muscat Blanc \u00e0 Petits Grains" {} {}
 {Muscat} {any Muscat grape} {} {}
 "Mu\u0161k\341t moravsk\375" {} {Muscat Ottonel x Prachttraube} {}
-{Muskat Hamburg} {Muscat d¥Hamburg} {} {}
+{Muskat Hamburg} {Muscat d¬¥Hamburg} {} {}
 {Muskat-Ottonel} {Muscat Ottonel} {} {}
 {Muskat-Sylvaner} {Sauvignon Blanc} {} {}
 {Muskat-Trollinger} {} {} {}
@@ -1059,7 +1059,7 @@
 {Napa Gamay} {Gamay} {} {}
 {Narince} {} {} {}
 {Nasco} {} {} {}
-"Natur\u00e9" {Weiﬂer Traminer} {} {}
+"Natur\u00e9" {Wei√üer Traminer} {} {}
 {Nebbiolo} {} {} {}
 {Negosca} {Negoska} {} {}
 {Negoska} {} {} {}
@@ -1098,7 +1098,7 @@
 {Niaoysa} {Xynomavro} {} {}
 {Niaoystino} {Xynomavro} {} {}
 {Nicra Amaro} {Negro Amaro} {} {}
-"Niederl\344nder" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"Niederl\344nder" {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Niella} {Sangiovese} {} {}
 {Nielluccio} {Sangiovese} {} {}
 {Niuru Maru} {Negro Amaro} {} {}
@@ -1147,8 +1147,8 @@
 {Ottavianello} {Cinsaut} {} {}
 "Ottonel Muskot\u00e1ly" {Muskat Ottonel} {} {}
 "\u00d6k\u00fczg\u00f6z\u00fc" {} {} {}
-"\u00d6sterreicher" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
-"\u00d6sterreich Weiﬂ" {} {} {}
+"\u00d6sterreicher" {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
+"\u00d6sterreich Wei√ü" {} {} {}
 {Padeiro} "Tinto C\u00e3o" {} {}
 "Padern\u00e3" {Arinto} {} {}
 "Pader\u00f1ao" {Arinto} {} {}
@@ -1169,7 +1169,7 @@
 {Pascal Blanc} {} {} {}
 {Passerina} {Trebbiano} {} {}
 "Pa\u00eds" {} {} {}
-"Pa\u00efen" {Weiﬂer Traminer} {} {}
+"Pa\u00efen" {Wei√üer Traminer} {} {}
 {Pecorino} {} {} {}
 "Pedern\u00e3" {Arinto} {} {}
 "Pedern\u00e3o" {Arinto} {} {}
@@ -1193,7 +1193,7 @@
 {Petit Gamay} {Gamay} {} {}
 {Petit Manseng} {Manseng} {} {}
 {Petit Merle} {Merlot} {} {}
-{Petit Rhin} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Petit Rhin} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Petit Rouge} {Cornalin} {} {}
 {Petit Verdot} {} {} {}
 {Petit Vidure} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
@@ -1202,13 +1202,13 @@
 {Petite Sirah} {} {} {Peloursin x Syrah}
 {PetiteVidure} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
 {Petrokoritho} {} {} {}
-{Pfefferl} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Pfefferl} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Phoenix} {} {Bacchus x Villard Blanc} {}
 "Ph\u00f6nix" {Phoenix} {Bacchus x Villard Blanc} {}
 {Picapoll} {} {} {}
 {Picardan} {} {} {}
 {Picardan Noir} {Cinsaut} {} {}
-{Picardon Blanc} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Picardon Blanc} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Picolit} {} {} {}
 {Picotener} {Nebbiolo} {} {}
 {Picotrendo} {Nebbiolo} {} {}
@@ -1224,8 +1224,8 @@
 {Pignul} {Pignolo} {} {}
 {Pineu Blanc} {Pinot Blanc} {} {}
 {Pineau} {Pinot Noir} {} {}
-{Pineau d¥Anjou} {Chenin Blanc} {} {}
-{Pineau d¥Aunis} {} {} {}
+{Pineau d¬¥Anjou} {Chenin Blanc} {} {}
+{Pineau d¬¥Aunis} {} {} {}
 {Pineau de la Loire} {Chenin Blanc} {} {}
 {Pinenc} {Fer Servadou} {} {}
 {Pinot Beurot} {Pinot Gris} {} {}
@@ -1234,7 +1234,7 @@
 {Pinot Blanc} {} {} {}
 {Pinot Chardonnay} {Chardonnay or Pinot Blanc} {} {}
 {Pinot Crni} {Pinot Noir} {} {}
-{Pinot d¥Aunis} {Pineau d¥Aunis} {} {}
+{Pinot d¬¥Aunis} {Pineau d¬¥Aunis} {} {}
 {Pinot Grigio} {Pinot Gris} {} {}
 {Pinot Gris} {} {} {}
 {Pinot Madeleine} "Fr\u00fchburgunder" {} {}
@@ -1322,8 +1322,8 @@
 {Raboso Veronese} {} {} {}
 {Radonska} {Bouvier} {} {Pinoc Blanc x so far unknown grape}
 {Raffiat de Moncade} {Arrufiac} {} {}
-{Rajnai Rizling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Rajnski Rizling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rajnai Rizling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Rajnski Rizling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Ramisco} {} {} {}
 {Rana Modra Mlinaria} {Pinot Meunier} {} {}
 {Ranfoliza} "Gew\u00fcrztraminer" {} {}
@@ -1338,33 +1338,33 @@
 {Refosco del Terrano} {Refosco} {} {}
 {Refosco di Faedis} {Refosco} {} {}
 {Refosco di Rauscedo} {Refosco} {} {}
-{Refosco d¥Istria} {Refosco} {} {}
+{Refosco d¬¥Istria} {Refosco} {} {}
 {Refosco} {} {} {}
 {Refosk} {Refosco} {} {}
 {Regent} {} {Diana x Chambourcin} {}
 {Regner} {} {Luglienca Bianca x Gamay} {}
-{Reichensteiner} {} "M\u00fcller-Thurgau x Madeleine Angevine x Weiﬂer Calabreser" {}
-{Renski Rizling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Reichensteiner} {} "M\u00fcller-Thurgau x Madeleine Angevine x Wei√üer Calabreser" {}
+{Renski Rizling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 "R\u00e8ze" {} {} {}
-{Rheingauer} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Rheinriesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Rhine Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Rhine Riesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Rheingauer} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Rheinriesling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Rhine Rieseling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Rhine Riesling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Rhoditis} {Roditis} {} {}
 {Ribolla Gialla} {Ribolla} {} {}
 {Ribolla Nera} {Schioppettino} {} {}
 {Ribolla Riminese} {Greco} {} {}
 {Ribolla} {} {} {}
-{Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rieseling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Rieslaner} {} {Silvaner x Riesling} {}
-{Riesler} {Welschriesling oder Weiﬂer Riesling} {} {}
-{Rieslinger} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Riesler} {Welschriesling oder Wei√üer Riesling} {} {}
+{Rieslinger} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Riesling Italico} {Welschriesling} {} {}
-{Riesling Renano} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Riesling Renano} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Riesling x Sylvaner} "M\u00fcller-Thurgau" {Riesling x Madeleine Royale} {}
 {Riesling-Sylvaner} "M\u00fcller-Thurgau" {Riesling x Madeleine Royale} {}
-{Riesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Riesling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Rifete} {Baga or Touriga Franca} {} {}
 {Ripartella} {} {} {}
 {Ripolli} {} {} {}
@@ -1395,7 +1395,7 @@
 {Rossara} {Molinara} {} {}
 {Rossese} {Rossese or Dolcetto} {} {}
 {Rossignola} {} {} {}
-"R\366ssling" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"R\366ssling" {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Rossola} {} {} {}
 {Rossola Nera} "Mourv\u00e8dre" {} {}
 {Rotberger} {} {Vernatsch x Riesling} {}
@@ -1410,7 +1410,7 @@
 {Roter Veltliner} {} {} {}
 {Roter Zierfandler} {Zierfandler} {} {Traminer x Roter Veltliner}
 {Rotgipfler} {} {} {}
-{Rotweiﬂer Veltliner} {} {} {}
+{Rotwei√üer Veltliner} {} {} {}
 "Rou\u010d\355 b\355l\351" {Pinot Blanc} {} {}
 "Rou\u010d\355 modr\351" {Pinot Noir} {} {}
 "Rou\u010d\355 \u0161ed\351" {Pinot Gris} {} {}
@@ -1440,11 +1440,11 @@
 "Rulandsk\u00e9 \u0161ed\u00e9" {Pinot Gris} {} {}
 "Rulandsk\u00e9 Sed\u00e9" {Pinot Gris} {} {}
 {Rumeni Muskat} {Moscato Giallo} {} {}
-{Rynsky Razlink} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rynsky Razlink} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 "Ryzlink \u010derven\375" {} {} {}
-{Ryzlink Rynsky} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Ryzlink Rajinsky} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-"Ryzlink r\375nsk\375" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Ryzlink Rynsky} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Ryzlink Rajinsky} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+"Ryzlink r\375nsk\375" {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 "Ryzlink Vla\u0161sk\375" {Welschriesling} {} {}
 "R\u00e4ifrench" {Elbling} {} {}
 "R\u00e4uschling" {} {} {}
@@ -1480,11 +1480,11 @@
 {Sauvignon Rouge} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
 {Sauvignon Vert} {Muscadelle} {} {}
 {Sauvignonasse} {Muscadelle} {} {}
-{Savagnin Blanc} {Weiﬂer Traminer} {} {}
+{Savagnin Blanc} {Wei√üer Traminer} {} {}
 "Savagnin Musqu\351" {Sauvignon Blanc} {} {}
 {Savagnin Noir} {Pinot Noir} {} {}
 "Savagnin Ros\u00e9" "Gew\u00fcrztraminer" {} {}
-{Savagnin} {Weiﬂer Traminer} {} {}
+{Savagnin} {Wei√üer Traminer} {} {}
 {Savatiano} {} {} {}
 {Savilon} {} "Veltl\355nsk\351 \u010derven\351 ran\351 x Merlot" {}
 {Scheurebe} {} {so far unknown grape x Riesling} {}
@@ -1511,7 +1511,7 @@
 "Ser\u00e8ne" {Syrah} {} {Dureza x Mondeuse Blanche}
 {Serprina} {Prosecco} {} {}
 {Servagnin} {Pinot Noir} {} {}
-{Seyval Blanc} {} {Seibel 5656 x Rayon d¥Or} {}
+{Seyval Blanc} {} {Seibel 5656 x Rayon d¬¥Or} {}
 {Seyve Villard} {} {} {}
 {Shiraz} {Syrah} {} {Dureza x Mondeuse Blanche}
 {Shiroka Melnishka Loza} {Melnik} {} {}
@@ -1521,8 +1521,8 @@
 {Silcher} {} {Kerner x Silvaner} {}
 {Silla Blanc} {Grenache Blanc} {} {}
 {Silvanec} {} {} {}
-{Silvaner} {} {} "Traminer x \u00d6sterreich Weiﬂ"
-{Silvanske} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Silvaner} {} {} "Traminer x \u00d6sterreich Wei√ü"
+{Silvanske} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Sipon} {Furmint} {} {}
 "S\u00ediria" {Roupeiro} {} {}
 {Sirah} {Syrah} {} {Dureza x Mondeuse Blanche}
@@ -1533,7 +1533,7 @@
 {Smederevo} {} {} {}
 {Solaris} {} {Merzling x Muskat Ottonel} {}
 {Soleil Blanc} {} {Seibel 10.868} {}
-{Sonoma Riesling} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Sonoma Riesling} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 "Souman\u00e8s" {Fer Servadou} {} {}
 "Sous\u00f3n" {} {} {}
 {Sovinjon} {Sauvignon Blanc} {} {}
@@ -1556,9 +1556,9 @@
 "Svatovavrineck\u00e9" {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
 "Svatovav\u0159ineck\351" {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
 {Svatovrinecke} {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
-{Sylvaner} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
-"Sylv\341nsk\351" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
-"Sylv\341nsk\351 zelen\351" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Sylvaner} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
+"Sylv\341nsk\351" {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
+"Sylv\341nsk\351 zelen\351" {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Sypernavi Severnyi} {Muskat Ottonel} {} {}
 {Syra} {Syrah} {} {Dureza x Mondeuse Blanche}
 {Syrac} {Syrah} {} {Dureza x Mondeuse Blanche}
@@ -1639,7 +1639,7 @@
 {Tocai Italico} {Muscadelle} {} {}
 {Tocai Rosso} {Grenache} {} {}
 {Tokaisky} {Furmint} {} {}
-{Tokay d¥Alsace} {Pinot Gris} {} {}
+{Tokay d¬¥Alsace} {Pinot Gris} {} {}
 {Tokay Pinot Gris} {Pinot Gris} {} {}
 {Tokay} {Muscadelle or Pinot Gris} {} {}
 {Tondo} {Prosecco} {} {}
@@ -1664,11 +1664,11 @@
 {Toustain} {Sangiovese} {} {}
 {Trajadura} {} {} {}
 {Traminac} {Traminer} {} {}
-{Traminer} {Weiﬂer Traminer} {} {}
+{Traminer} {Wei√üer Traminer} {} {}
 {Traminer Aromatico} "Gew\u00fcrztraminer" {} {}
 "Traminer Musqu\351" "Gew\u00fcrztraminer" {} {}
-{Tramini} "Weiﬂer Traminer or Gew\u00fcrztraminer" {} {}
-{Tramini Feher} {Weiﬂer Traminer} {} {}
+{Tramini} "Wei√üer Traminer or Gew\u00fcrztraminer" {} {}
+{Tramini Feher} {Wei√üer Traminer} {} {}
 "Tram\355n b\355l\375" {} {} {}
 "Tram\355n \u010derven\375" "Roter Traminer or Gew\u00fcrztraminer" {} {}
 "Tram\355n ko\u0159enn\375" "Gew\u00fcrztraminer" {} {}
@@ -1730,7 +1730,7 @@
 "Veltl\u00ednsk\u00e9 Zelen\u00e9" "Gr\u00fcner Veltliner" {} {}
 "Veltl\355nsk\351 \u010derven\351" {Roter Veltliner} {} {}
 "Veltl\355nsk\351 \u010derven\351 ran\351" "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
-"Veltl\355nsk\351 \u010dervenobiele" {Rotweiﬂer Veltliner} {} {}
+"Veltl\355nsk\351 \u010dervenobiele" {Rotwei√üer Veltliner} {} {}
 {Vennentino} {Vermentino} {} {}
 {Verdeca} {} {} {}
 {Verdejo} {} {} {}
@@ -1758,7 +1758,7 @@
 {Vespolina} {} {} {}
 {Vespolino} {Vespolina} {} {}
 {Vid de Aranda} {Tempranillo} {} {}
-{Vidal Blanc} {} {Ugni x Rayon d¥Or} {}
+{Vidal Blanc} {} {Ugni x Rayon d¬¥Or} {}
 {Vien de Nus} {} {} {}
 {Vignoles} {} {S. 6905 x Pinot Noir} {}
 {Vilana} {} {} {}
@@ -1786,18 +1786,18 @@
 "V\u00f6slauer" {Portugieser} {} {}
 {Weihrauchtraube} "Tam\u00eeioasa Romaneasca" {} {}
 {Weissburgunder} {Pinot Blanc} {} {}
-{Weisser Kleiner Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
-{Weisser Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Weisser Kleiner Rieseling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
+{Weisser Rieseling} {Wei√üer Riesling} {} {Heunisch x Roter Traminer}
 {Weissgipfler} "Gr\u00fcner Veltliner" {} {}
-{Weiﬂburgunder} {Pinot Blanc} {} {}
-{Weiﬂer Burgunder} {Pinot Blanc} {} {}
-{Weiﬂer Calabreser} {} {} {}
-{Weiﬂer Heunisch} {Heunisch} {} {}
-{Weiﬂer Muskateller} "Muscat Blanc \u00e0 Petit Grains" {} {}
-{Weiﬂer Portugieser} {} {} {}
-{Weiﬂer Riesling} {} {} {Heunisch x Roter Traminer}
-{Weiﬂer Traminer} {} {} {}
-{Weiﬂgipfler} "Gr\u00fcner Veltliner" {} {}
+{Wei√üburgunder} {Pinot Blanc} {} {}
+{Wei√üer Burgunder} {Pinot Blanc} {} {}
+{Wei√üer Calabreser} {} {} {}
+{Wei√üer Heunisch} {Heunisch} {} {}
+{Wei√üer Muskateller} "Muscat Blanc \u00e0 Petit Grains" {} {}
+{Wei√üer Portugieser} {} {} {}
+{Wei√üer Riesling} {} {} {Heunisch x Roter Traminer}
+{Wei√üer Traminer} {} {} {}
+{Wei√ügipfler} "Gr\u00fcner Veltliner" {} {}
 {Welschel} {Elbling} {} {}
 {Welschrieseling} {Welschriesling} {} {}
 {Welschriesling} {} {} {}
@@ -1818,11 +1818,11 @@
 {Zalema} {} {} {}
 {Zapfner} {Furmint} {} {}
 {Zarya Severa} {} {} {}
-{Zeleny} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Zeleny} {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 {Zenit} {} {} {}
 {Zerjavina} {Roter Zierfandler} {} {Traminer x Roter Veltliner}
 "Z\u00e9ta" {} {Furmint x Bouvier} {}
-{Zibibbo} {Muscat d¥Alexandrie} {} {}
+{Zibibbo} {Muscat d¬¥Alexandrie} {} {}
 {Zierfandler} {} {} {Traminer x Roter Veltliner}
 {Zilavka} {} {} {}
 {Zinfandel} {} {} {}
@@ -1833,7 +1833,7 @@
 {Zweigelt Blau} {Zweigelt} "Blaufr\u00e4nkisch x St. Laurent" {}
 {Zynomavro} {Xynomavro} {} {}
 "Z\u00f6ldszilv\u00e1ni" "Gr\u00fcner Silvaner" {} {}
-"Z\366ldsilv\341ni" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Z\366ldsilv\341ni" {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"
 "Z\u00f6ldveltelini" "Gr\u00fcner Veltliner" {} {}
 "Z\u00f6ld Veltelini" "Gr\u00fcner Veltliner" {} {}
-"Z\u00f6ld Szilvani" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Z\u00f6ld Szilvani" {Silvaner} {} "Traminer x \u00d6sterreich Wei√ü"

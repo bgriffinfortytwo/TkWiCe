@@ -1,6 +1,6 @@
 #!/bin/sh
 #\
-exec tclsh8.5 "$0" "$@"
+exec tclsh8.6 "$0" "$@"
 
 package require Tk [ info tclversion ]
 package require msgcat
@@ -33,68 +33,68 @@ if { [ lsearch -exact [ font families ] Arial ] } {
 } elseif { [ lsearch -exact [ font families ] arial ] } {
   set fontname arial
 }
-set fontsize       {5}
-set actualfontsize {0}
-while { $actualfontsize < "14" } {
+set fontsize       5
+set actualfontsize 0
+while { $actualfontsize < 14 } {
   incr fontsize
-  set actualfontsize [ font metrics "${fontname} ${fontsize} normal" -ascent ]
+  set actualfontsize [ font metrics [list $fontname $fontsize normal] -ascent ]
 }
 
 
 # predefine some vars
-set nls                   {en}
+set nls                   en
 set operating_system      $tcl_platform(platform)
-set update                {no}
+set update                no
 set target                {}
 set targetscript          {}
-set fhs                   {false}
-set bin_create            {false}
+set fhs                   false
+set bin_create            false
 set installed_program_dir {}
 set exec_string           {}
-set steps_update          {9}
-set steps_full            {13}
+set steps_update          9
+set steps_full            13
 set aborttext             {}
-set add_link              {false}
-set add_startmenu         {false}
-set add_desktop           {false}
-set titlefont             "-family ${fontname} -size $fontsize -weight bold"
-set textfont              "-family ${fontname} -size $fontsize -weight normal"
+set add_link              false
+set add_startmenu         false
+set add_desktop           false
+set titlefont             [list -family ${fontname} -size $fontsize -weight bold]
+set textfont              [list -family ${fontname} -size $fontsize -weight normal]
 # update default values to local conditions
-if { $operating_system == "unix" } {
-  set add_link      {true}
-  set add_startmenu {true}
-  set add_desktop   {true}
+if { $operating_system eq "unix" } {
+  set add_link      true
+  set add_startmenu true
+  set add_desktop   true
 }
-if { $operating_system == "windows" } {
+if { $operating_system eq "windows" } {
 #  set winversion [ registry get {HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion} Version ]
-set winversion {Windows 95}
+  set winversion {Windows 95}
   if { ${winversion} != {Windows 95} && ${winversion} != {Windows 98} && ${winversion} != {Windows ME} } {
-    set add_startmenu {true}
-    set add_desktop   {true}
+    set add_startmenu true
+    set add_desktop   true
   }
 }
-if { $operating_system != "unix" && $operating_system != "windows" } {
+if { $operating_system ne "unix" && $operating_system ne "windows" } {
   set operating_system {generic}
-  if { [ auto_execok /bin/sh ] != "" && [ file isdirectory /usr/local/ ] == "1" && [ auto_execok ln ] != "" } {
-    set add_link {true}
+  if { [ auto_execok /bin/sh ] ne "" && [ file isdirectory /usr/local/ ] && [ auto_execok ln ] ne "" } {
+    set add_link true
   }
 }
-if { [ auto_execok tkwice ] != "" || [ auto_execok tkwice.tcl ] != "" } {
-  set update {yes}
+if { [ auto_execok tkwice ] ne "" || [ auto_execok tkwice.tcl ] ne "" } {
+  set update yes
   set steps $steps_update
 } else {
   set steps $steps_full
 }
-if { [ file exists [ file join source ini nls.ini ] ] == "1" } {
+if { [ file exists [ file join source ini nls.ini ] ] } {
   set readchannel [ open [ file join source ini nls.ini ] r ]
   set nls [ read $readchannel ]
   close $readchannel
   set nls [ string trimright $nls ]
 }
-if { $operating_system == "windows" } {
+if { $operating_system eq "windows" } {
   set wintarget [ registry get {HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion} ProgramFilesDir ]
   if { [ file isdirectory [ file join ${wintarget} tkwice ext ] ] && [ file isdirectory [ file join ${wintarget} tkwice tcl ] ] } {
-    set update {yes}
+    set update yes
     set steps  $steps_update
   }
   if { [ file exists [ file join ${wintarget} tkwice ini nls.ini ] ] } {
@@ -105,7 +105,7 @@ if { $operating_system == "windows" } {
   }
 }
 set lc_all_locale {}
-if { $operating_system == "unix" && [ auto_execok /bin/sh ] != "" } {
+if { $operating_system eq "unix" && [ auto_execok /bin/sh ] ne "" } {
   catch { set lc_all_locale $env(LC_ALL) }
   if { [ string length $lc_all_locale ] >= "2" } {
     if { [ string first {EN} $lc_all_locale ] != "-1" } {
