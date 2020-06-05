@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <title>TkWiCe README File</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+
+<h1>README</h1>
+
+<h2>Table Of Content</h2>
+<ul style="list-style-type:circle">
+  <li><a href="README.html#1">[01] About</a></li>
+  <li><a href="README.html#2">[02] Development Maximes</a></li>
+  <li><a href="README.html#3">[03] Requirements</a></li>
+  <li><a href="README.html#4">[04] Installation</a></li>
+  <li><a href="README.html#5">[05] Possibilities &amp; Limitations</a></li>
+  <li><a href="README.html#6">[06] Author</a></li>
+  <li><a href="README.html#7">[07] Promotion</a></li>
+  <li><a href="README.html#8">[08] Thanks</a></li>
+  <li><a href="README.html#9">[09] Contributions</a></li>
+</ul>
+
+<!-- content -->
+
+<a name="1"></a>
+<h3>[01] About</h3>
+<p>
+  TkWiCe is a high featured, easy to use, multilingual, free and open source
+  software application for wine cellar management. It provides a fast overview
+  of your wine bottles.
+</p><p>
+  The software is written in native Tcl/Tk, so it works on all known operating
+  systems (like Windows, Linux, Unix, Mac OS X etc.).
+</p>
+
+<a name="2"></a>
+<h3>[02] Development Maximes</h3>
+<ul style="list-style-type:decimal">
+  <li>Focus is on pleasure, not on science.</li>
+  <li>Function conquers eyecandy.</li>
+  <li>The database is kept in readable text files.</li>
+  <li>Fits on displays with 1024x768 pixel.</li>
+  <li>Old computers are new enough.</li>
+  <li>Works platform independent.</li>
+  <li>Free - means liberty, free of charge and open source.</li>
+</ul>
+
+<a name="3"></a>
+<h3>[03] Requirements</h3>
+<ul style="list-style-type:circle">
+  <li>software: Tcl/Tk 8.5 or newer</li>
+  <li>cpu: 233 MHz will be slow but work, 1.4 GHz are enough and to spare</li>
+  <li>screen: 1024x786 pixel at 16 bit</li>
+  <li>program diskspace: 2.1 MB</li>
+  <li>database diskspace: depends on usage (expect 1 MB each 50 wines)</li>
+  <li>memory: needed (allocates up to 35 MB)</li>
+  <li>wine: one bottle (recommended: more)</li>
+</ul><p>
+  TkWiCe is mostly programmed on a machine running FreeBSD. It is so far known
+  to run on any Windows, Mac OS X (ugly), Linux or FreeBSD operating systems.
+</p><p>
+  A UTF8 encoding file system is recommended - otherwise a few rare
+  characters you may add to the database cannot be written correctly
+  to the hard disk (but: TkWiCe will remain fully applicable).
+</p>
+
+<!-- content end -->
+
+<a name="4"></a>
+<h3>[04] Installation</h3>
+<p>
+  There is a install wizard (&quot;setup.tcl&quot;) shipped with
+  this softare - use it. Otherwise just copy the program directory
+  somewhere you want it, and execute &quot;tkwice.tcl&quot; (in
+  fact there is no installation necessary). If you need advice in
+  a installation by hand, there is a manual in the main directory
+  of the software archive.
+</p>
+
+<a name="5"></a>
+<h3>[05] Possibilities &amp; Limitations</h3>
+<p>
+  TkWiCe is not designed to be the fastest database - instead every
+  wine gets an own plain text file with everything in it (the photos
+  are of course separated - they aren't plain text). The advantages:
+  You can build up own scripts to complete TkWiCe with functions you
+  are missing, and as the content can be read out even without TkWiCe,
+  everything is as &quot;future-sure&quot; as possible.
+</p><p>
+  As a result of own plain text files the maximum amount of datasets
+  is a) limited to the filesystem you are using, and b) to 999.999
+  different wines. That's every day another wine in the next 2.740
+  years - I think this should be enough (if it's not and you need a
+  real database behind, it shouldn't be a problem for you to pay me
+  for such an interface). Also the maximum amount of bottles of each
+  wine is 999. To solve this &quot;problem&quot; you also could pay
+  me - six really great bottles shouldn't be a problem for someone
+  with such a wine cellar ;)
+</p>
+
+<a name="6"></a>
+<h3>[06] Author</h3>
+<p>
+  Joachim Moskalewski<br>
+  Pfadstrasse 13<br>
+  71069 Sindelfingen<br>
+  Germany
+</p><p>
+  Email: &lt;jo@tkwice.org&gt;<br>
+  WWW: &lt;http://www.tkwice.org/&gt;
+</p><p>
+  Started to write TkWiCe from scratch as a platform-independent program
+  (and without a clue about programming) in June 2006, because there was
+  no acceptable wine cellar software running on FreeBSD.
+</p>
+
+<a name="7"></a>
+<h3>[07] Promotion</h3>
+<p>
+  The author rarely goes on holiday, owns none huge or expensive wine
+  cellar, drives only a small car and is low paid. IF YOU REALLY LIKE
+  THIS LITTLE PROGRAM, and as the author never wastes thoughts about
+  getting rich (should I?), and spents far to much time on this project,
+  it would be a nice thing to get some prop to go on:
+</p><ul style="list-style-type:circle">
+  <li>Money<br>
+  To say it clear: The software is free, no money has to be payed.
+  But as you can read above it would be a nice thing (how much is
+  secondary - I won't determine for anyone what this software has to
+  be worth for its usage):<br><br>
+  Depositor: Joachim Moskalewski<br>
+  Bank: Kreissparkasse Boeblingen (Germany)<br>
+  Bank code: 603 501 30<br>
+  Account number: 365 46 80<br>&nbsp;</li>
+  <li>Wine<br>
+  Needed to write such software and can be send to the author ;)
+  Authentical red wine from a real winegrower is prefered - not
+  from a huge company. Also organic wines are prefered.</li>
+  <li>Help<br>
+  People with translation skills, knowledge about growing areas,
+  grapes, having fun on writing documentations and so on are welcome ;)</li>
+</ul>
+
+<a name="8"></a>
+<h3>[08] Thanks</h3>
+<p>
+  Many people helped making this the world domination wine cellar software
+  (they will be listed alphabetically):
+</p><ul style="list-style-type:circle">
+  <li>Andrej Ricnik-Bay</li>
+  <li>Annika Haupt</li>
+  <li>Bernard Mention (french messages)</li>
+  <li>Elke Lautenschlager</li>
+  <li>Falk Richter</li>
+  <li>Jac-Ni Venter</li>
+  <li>Joachim Schmiedeberg</li>
+  <li>Jochen M&ouml;ssner</li>
+  <li>Michael L&ouml;ffler</li>
+  <li>Thierry Balfroid</li>
+  <li>Wohnivec (czech messages &amp; patches)</li>
+	<li>Wolfram Fi&scaron;er</li>
+  <li>Yvon (french messages)</li>
+</ul><p>
+  Many thanks to you!
+</p>
+
+<a name="9"></a>
+<h3>[09] Contributions</h3>
+<p>
+  Some parts of TkWiCe are own projects. Here they are (alphabetically):
+</p><ul style="list-style-type:circle">
+  <li>Tablelist - a brillant multi column listbox library for Tcl/Tk
+  by Csaba Nemethi.<br>
+  &lt;http://www.nemethi.de/&gt;</li>
+</ul><p>
+  Not a &quot;contribution&quot;, but used to create this program:
+</p><ul style="list-style-type:circle">
+  <li>Most button graphics are inspired by Mark James
+  &raquo;Silk&nbsp;Icons&laquo;, which were in some cases
+  unfortunately to small (and with less contrast).<br>
+  &lt;http://www.famfamfam.com/lab/icons/silk/&gt;</li>
+  <li>All graphics are selfmade by using
+  &raquo;The&nbsp;Gimp&laquo;.<br>
+  &lt;http://www.gimp.org/&gt;</li>
+  <li>The program code was written by using these editors:<br>
+  &raquo;GNU&nbsp;Emacs&laquo; - &lt;http://www.gnu.org/software/emacs/&gt;<br>
+  &raquo;Geany&laquo; - &lt;http://www.geany.org/&gt;</li>
+</ul>
+
+</body>
+
+</html>

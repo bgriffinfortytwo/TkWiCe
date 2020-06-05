@@ -1,0 +1,31 @@
+{Non}
+{Oui}
+{Inconnu}
+{AIAB}
+{Bioagricert}
+{Bio Bourgogne}
+{Bio Dynamique}
+{Biodyvin}
+{Bio Ernte Autriche}
+{Bio Veritas}
+{Bio Kreis}
+{Bioland}
+"B\u00d6W"
+{CAAE}
+{CRAE}
+{Controllo QC&I}
+{Demeter}
+{DIO}
+{Ecocert}
+{Ecovin}
+{EG/EU Bio}
+{ESCTAE}
+"G\u00c4A"
+{ICEA}
+{Moon Calendar}
+{Naturland}
+"Qalit\u00e9 France"
+{SGS}
+{Socert}
+{Sohiscert}
+"certifi\u00e9 / proche de la nature"

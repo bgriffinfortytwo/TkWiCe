@@ -1,0 +1,105 @@
+{AT} {Tafelwein}
+{AT} {Landwein}
+{AT} "Qualit\u00e4tswein"
+{AT} {Kabinett}
+{AT} "Pr\u00e4dikatswein"
+{AT} "Pr\u00e4dikatswein / Sp\u00e4tlese"
+{AT} "Pr\u00e4dikatswein / Auslese"
+{AT} "Pr\u00e4dikatswein / Beerenauslese"
+{AT} "Pr\u00e4dikatswein / Eiswein"
+{AT} "Pr\u00e4dikatswein / Strohwein"
+{AT} "Pr\u00e4dikatswein / Ausbruch"
+{AT} "Pr\u00e4dikatswein / Trockenbeerenauslese"
+{AT} {DAC}
+{AT} {Bergwein}
+{CZ} "stoln\355"
+{CZ} "stoln\355 r\351vov\351"
+{CZ} "zemsk\351"
+{CZ} "jakostn\355 zn\341mkov\351"
+{CZ} "jakostn\355 odr\u016fdov\351"
+{CZ} "p\u0159\355vlastkov\351 kabinet"
+{CZ} "p\u0159\355vlastkov\351 pozdn\355 sb\u011br"
+{CZ} "p\u0159\355vlastkov\351 v\375b\u011br z hrozn\u016f"
+{CZ} "p\u0159\355vlastkov\351 v\375b\u011br z bobul\355"
+{CZ} "p\u0159\355vlastkov\351 v\375b\u011br z cib\351b"
+{CZ} "p\u0159\355vlastkov\351 ledov\351"
+{CZ} "p\u0159\355vlastkov\351 sl\341mov\351"
+{DE} {Tafelwein}
+{DE} {Landwein}
+{DE} "Qualit\u00e4tswein"
+{DE} "Pr\u00e4dikatswein"
+{DE} {Kabinett}
+{DE} "Hochgew\u00e4chs"
+{DE} "Sp\u00e4tlese"
+{DE} {Auslese}
+{DE} {Beerenauslese}
+{DE} {Trockenbeerenauslese}
+{DE} {Eiswein}
+{DZ} {AOG}
+{ES} {Vino de Mesa (VdM)}
+{ES} {Vino de la Tierra (VdlT)}
+{ES} "Vino de Calidad Producido en una Regi\u00f3n Determinada (VCPRD)"
+{ES} {DO}
+{ES} {DO / Joven}
+{ES} {DO / Roble}
+{ES} {DO / Crianza}
+{ES} {DO / Reserva}
+{ES} {DO / Gran Reserva}
+{ES} {DOC}
+{ES} {DOC / Joven}
+{ES} {DOC / Roble}
+{ES} {DOC / Crianza}
+{ES} {DOC / Reserva}
+{ES} {DOC / Gran Reserva}
+{FR} {Vin de Table}
+{FR} {Vin de Pays}
+{FR} {AO-VDQS}
+{FR} {AOC}
+{FR} {AOC / Grand Cru}
+{FR} {AOC / Grand Cru Classe}
+{FR} {AOC / Premier Grand Cru Classe }
+{FR} {AOC / Cru Bourgeois}
+{FR} {AOC / Cru Grand Bourgeois}
+{FR} {AOC / Cru Grand Bourgeois Exceptionnel}
+{FR} {AOC / Cinquieme Cru}
+{FR} {AOC / Quatrieme Cru}
+{FR} {AOC / Troisieme Cru}
+{FR} {AOC / Deuxieme Cru}
+{FR} {AOC / Premier Cru}
+{GR} {Topikos Oinos}
+{GR} {Epitrapezios Oinos}
+{GR} {OPAP}
+{GR} {OPE}
+{GR} {A.O.}
+{HR} {Stolno Vino}
+{HR} {Vrhunsko Vino}
+{HU} {Asztali Bor}
+{HU} "T\u00e1jbor"
+{HU} "Min\u00f6s\u00e9gi Bor"
+{HU} "K\u00fcl\u00f6mleges Min\u00f6s\u00e9g\u00fc Bor"
+{HU} "Muze\u00e1lis Borok"
+{IT} {Vino da Tavola}
+{IT} {DOC}
+{IT} {DOC / Superiore}
+{IT} {DOC / Riserva}
+{IT} {DOCG}
+{IT} {DOCG / Riserva}
+{IT} {IGT}
+{IT} {IGT / Supertuscan}
+{LU} "Marque Nationale - Appellation Contr\u00f4l\u00e9e"
+{LU} "Vin Class\u00e9"
+{LU} {Premier Cru}
+{LU} {Grand Premier Cru}
+{PT} {Vinho de Mesa}
+{PT} {Vinho Regional}
+{PT} {IPR}
+{PT} {DOC}
+{RO} {Vin de Calitate Superioara}
+{RO} {Vin de Calitate Superioara cu Denumire de Origine}
+{RO} {C.M.D.}
+{RO} {C.M.I.}
+{RO} {C.I.B.}
+{SI} {vrhunsko}
+{TN} {Premier Cru}
+{US} {AVA}
+{ZA} {Wine of Origin}

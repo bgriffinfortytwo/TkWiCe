@@ -1,0 +1,7 @@
+set lightcolor       "#fffefa"
+# note: when using tile the background color will be ignored
+set background       "#dcdad5"
+set textcolor        "#101010"
+set midcolor         "#f0efee"
+set selectbackground "#8c0303"
+set selectforeground "#ffffff"

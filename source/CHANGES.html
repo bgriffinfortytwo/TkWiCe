@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <title>TkWiCe Changes File</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+
+<!-- content -->
+
+<h3>Version 0.12.0 to 1.0.0</h3>
+<ul>
+  <li>overall: on Tcl/Tk 8.5 some widgets take now tile into account (ttk-theme &quot;clam&quot;)</li>
+	<li>overall: modified the color mechanisms for usage with tile extension</li>
+	<li>install wizard: excluded messages from program message catalogues</li>
+  <li>newer included tablelist package (version 4.11)</li>
+  <li>added one Bourgogne subregion</li>
+	<li>documentation: outsorced to webpage and various things</li>
+	<li>bugfix: memory leak while browsing bottle images</li>
+	<li>bugfix: found some double messages in message catalogue</li>
+</ul>
+
+<h3>Version 0.11.0 to 0.12.0</h3>
+<ul>
+  <li>main window: rudimentary CSV and XML export</li>
+  <li>main window: printable wine tasting sheet</li>
+  <li>main window: search includes input field &quot;type&quot;</li>
+  <li>main window: code cleanup on bottle tag, and moved to main menu</li>
+  <li>wine editor: skipped port wine; instead fortified wines, Liqueurs and distilled are added</li>
+  <li>wine editor: added color &quot;colorless&quot;</li>
+  <li>overall: encoding, unicode and HTML-character enhancements</li>
+  <li>installer (MS Windows only): quotation of the TkWiCe startup string in the batch file</li>
+  <li>database: more validations on scanning the database</li>
+  <li>newer included tablelist package (version 4.9)</li>
+  <li>wine editor: added Bioagricert to the Bio selection</li>
+  <li>translation: some french and spanish completions</li>
+  <li>documentation: various things</li>
+  <li>bugfix: configuration could crash TkWiCe on MS Windows completely</li>
+  <li>bugfix: some paths on MS Windows haven't worked on some installations</li>
+  <li>bugfix: missed refresh of search result when changing a wines storage id</li>
+</ul>
+
+<h3>Version 0.10.2 to 0.11.0</h3>
+<ul>
+  <li>overall: default / recommended Tcl/Tk interpreter is now the actual version 8.5</li>
+  <li>overall: updated default color theme</li>
+  <li>wine editor: port wine added</li>
+  <li>wine editor: bottler dropdown added</li>
+  <li>wine editor: bottle size 0.25l added</li>
+  <li>translation: completed czech again</li>
+  <li>documentation: many minor things</li>
+  <li>update information: switched from jmos.de to tkwice.org</li>
+  <li>bugfix wine editor: the take over of prices from more than one new bottle was missing</li>
+  <li>bugfix grape selection: select with arrow keys while input focus on text search</li>
+  <li>bugfix dealer database: blank entries when saving wines without dealer specification</li>
+</ul>
+
+<h3>Version 0.9.1 to 0.10.2</h3>
+<ul>
+  <li>overall: dealer database now editable and with textarea</li>
+  <li>overall: modfied the default color setting</li>
+  <li>main window: new keybord binding [Qtrl+F] (input focus on search)</li>
+  <li>main window: changed the main menu icon</li>
+  <li>wine editor: by adding new bottles an average price is calculated</li>
+  <li>wine editor: added a reason-button to the &quot;drink up&quot; entry</li>
+  <li>wine editor: renamed exit button</li>
+  <li>wine editor: extended the new &quot;reason-button&quot; with one entry</li>
+  <li>update information: possible to inform the user with some plain text</li>
+  <li>documentation: small changes in getting ActiveTCL</li>
+  <li>bugfix wine editor: type of taste &quot;spicy&quot; labeled &quot;fruity&quot;</li>
+  <li>bugfix main window: update check only handled numbers up to 9</li>
+  <li>bugfix history window: settings with less than 10 lines crashed this window</li>
+  <li>minor bugfix in the documentation</li>
+  <li>bugfix overall: search routines with backslash</li>
+  <li>bugfix history window: window placement option &quot;center&quot; works now</li>
+  <li>bugfix: growing area window: search without searchstring shows now complete list</li>
+</ul>
+
+<h3>Version 0.8.4 to 0.9.1 (Bugfix Release)</h3>
+<ul>
+  <li>minor modification on the documentation</li>
+  <li>newer included tablelist package (version 4.8)</li>
+  <li>bugfix main window: crashed on startup from august on ...</li>
+  <li>bugfix main window: date related filters</li>
+  <li>bugfix history window: editing an entry reorgs the list (no blanks, sorted)</li>
+  <li>bugfix history window: round problem in the 36 months crosscheck</li>
+  <li>bugfix main window: disabled country filter buttons during database rescans</li>
+  <li>bugfix german translation: typo</li>
+</ul>
+
+<h3>Version 0.7.3 to 0.8.4</h3>
+<ul>
+  <li>main window: new filter button for wines to retry</li>
+  <li>main window: speed improvement while rowselection in huge winelists</li>
+  <li>main window: better calculation of the color column width</li>
+  <li>main window: cosmetics by listing wines with unknown domain names</li>
+  <li>main window: unchange color dots by selection (deactivated plain text color names)</li>
+  <li>main window: &quot;sweetness&quot; rating independent from &quot;to try&quot; filter</li>
+  <li>wine editor: drinking frame splitted up from two to three views</li>
+  <li>wine editor: all so far three steps rating buttons now with five steps</li>
+  <li>wine editor: new rating item &quot;alcohol&quot; (integrated - flashy)</li>
+  <li>wine editor: new rating item &quot;drinking temperature&quot;</li>
+  <li>wine editor: new rating item &quot;type of taste&quot; (floral, spicy, fruity, vegetal etc.)</li>
+  <li>wine editor: some fixed string lengths are now flexible</li>
+  <li>group manager: window size takes at startup string lengths in account</li>
+  <li>help window: window placement near mouse</li>
+  <li>refinement to region database</li>
+  <li>complements to bio database</li>
+  <li>HTML renderengine: support for special characters &quot;&lt;&quot; &amp; &quot;&gt;&quot;</li>
+  <li>install wizard: reads default target directory on Windows from registry</li>
+  <li>Tcl/Tk 8.5 feature: startup with maximized window (configurable; depends on environment)</li>
+  <li>shell feature: print cellar list to stdout (option &quot;--ls&quot;)</li>
+  <li>script files: changed basic file names in archive (Windows users were unable to differ them)</li>
+  <li>script files: outsourced the extra PHP scripts from the archives</li>
+  <li>script files: minor code cleanup / faster access to many variable</li>
+  <li>program windows: better size settings</li>
+  <li>documentation: minor modifications</li>
+  <li>bugfix: need a rescan if a dealer was changed for a up to date dealer-database</li>
+  <li>bugfix: HTML entidies for grape in bottle tag file</li>
+</ul>
+
+<h3>Version 0.6.4 to 0.7.3</h3>
+<ul>
+  <li>main window: new filter button for yet undrinkable wines</li>
+  <li>wine editor: modifications on layout</li>
+  <li>wine editor: input window also gets a chooser button for the dealer</li>
+  <li>preferences: resorted topics</li>
+  <li>preferences: complete font list available</li>
+  <li>contextmenus: rewrite of all existing and added one to many more widgets</li>
+  <li>complement to bio database</li>
+  <li>complement to grapes database</li>
+  <li>refinements to region database</li>
+  <li>&quot;Next Vintage&quot; button takes now wine notes into account</li>
+  <li>added ususal copyright file for stuff which is separated in own packages</li>
+  <li>minor window cosmetics</li>
+  <li>minor code preparations for the forthcoming Tcl/Tk release 8.5</li>
+  <li>minor code cleanup</li>
+  <li>started with basic support for 800x600 pixel display</li>
+  <li>possible to startup with alternative configurations (option &quot;--profile&quot;)</li>
+  <li>modifications on the documentation</li>
+  <li>czech translation: all (new) messages are translated</li>
+  <li>bugfix: the evolution rating was in version 0.6.4 unvisible ...</li>
+  <li>bugfix: mouse could enter a tooltip region with a left open menu</li>
+  <li>bugfix: growing area window: third choose list was sometimes incomplete</li>
+  <li>bugfix: growing area window: switching choose / search clears selection</li>
+  <li>bugfix: a disabled rating button shouldn't be able to set</li>
+  <li>bugfix: program path in update mechanism refers no longer to an old installation</li>
+  <li>bugfix: aborting the preferences doesn't effect the color of the search entries</li>
+  <li>bugfix: setup wizard knows now about Tcl/Tk alpha releases</li>
+  <li>bugfix: timestamp of air / decanter / glass setting was always the actual date ...</li>
+  <li>bugfix: eliminated debugline in configuration file update mechanism</li>
+</ul>
+
+<h3>Version 0.5.7 to 0.6.4</h3>
+<ul>
+  <li>group facility</li>
+  <li>separated search for storage ID</li>
+  <li>the rating buttons can additional be used like sliders</li>
+  <li>region: choose and search tool combined in one faster tool</li>
+  <li>regions database updated and sorted alphabetically</li>
+  <li>three steps for decanter setting: yes, no, unset</li>
+  <li>insert cursor: use widgets default</li>
+  <li>some usability refinements and cosmetics</li>
+  <li>modifications on the documentation</li>
+  <li>minor updates to the italian and spanish message catalog</li>
+  <li>minor updates to a few english expressions</li>
+  <li>additional keyboard bindings</li>
+  <li>bugfix with mouse selection and index 000000</li>
+  <li>window placement of helper tools now near mouse pointer</li>
+  <li>added a default-dealer: the winery itself</li>
+  <li>bugfixes</li>
+</ul>
+
+<h3>Version 0.4.2 to 0.5.7</h3>
+<ul>
+  <li>czech translation</li>
+  <li>minor updates to the spanish and italian translation</li>
+  <li>updates to the grape database and its selection tool</li>
+  <li>new menu entry which checks for an available update</li>
+  <li>added a manual allocation of points</li>
+  <li>some tooltips</li>
+  <li>comma works now as a decimal separator, too</li>
+  <li>HTML output now in UTF8</li>
+  <li>nls support now provided by Tcl msgcat</li>
+  <li>messages now 7bit clean (using unicode)</li>
+  <li>newer included tablelist version (4.5 to 4.6)</li>
+  <li>additional keyboard bindings</li>
+  <li>minor changes on the layout of the wine editor</li>
+  <li>changes to technical keywords and configuration file</li>
+  <li>modified date now saved within database (so far used: file mtime)</li>
+  <li>bugfixes, speed improvements and some refinements</li>
+</ul>
+
+<h3>Version 0.3.1 to 0.4.2</h3>
+<ul>
+  <li>install wizard</li>
+  <li>moved database directory from &quot;*tkwice&quot; to &quot;*tkwice-db&quot;</li>
+  <li>set the default startup language during installation</li>
+  <li>new additional text modus view in wine editor for tasting notes</li>
+  <li>new rating item: price value (overpriced / good value)</li>
+  <li>new rating items with timestamp: air, decanter and wine glasses</li>
+  <li>takes some coherencies between classification and barrel into account</li>
+  <li>small photo preview in main window</li>
+  <li>bullet sign in winelist: switched from unicode &quot;25A0&quot; to &quot;25CF&quot;</li>
+  <li>small progress bar while scanning database</li>
+  <li>less rescanning of database</li>
+  <li>using the &quot;next vintage&quot; button opens now directly the wine editor</li>
+  <li>bottle tags: substitute special characters to HTML declarations</li>
+  <li>webbrowser call: intercepting superfluous messages</li>
+  <li>if possible, a program icon is set (Tk 8.5 feature)</li>
+  <li>solved the bug with some chars in the global history editor</li>
+  <li>minimum font sizes are now calculated (deleted default setting)</li>
+  <li>found some better words for the english version ...</li>
+  <li>created structure for italian and spanish language support</li>
+  <li>some cosmetics (eyecandy stuff, minimum window sizes etc.)</li>
+  <li>transformed all plain text docs to HTML (for less probs with LF)</li>
+  <li>more serious copyright wording (but: exactly the same content!)</li>
+  <li>upgraded and separated the builtin HTML renderengine</li>
+  <li>changed directory structure in source</li>
+  <li>addends aren't installed by default anymore</li>
+  <li>modifications on the documentation</li>
+  <li>heavy improvements on tablelist and listbox handling</li>
+  <li>many additional keyboard bindings</li>
+  <li>some speed improvements</li>
+  <li>erased some (minor) bugs and typos</li>
+</ul>
+
+<h3>Version 0.2.1 to 0.3.1</h3>
+<ul>
+  <li>modifications on the language support structure</li>
+  <li>added french translation</li>
+  <li>completed the german version</li>
+  <li>includes optional a predefined webbrowser</li>
+  <li>some fokus settings for windows users with scroll mouse</li>
+  <li>selecting a photo takes a predefined path into account</li>
+  <li>uses now (recommended) tclsh instead of (old style) wish</li>
+  <li>deleted version number in program path due to easier updates</li>
+  <li>erased some (minor) bugs</li>
+</ul>
+
+<h3>Version 0.1.0 to 0.2.1</h3>
+<ul>
+  <li>first, unfinished steps in language support</li>
+  <li>add picture support to the database</li>
+  <li>add generation of printable bottle tags</li>
+  <li>new look for the preferences</li>
+  <li>modifications for the next Tcl/Tk release (8.5)</li>
+  <li>enhancements to the documentation</li>
+  <li>short cellar list to HTML (PHP script for use with webserver)</li>
+  <li>same as above, but WML output for mobiles at the dealer</li>
+  <li>same as above, but plain text output (Tcl shell script, no PHP)</li>
+  <li>erased some (minor) bugs</li>
+</ul>
+
+<!-- content end -->
+
+</body>
+
+</html>

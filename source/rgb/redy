@@ -1,0 +1,6 @@
+set lightcolor       "#fff6f9"
+set background       "#d9d0d4"
+set textcolor        "#441122"
+set midcolor         "#f4f2f3"
+set selectbackground "#bb0055"
+set selectforeground "#fffff0"

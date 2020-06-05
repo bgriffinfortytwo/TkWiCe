@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <title>TkWiCe - Startup Informations</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+  <base target="_top">
+  <style type="text/css">
+    body      {background:#f9f1f3; color:#441122; font-family:helvetica,arial,sans-serif; margin:1.5em}
+    a:link    {color:#bb0055; text-decoration:none; border-top-width:1px; border-bottom-width:1px; border-style:none}
+    a:visited {color:#bb0055; text-decoration:none; border-top-width:1px; border-bottom-width:1px; border-style:none}
+    a:hover   {color:#bb0055; text-decoration:none; border-top-width:1px; border-top-style:dashed; border-bottom-width:1px; border-bottom-style:dashed}
+    a:active  {color:#bb0055; text-decoration:none; border-top-width:1px; border-bottom-width:1px; border-style:none}
+    a:focus   {color:#bb0055; text-decoration:none; border-top-width:1px; border-top-style:dashed; border-bottom-width:1px; border-bottom-style:dashed}
+  </style>
+</head>
+
+<body>
+
+<table width="100%" style="border-collapse:separate"><tr><td colspan="2" style="border:solid; border-width:2px; border-left-color:#e68eb5; border-top-color:#e68eb5; border-right-color:#7b003a; border-bottom-color:#7b003a; padding-left:10px; padding-right:10px; padding-top:3px; padding-bottom:3px; background:#bb0055; color:#fffff0; font-size:large; text-align:center">
+  Startup&nbsp;Informations
+</td></tr>
+
+<tr><td style="padding:10px">
+  <span style="font-size:x-large; font-weight:bold; font-variant:small-caps">TkWiCe</span><br>
+  <span style="font-size:small; font-variant:small-caps; border-top:solid; border-top-width:1px; border-color:#bb0055">Free&nbsp;Cross&nbsp;Platform&nbsp;Wine&nbsp;Cellar&nbsp;Software</span>
+
+</td><td>
+  <img src="./source/ico/tkwice64.png" width="64" height="64" alt="Icon" style="border:none; float:right; margin-left:1em; margin-top:10px; margin-bottom:10px">
+</td></tr>
+
+<tr><td colspan="2" style="background:#fff6f9; padding:10px">
+
+<!-- content -->
+
+<span style="font-size:large; font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Installation&nbsp;Notes</span>
+<p>
+  The official software archive is shipped with a install wizard named
+  &raquo;setup.tcl&laquo; <span style="font-size:small">(if you want
+  or need to install manually instead, there is a manual at the bottom
+  of this file)</span>. But:
+</p><ul style="list-style-type:circle">
+  <li>The whole software package requires the Tcl/Tk interpreter on your
+      computer.</li>
+  <li>The installation may fail when executed from a write only filesystem
+      <span style="font-size:small">(like a compact disc)</span>.
+      Copy everything first on your harddrive.</li>
+</ul><p>
+  Executing Tcl programs is quite simple then - basic syntax:
+  &raquo;interpreter scriptname&laquo;. The interpreter name is
+  the executable from your Tcl/Tk installation &raquo;tclsh&laquo;
+  <span style="font-size:small">(name often followed by version
+  number)</span> - or former &raquo;wish&laquo;, which may still be
+  the the only choice on some installations. The script names in
+  this package are &raquo;setup.tcl&laquo; for the install wizard,
+  and &raquo;tkwice.tcl&laquo; for TkWiCe. Example:
+</p><p style="margin-left:2em">
+  /path/to/tclsh8.5 /path/to/setup.tcl
+</p><p>
+  But: Most users mustn't know anything about how to execute Tcl scripts.
+  Just executing &raquo;setup.tcl&laquo; or &raquo;tkwice.tcl&laquo; will
+  call the interpreter automatically - and if not, most desktops will
+  ask with what to open such &raquo;*.tcl&laquo; files in future by
+  default.
+</p>
+
+<span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Tcl/Tk</span>
+<p>
+  To run TkWice&nbsp;- and even to execute &raquo;setup.tcl&laquo;&nbsp;- you
+  need Tcl/Tk <span style="font-size:small">(recommended version 8.5&nbsp;-
+  8.4 should work, too)</span> already installed on your computer. On
+  Unix&nbsp;/&nbsp;Linux it should be shipped with your operating system
+  <span style="font-size:small">(in fact only Windows users need to get
+  Tcl/Tk extra for sure)</span>; Otherwise you can get it for example from:
+</p><p style="margin-left:2em">
+  <a href="http://www.activestate.com/">http://www.activestate.com/</a>
+</p><p>
+  Choose on the website &quot;Language Distributions&nbsp;--
+  ActiveTcl&nbsp;-- Get ActiveTCL&nbsp;- Download&quot;. Note that
+  the register formular there is optional. It's free software. Also note
+  that the binaries from www.activestate.com aren't artists of file sizes,
+  but they work. Alternative you may get a
+  <span style="font-size:small">(binary)</span> Tcl/Tk distribution from:
+</p><p style="margin-left:2em">
+  <a href="http://www.evolane.com/software/etcl/">http://www.evolane.com/software/etcl/</a> <span style="font-size:small">(works)</span><br>
+  <a href="http://wintcltk.berlios.de/">http://wintcltk.berlios.de/</a> <span style="font-size:small">(untested)</span>
+</p><p>
+  If you're a computer expert you may want source to compile
+  instead of the above binaries; In that case visit
+  <a href="http://www.tcl.tk/">http://www.tcl.tk/</a>, the home of
+  Tcl/Tk. Their separate Tcl and Tk package is much smaller&nbsp;- and
+  will work, too. Indeed this is absolutely unusable for average users.
+  And you have for sure to take into account the graphic extensions
+  manually, too.
+</p>
+
+<span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Img&nbsp;Extension</span>
+<p>
+  Note: Img is not absolutely necessary to use TkWiCe!
+</p><p>
+  And: You can ignore this chapter, if
+</p><ul style="list-style-type:circle">
+  <li>you do not intend to add photos of your wine bottles to the
+      database,</li>
+  <li>or your Tcl/Tk distribution is from www.activestate.com,</li>
+  <li>or the install wizard doesn't complain about a missing Img
+      extension.</li>
+</ul><p>
+  In any other cases please take sure that the &raquo;Img&laquo;
+  extension to Tcl/Tk is installed. Most users may get it automatically
+  with installing Tcl/Tk, but if not:
+</p><p style="margin-left:2em">
+  <a href="http://sourceforge.net/projects/tkimg/">http://sourceforge.net/projects/tkimg/</a>
+</p><p>
+  On unix-like distributions there should be a package named libimg,
+  imglib, tklib, libtk, tkimg, imgtk or similar providing this software.
+  It is nearly unthinkable that you've got to install it on your own.
+  And you can add this extension anytime after installing TkWiCe&nbsp;-
+  your wine cellar software will use it as soon as found. Note that this
+  extension is no dependency for the photo feature&nbsp;- it is optional.
+  But if you use the photo feature without Img, your database size will
+  explode <span style="font-size:small">(factor 6)</span>, your images
+  will be reduced to a lower color palette, and speed will slow down.
+  But everything works without it, too.
+</p>
+
+<span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">ImageMagick</span>
+<p>
+  Note: ImageMagick is not absolutely necessary to use TkWiCe!
+</p><p>
+  By default TkWiCe crops photos to 500x300&nbsp;pixel. On unix operating
+  systems the ImageMagick tools are used to scale them to the right
+  size first, but of course this will only be done if installed. Most
+  distributions will provide ImageMagick, but if you need to get it
+  elsewhere:
+</p><p style="margin-left:2em">
+  <a href="http://www.imagemagick.org/">http://www.imagemagick.org/</a>
+</p><p>
+  On Windows and Macintosh operating systems this feature isn't supported
+  just because of the impossible test environment of the author&nbsp;...
+</p>
+
+<span style="font-size:large; font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Deinstallation</span>
+<p>
+  In fact the install wizard performs only some stupid copy actions, so you
+  can safely delete the software again. <span style="font-size:small">(If
+  you don't know anymore where the corresponding files are, just start the
+  program and look to the bottom lines of the window&nbsp;- it tells you
+  where the program, and where the database is stored. If that is somehow
+  impossible, scan your disk for the program name ...)</span>
+</p><p>
+  This software won't make or leave any entry in a registry
+  or similar; None conscientiously written end-user
+  software&nbsp;<span style="font-size:small">(!)</span>
+  needs such questionably things.
+</p>
+
+
+<span style="font-size:large; font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Installation&nbsp;By&nbsp;Hand</span>
+<p>
+  Everything from here on is only relevant if you do not use the
+  install wizard! Nevertheless, Tcl/Tk is of course still needed.
+</p>
+<span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Move Directory</span>
+<p>
+  You ca run TkWiCe right where it is, but in most cases you may
+  want to move the program directory &raquo;source&laquo; somewhere
+  you want it. By doing this you could rename it, too. For example:
+</p><ul style="list-style-type:circle">
+  <li>Unix/Linux/BSD:  /usr/local/share/tkwice</li>
+  <li>Windows:  C:\Program files\tkwice</li>
+  <li>Macintosh: /Applications/tkwice</li>
+</ul><p>
+  If your in front of a operating system with file permissions, check
+  them. If that sounds strange to you, you might not work on such a
+  system <span style="font-size:small">(or there is no need for a user
+  separation on your computer)</span> - forget it.
+</p>
+<span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Run It</span>
+<p>
+  Execute &raquo;tkwice.tcl&laquo;; The syntax may differ from operating
+  system and installation ... some examples:
+</p><ul style="list-style-type:circle">
+  <li>tkwice.tcl</li>
+  <li>./tkwice.tcl</li>
+  <li>tclsh tkwice.tcl</li>
+  <li>tclsh8.5 tkwice.tcl</li>
+  <li>tclsh /this/directory/tkwice.tcl</li>
+  <li>/path/to/tclsh8.5 /this/directory/tkwice.tcl</li>
+</ul><p>
+  <span style="font-size:small">(On some installations you may use
+  the former &raquo;wish&laquo; instead of the newly recommended
+  &raquo;tclsh&laquo;.)</span>
+</p><p>
+  On most systems a double mouse click on &raquo;tkwice.tcl&laquo;
+  will exectute the right syntax. The basic thing behind the call
+  is to start the interpreter "tclsh" by telling about the script
+  &raquo;tkwice.tcl&laquo;. If this works you might want a little
+  more comfort:
+</p>
+<span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Comfort</span>
+<p>
+  Optionally:
+</p><ul style="list-style-type:circle">
+  <li>On Unix/Linux/BSD you may add a symlink to get &raquo;tkwice.tcl&laquo;
+      in the $PATH, so you're able to startup from everywhere:<br>
+      ln -s /usr/local/bin/tkwice /this/directory/tkwice.tcl</li>
+  <li>On Windows you may add a shortcut <span style="font-size:small">(not
+      a copy!)</span> from &raquo;tkwice.tcl&laquo; to your desktop
+      <span style="font-size:small">(can be done for example by right
+      clicking on &raquo;tkwice.tcl&laquo;)</span>.</li>
+  <li>On Macintosh I've got no clue.</li>
+</ul><p>
+  Optionally you can define an icon. There are several included:
+</p><ul style="list-style-type:circle">
+  <li>Sizes: 16/16, 24/24, 32/32, 48/48 and 64/64 pixel</li>
+  <li>Format: ico, xpm and png</li>
+</ul><p>
+  You've got to find out yourself which one you need - there are
+  desktops for all of this, and there is no way to set this up for
+  you automatical. As a proposal:
+</p><ul style="list-style-type:circle">
+  <li>Windows: tkwice.ico</li>
+  <li>KDE / GNOME : tkwice.png</li>
+  <li>Window Maker: ico/tkwice48.png</li>
+</ul><p>
+  The usual 32/32 pixel images are in the main directory, all others
+  you will find in the programs subdirectory named &raquo;ico&laquo;.
+</p>
+
+<!-- content end -->
+
+</td></tr></table>
+
+</body>
+
+</html>
+

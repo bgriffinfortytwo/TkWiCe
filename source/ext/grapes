@@ -1,0 +1,1839 @@
+########################################################################
+#
+#
+#  TkWiCe Grapes Database
+#  ======================
+#
+#
+#  list carried together with efforts from
+#    * Joachim Moskalewski <jo@tkwice.org>
+#    * Wohnivec <wohnivec@dix.cz>
+#
+#
+#  syntax: simplay four entries a row
+#    field #1: name
+#    field #2: synonym, sometimes even the grape family
+#    field #3: hybrif from lab - parents
+#    field #4: natural / fortune hybrid - parents
+#
+#
+#  If #3 or #4 is filled in, add it also to its synonyms. To improve
+#  speed use "{}" instead of quotes for entries without substitutions.
+#  And try to list the grapes alphabetically ...
+#
+########################################################################
+
+{Abbruzzese} {Negro Amaro} {} {}
+{Abouriou} {} {} {}
+{Abundante} {Grenache} {} {}
+{Acharria} {Cabernet Franc} {} {}
+{Acolon} {} "Blaufr\u00e4nkisch x Dornfelder" {}
+{Agiorgitiko} {} {} {}
+{Aglianico} {} {} {}
+{Agni} {} "Adnr\351 x Irsay Oliver" {}
+"Air\u00e9n" {} {} {}
+{Alacanon} "Macab\u00e9o" {} {}
+{Alarije} {} {} {}
+{Albalonga} {} {Riesling x Silvaner} {}
+{Albana} {} {} {}
+"Albari\u00f1o" {} {} {}
+{Albarola} {} {} {}
+{Alben} {Elbling} {} {}
+{Albese} {Negro Amaro} {} {}
+{Albillo} {} {} {}
+{Albino de Souza} {Touriga Franca} {} {}
+"Alca\u00f1ol" "Macab\u00e9o" {} {}
+"Alca\u00f1\u00f3n" {} {} {}
+{Aleatico} {} {} {}
+{Alepou} {Roditis} {} {}
+{Alexandermuskat} {Muscat d¥Alexandrie} {} {}
+{Alexandria-Muskateller} {Muscat d¥Alexandrie} {} {}
+{Alfrocheiro} {} {} {}
+{Alibernet} {} {Teinturier x Cabernet Sauvignon} {}
+{Alicante Boucher} {Teinturier} {} {}
+{Alicante Bouschet} {Teinturier} {} {}
+{Alicante Henri Bouschet} {Teinturier} {} {}
+{Alicante Ganzin} {} {} {}
+{Alicante} {Teinturier} {} {}
+{Aligotary} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
+"Aligot\u00e9" {} {} {Pinot Noir x Heunisch}
+"Almu\u00f1eco" "List\u00e1n Negro" {} {}
+{Altesse} {} {} {}
+"Alvarelh\u00e3o" {} {} {}
+{Alvarinho} "Albari\u00f1o" {} {}
+{Alva} {Elbling} {} {}
+{Americano} {} {} {}
+{Amigne} {} {} {}
+{Amorghiano} {Mandelari} {} {}
+{Ampelakiotiko} {} {} {}
+{Ancoletta} {} {} {}
+{Anconica} {} {} {}
+"Andr\u00e9" {} "Blaufr\u00e4nkisch x St. Laurent" {}
+{Ansonica} {Inzolia} {} {}
+"Ant\u00e3o Vaz" {} {} {}
+{Aragnan} {} {} {}
+{Aragon} {Grenache} {} {}
+"Aragon\u00eaz" {Tempranillo} {} {}
+{Aramon} {} {} {}
+{Arbois} {} {} {}
+{Arcytico} {Assyrtiko} {} {}
+{Arganda} {Tempranillo} {} {}
+{Ariana} {} {Weiﬂer Riesling x St. Laurent x Zweigelt} {}
+{Arinto} {} {} {}
+{Arneis} {} {} {}
+{Arnsburger} {} {Riesling 88Gm x Riesling 64Gm} {}
+{Arrise} {Negro Amaro} {} {}
+{Arrufiac} {} {} {}
+{Arvine Grande} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Arvine} {Petite Arvine} {} {}
+{Aspirinio} {} {} {}
+{Asprouda Mykinon} {} {} {}
+{Assirtico} {Assyrtiko} {} {}
+{Assyrtiko} {} {} {}
+{Asurtico} {Assyrtiko} {} {}
+{Athiri Mavro} {} {} {}
+{Athiri} {} {} {}
+{Aubeine} {Chardonnay} {} {}
+{Aubin Blanc} {} {} {}
+{Aubun} {} {} {}
+{Aurelius} {} {Neuburger x Weiﬂer Riesling} {}
+{Auvernat} {any Auvernat grape} {} {}
+{Auvernat Blanc} {Chardonnay} {} {}
+{Auvernat Franco} {Pinot Blanc} {} {}
+{Auvernat Gris} {Pinot Meunier or Pinot Gris} {} {}
+{Auvernat Noir} {Pinot Noir} {} {}
+{Auvernat Rouge} {Pinot Noir} {} {}
+{Auxerrois Noir} {Malbec} {} {}
+{Auxerrois} {Malbec} {} {}
+{Avesso} {} {} {}
+{Avgoustiatis} {} {} {}
+{Avilleran} {Marsanne} {} {}
+{Azal Branco} {} {} {}
+{Azal Tinto} {} {} {}
+"A\u00efdani Aspro" {} {} {}
+"A\u00efdani Mavro" {} {} {}
+{Babeasca Neagra} {} {} {}
+{Babic} {} {} {}
+{Babis Crni} {} {} {}
+{Babotraube} "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Babovina} "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Bacchus} {} "Silvaner x Riesling x M\u00fcller-Thurgau" {}
+{Baco 22A} {Baco Blanc} {} {}
+{Baco Blanc} {} {Folle Blanche x Noah} {}
+{Baco Noir} {} {Folle Blanche x Vitis Riparia} {}
+{Badener} {Portugieser} {} {}
+{Baga} {} {} {}
+{Bairrada} {Bical} {} {}
+{Baiyu} {Rkatsiteli} {} {}
+{Balsac Noir} "Mourv\u00e8dre" {} {}
+{Balsamina} {Syrah} {} {Dureza x Mondeuse Blanche}
+{Balzac} "Mourv\u00e8dre" {} {}
+{Barbaroux} {} {} {}
+{Barbera} {} {} {}
+{Bardin} {Roussanne} {} {}
+{Barolo Bianco} {Arneis} {} {}
+{Baron} {} {Cabernet Sauvignon x (Merzling x (Saperavi Severnyi x St. Laurent))} {}
+{Baroque} {} {} {}
+"Barv\355\u0159ka Alicante Bouschet" {Teinturier} {} {}
+{Bastardo} {} {} {}
+{Beaunois} {Chardonnay} {} {Pinot Noir x Heunisch}
+"B\u011bl velk\341" {Heunisch} {} {}
+{Beli Burgundac} {Pinot Blanc} {} {}
+{Beli Pinot} {Pinot Blanc} {} {}
+{Bellone} {} {} {}
+"B\u011blo\u0161pi\u010d\341k" "Gr\u00fcner Veltliner" {} {}
+{Bergamasca} {Vernaccia} {} {}
+{Bergeron} {Roussanne} {} {}
+{Berzemino} {} {} {}
+{Besparo} {Malbec} {} {}
+{Beurot} {Pinot Gris} {} {}
+{Beverdino} {} {} {}
+{Bianca} {} {Villard Blanc x Bouvier} {}
+{Bianca Fernanda} {Cortese} {} {}
+{Biancame} {Trebbiano Abruzzese or Trebbiano di Romagna} {} {}
+{Bianchella di Alba} {Arneis} {} {}
+{Bianchetta} {} {} {}
+{Bianco d'Alessano} {} {} {}
+{Biancolella} {} {} {}
+{Biancone} {} {} {}
+{Bical Tinto} {Touriga Nacional} {} {}
+{Bical} {} {} {}
+{Bidure} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+{Biela Pleminka Praskava} {Chasselas} {} {}
+{Bigney} {Merlot} {} {}
+{Black Hamburg} {Vernatsch} {} {}
+{Blanc Doux} "S\u00e9millon" {} {}
+"Blanc Fum\u00e9" {Sauvignon Blanc} {} {}
+{Blanc d'Anjou} {Chenin Blanc} {} {}
+{Blanc de Troyes} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
+{Blanca de Daroca} "Macab\u00e9o" {} {}
+{Blanca-Rioja} {Malvasia} {} {}
+{Blanquette} {Mauzac or Ondenc} {} {}
+{Blatina} {} {} {}
+{Blatterle} {} {} {}
+{Blauburger} {} "Portugieser x Blaufr\u00e4nkisch" {}
+{Blauburgunder} {Pinot Noir} {} {}
+{Blauer Arbst} {Pinot Noir} {} {}
+{Blauer Limberger} "Blaufr\u00e4nkisch" {} {}
+{Blauer Portugieser} {Portugieser} {} {}
+"Blauer Sp\u00e4tburgunder" {Pinot Noir} {} {}
+{Blauer Wildbacher} {} {} {}
+{Blauer Zweigelt} {Zweigelt} "Blaufr\u00e4nkisch x St. Laurent" {}
+"Blaufr\u00e4nkisch" {} {} {}
+{Blaustiel} "K\u00e9knyel\u00fc" {} {}
+{Boal} "S\u00e9millon" {} {}
+{Bobal} {} {} {}
+{Boca de Mina} {Tinta Barroca} {} {}
+{Bocat} {} {?} {}
+{Bogazkere} {} {} {}
+{Bogdanusa} {} {} {}
+{Bois Dur} {Carignan} {} {}
+{Bolero} {} {?} {}
+{Bolla} {Nebbiolo} {} {}
+{Bombino Bianco} {} {} {}
+{Bombino Nero} {} {} {}
+{Bon Blanc} {Colombard} {} {}
+{Bonarda} {} {} {}
+{Bonda} {} {} {}
+{Bondola} {} {} {}
+{Borba} {} {} {}
+{Bordelais} {Tannat} {} {}
+{Bordelais Noir} {Tannat} {} {}
+{Bordeleza Belcha} {Tannat} {} {}
+{Bordeos Tinto} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+{Bordo} {Cabernet Franc} {} {}
+{Borrado das Moscas} {Bical} {} {}
+"Borra\u00e7al" {} {} {}
+{Bosco} {} {} {}
+"Bouchal\u00e8s" {Malbec} {} {}
+{Bouchet} {Cabernet Franc} {} {}
+{Bouchy} {Cabernet Franc} {} {}
+"Boudal\u00e8s" {Cinsaut} {} {}
+{Bourboulenc} {} {} {}
+"Bourdal\u00e9s" {Cinsaut} {} {}
+{Bourdelas} {Cinsaut} {} {}
+{Bourguignon Noir} {Gamay} {} {}
+{Bourret Blanc} {Terret Blanc} {} {}
+{Bouton} {Petit Verdot} {} {}
+{Bouvier} {} {} {Pinoc Blanc x so far unknown grape}
+"Bouvier\u016fv hrozen" {Bouvier} {} {Pinoc Blanc x so far unknown grape}
+{Bovale} {} {} {}
+{Brachet} {} {} {}
+{Braijdica} {Plavina} {} {}
+{Brancelho} "Alvarelh\u00e3o" {} {}
+{Brancellao} "Alvarelh\u00e3o" {} {}
+{Branco Redondo} {Loureiro Blanco} {} {}
+{Braquet} {Brachet} {} {}
+"Bratislavsk\351 b\355l\351" {} {} {}
+{Braucol} {Fer Servadou} {} {}
+{Brauner Veltliner} {Roter Veltliner} {} {}
+{Breton} {Cabernet Franc} {} {}
+"Bri\u00e9 Blanc" {} {} {}
+{Briotti} {Nebbiolo} {} {}
+{Brocol} {Fer Servadou} {} {}
+{Bronner} {} {Merzling x Saperavi Severnyi x St. Laurent} {}
+{Brown Muscat} "Muscat Blanc \u00e0 Petit Grains" {} {}
+{Brugnola} {} {} {}
+{Brunello} {Sangiovese} {} {}
+"Bryn\u0161t" "Tram\355n b\355l\375" {} {}
+{Bual} {} {} {}
+{Budashuri} {Rkatsiteli} {} {}
+{Bujariego} {} {} {}
+{Burger} {Elbling} {} {}
+{Burgund Mare} "Blaufr\u00e4nkisch" {} {}
+{Burgundac Crni} {Pinot Noir} {} {}
+"Burgundsk\351 \u010derven\351" {Pinot Noir} {} {}
+{Burot} {Pinot Gris} {} {}
+{Burra Blanca} {} {} {}
+"\u010caba\u0148sk\341 perla" {} {} {}
+{Cabarnelle} "Carmen\u00e8re" {} {}
+{Cabernet Blanc} {} {?} {}
+{Cabernet Carbon} {} {Cabernet Sauvignon x Merzling x Saperavi Severnyi x St. Laurent} {}
+{Cabernet Carol} {} {Cabernet Sauvignon x Solaris} {}
+{Cabernet Cortis} {} {Cabernet Sauvignon x Solaris} {}
+{Cabernet Cubin} {} "Blaufr\u00e4nkisch x Cabernet Sauvignon" {}
+{Cabernet Dorio} {} {Dornfelder x Cabernet Sauvignon} {}
+{Cabernet Dorsa} {} {Dornfelder x Cabernet Sauvignon} {}
+{Cabernet Franc} {} {} {}
+{Cabernet Jura} {} {?} {}
+{Cabernet Mitos} {} "Blaufr\u00e4nkisch x Cabernet Sauvignon" {}
+{Cabernet Moravia} {} {Cabernet Franc x Zweigel} {}
+{Cabernet Sauvignon} {} {} {Cabernet Franc x Sauvignon Blanc}
+{Cabernet} {Cabernet Sauvignon or Cabernet Franc} {} {}
+{Cacchione} {} {} {}
+{Cadarca} {Kadarka} {} {}
+{Cadiz Jerez} {Palomino} {} {}
+{Cagnina} {Cagnina or Refosco or Durella} {} {}
+{Cahors} {Malbec} {} {}
+{Calabrese Dolce} {Nero d'Avola} {} {}
+{Calabrese Pittatelo} {Nero d'Avola} {} {}
+{Calabrese d'Avola} {Nero d'Avola} {} {}
+{Calabrese de Calabria} {Nero d'Avola} {} {}
+{Calabrese di Noto} {Nero d'Avola} {} {}
+{Calabreser Froelich} {Weiﬂer Calabreser} {} {}
+{Calabrese} {Nero d'Avola or Sangiovese} {} {}
+{Calabre} {Cinsaut} {} {}
+{Caladoc} {} {Grenache x Malbec} {}
+{California Charbono} {Dolcetto} {} {}
+{Calitor} {} {} {}
+{Callet} {} {} {}
+{Camaralet} {} {} {}
+{Camarate} {} {} {}
+"Camar\u00e8se" "Vaccar\u00e8se" {} {}
+{Canaiolo} {} {} {}
+{Candive} {Syrah} {} {Dureza x Mondeuse Blanche}
+{Cannanellu} {} {} {}
+{Cannonau} {Grenache} {} {}
+{Cape Riesling} {Crouchen} {} {}
+{Caprettone} {Coda di Volpe} {} {}
+{Carca de Minis} {Kadarka} {} {}
+{Carcagiolu} {} {} {}
+{Carignan Blanc} {} {} {}
+{Carignan Gris} {} {} {}
+{Carignan Noir} {Carignan} {} {}
+{Carignan d'Espagne} {Bobal} {} {}
+{Carignan} {} {} {}
+{Carignane} {Carignan} {} {}
+{Carignano} {Carignan} {} {}
+"Cari\u00f1ena" {Carignan} {} {}
+{Carmelin} {Petit Verdot} {} {}
+"Carmen\u00e8re" {} {} {}
+{Carmignano} {Sangiovese} {} {}
+{Carricante} {} {} {}
+"Castel\u00e3o Franc\u00eas" {Periquita} {} {}
+"Castel\u00e3o Nacional" {Camarate} {} {}
+"Castel\u00e3o" {Periquita or Trincadeira} {} {}
+{Castet} {} {} {}
+{Catalan} "Mourv\u00e8dre" {} {}
+{Catarratto Bianco Commune} {} {} {}
+{Catarratto Bianco Lucido} {} {} {}
+{Catarratto} {Catarratto Bianco Commune or Catarratto Bianco Lucido} {} {}
+{Catauba} {} {} {}
+"Cavaill\u00e8s" {Len de l¥El} {} {}
+"Ca\u00ed\u00f1o Blanco" {} {} {}
+"Ca\u00ed\u00f1o Tonto" "Borra\u00e7al" {} {}
+{Cencibel} {Tempranillo} {} {}
+{Cerceal} {Arinto} {} {}
+{Cereza} {} {} {}
+{Cerretana} {Vernaccia} {} {}
+{Cesanese Commune} {} {} {}
+{Cesanese di Affile} {} {} {}
+{Cesanese} {Cesanese Commune or Cesanese di Affile} {} {}
+{Chainette} {Cinsaut} {} {}
+{Chambourcin} {} {S.V. 12.417 x Chancellor} {}
+{Chancellor} {} {Seibel} {}
+{Charas Blanc} "Macab\u00e9o" {} {}
+{Chardenai} {Chardonnay} {} {Pinot Noir x Heunisch}
+{Chardennet} {Chardonnay} {} {Pinot Noir x Heunisch}
+"Chardonnay Musqu\u00e9" {} {} {}
+"Chardonnay Ros\u00e9" {} {} {}
+{Chardonnay} {} {} {Pinot Noir x Heunisch}
+{Charmont} {} {Chasselas x Chardonnay} {}
+{Chasselas Dorato} {Pinot Blanc} {} {}
+{Chasselas Dorto} {Pinot Blanc} {} {}
+{Chasselas de Courtiller} {Chasselas or Madeleine Royale} {} {}
+"Chasselas de J\u00e9rusalem" {Vernatsch} {} {}
+{Chasselas} {} {} {}
+{Chaudenay} {Chardonnay} {} {Pinot Noir x Heunisch}
+{Chaudenet Gras} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
+{Chenin Blanc} {} {} {}
+{Chenin Noir} {Pineau d'Aunis} {} {}
+"Cherch\u00e8" "Jacqu\u00e8re" {} {}
+{Chevrier} "S\u00e9millon" {} {}
+{Chiavennasca} {Nebbiolo} {} {}
+{Chinchillana} {Tempranillo} {} {}
+"Chrupka b\355l\341" {Chasselas} {} {}
+{Ciliegiolo} {} {} {}
+{Cinq-Saou} {Cinsaut} {} {}
+{Cinqsaou} {Cinsaut} {} {}
+{Cinqsaut} {Cinsaut} {} {}
+{Cinsault} {Cinsaut} {} {}
+{Cinsaut} {} {} {}
+{Cirfandli} {Zierfandler} {} {Traminer x Roter Veltliner}
+{Clairette Blanquette} {Mauzac} {} {}
+{Clairette} {} {} {}
+{Clare Riesling} {Crouchen} {} {}
+{Clevner} "Pinot Noir or Pinot Blanc or Pinot Gris or Gew\u00fcrztraminer or Chardonnay or Fr\u00fchburgunder" {} {}
+{Clinton York-Madeira} {} {} {}
+"Cl\u00e4vner" {Pinot Noir or Pinot Blanc} {} {}
+{Cococciola} {} {} {}
+{Coda di Volpe} {} {} {}
+{Codivarta} {} {} {}
+{Codo} {Roupeiro} {} {}
+{Colombana} {Verdeca} {} {}
+{Colombard Blanquette} {Mauzac} {} {}
+{Colombard} {} {} {}
+{Colombier} "S\u00e9millon" {} {}
+{Colorino} {} {} {}
+{Columbard} {Colombard} {} {}
+{Completer} {} {} {}
+{Concord} {} {} {}
+"Con\u00e7alveira" {Baga} {} {}
+{Cordisco} {Montepulciano} {} {}
+{Cornalin} {} {} {}
+{Cortese} {} {} {}
+{Corvina Gentile} {Corvina Veronese} {} {}
+{Corvina Nera} {Corvina Veronese} {} {}
+{Corvina Reale} {Corvina Veronese} {} {}
+{Corvina Rizza} {Corvina Veronese} {} {}
+{Corvina Veronese} {} {} {}
+{Corvina} {Corvina Veronese} {} {}
+{Corvinone} {} {} {}
+{Cot} {Malbec} {} {}
+{Coufe-Chien} "Jacqu\u00e8re" {} {}
+{Counoise} {} {} {}
+{Courbu Noir} {Courbu Rouge} {} {}
+{Courbu Rouge} {} {} {}
+{Courbu} {Petit Courbu or Gros Courbu} {} {}
+"Courtillier Musqu\u00e9" {} {} {}
+{Crabutet} {Merlot} {} {}
+{Crato Preto} {Trincadeira} {} {}
+{Creata} {} {} {}
+{Criolla Chica} "Pa\u00eds" {} {}
+{Criolla Grande} {} {} {}
+{Criolla} "Pa\u00eds or Criolla Grande" {} {}
+{Crljenak} {Zinfandel} {} {}
+{Crna Frankovka} "Blauerfr\u00e4nkisch" {} {}
+{Crna Moravka} "Blaufr\u00e4nkisch" {} {}
+{Croatina} {Croatina or Bonarda} {} {}
+{Cromassa} {} {} {}
+{Crouchen} {} {} {}
+{Cruchinet} {Chenin Blanc} {} {}
+{Crucillant} "S\u00e9millon" {} {}
+{Cruina} {Corvina Veronese} {} {}
+{Crujillon} {Carignan} {} {}
+"Cserszegi F\u00fcszeres" {} {} {}
+{Cubuk} {} {} {}
+"C\u00e9sar" {} {} {}
+"C\u00f4dega" {Roupeiro} {} {}
+"C\u00f4dega de Larinho" {} {} {}
+"C\u00f4t" {Malbec} {} {}
+{Dakapo} {} {Deckrot x Portugieser} {}
+{Damaschino} {} {} {}
+{Daphni} {} {} {}
+{Darnekusa} {} {} {}
+{De Chaunac} {} {S. 793 x S. 5163} {}
+{Debina} {} {} {}
+{Debit} {} {} {}
+{Deckrot} {} {Pinot Gris x Teinturier} {}
+{Dedal} {Rkatsiteli} {} {}
+{Delaware} {} {} {}
+{Devin} "D\u011bv\355n" {Roter Traminer x Rotweiﬂer Veltliner} {}
+"D\u011bv\355n" {} {Roter Traminer x Rotweiﬂer Veltliner} {}
+{Diana} {} "Silvaner x M\u00fcller-Thurgau" {}
+{Diego} {} {} {}
+{Dimiat} {Dimyat} {} {}
+{Dimyat} {} {} {}
+{Dindarella} {Pelara} {} {}
+{Diolinoir} {} {Rouge de Dioly x Pinot Noir} {}
+"D\355v\u010d\355 hrozen" {Feteasca Regala} {} {}
+{Dobricic} {} {} {}
+{Dolcetto} {} {} {}
+{Dolsin Nero} {Dolcetto} {} {}
+{Domina} {} {Portugieser x Pinot Noir} {}
+{Donauriesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Doppelte Spanische} {Chasselas} {} {}
+{Dorado} {Loureiro Blanco} {} {}
+{Dorin} {Chasselas} {} {}
+{Dornfelder} {} {Helfensteiner x Heroldrebe} {}
+{Douce Noire} {Dolcetto} {} {}
+{Douce} {Dolcetto} {} {}
+{Doucillon} {Bourboulenc} {} {}
+"Do\u00f1a Blanca" {} {} {}
+"Do\u00f1a Branco" "Do\u00f1a Blanca" {} {}
+{Dr. Wagnerrebe} {Scheurebe} {} {}
+"Dreim\u00e4nner" "Gew\u00fcrztraminer" {} {}
+{Drupeggio} {} {} {}
+{Dunkelfelder} {} {Portugieser x Teinturier} {}
+{Duras} {} {} {}
+"Duraz\u00e9" {Duras} {} {}
+{Durella} {Durella or Nosiola} {} {}
+{Durello} {Durella or Nosiola} {} {}
+{Dureza} {} {} {}
+{Durif} {Peloursin} {} {}
+{Edelscharz} {Vernatsch} {} {}
+{Edeltraube} "Gew\u00fcrztraminer" {} {}
+{Edelvernatsch} {Vernatsch} {} {}
+{Egri Csillagok} {Bianca} {Villard Blanc x Bouvier} {}
+{Ehrenbreitsteiner} {} {Ehrenfelser x Reichensteiner} {}
+{Ehrenfelser} {} {Riesling x Silvaner} {}
+{Elben} {Elbling} {} {}
+{Elbling} {} {} {}
+{Emir Masandale} {} {} {}
+{Enantio} {} {} {}
+{Encruzado} {} {} {}
+{Entournerein} {Syrah} {} {Dureza x Mondeuse Blanche}
+{Epinette} {Chardonnay} {} {Pinot Noir x Heunisch}
+{Erbaluce} {} {} {}
+{Ermitage Blanc} {Marsanne} {} {}
+{Ermitage} {Marsanne} {} {}
+{Escobera} {Tempranillo} {} {}
+"Esgana C\u00e3o" {} {} {}
+{Espadeiro} {Trincadeira} {} {}
+{Espagnol} {Bobal} {} {}
+{Estrangle-Chien} "Mourv\u00e8dre" {} {}
+{Exquitxagos} {Merseguera} {} {}
+"Ezerj\u00f3" {} {} {}
+{Faber} {} "Pinot Blanc x M\u00fcller-Thurgau" {}
+{Fabian} {Chasselas} {} {}
+{Falanghina} {} {} {}
+{Farineux} {Pinot Meunier} {} {}
+{Favorita} {} {} {}
+{Feherburgundi} {Pinot Blanc} {} {}
+{Feigentraube} {Sauvignon Blanc} {} {}
+{Feinburgunder} {Chardonnay} {} {}
+{Fendant} {Chasselas} {} {}
+{Fenile} {} {} {}
+{Fer Servadou} {} {} {}
+{Fernanda Bianca} {Cortese} {} {}
+"Fern\u00e3o Pires" {} {} {}
+{Ferrol} "Ferr\u00f3n" {} {}
+"Ferr\u00f3n" {} {} {}
+{Fer} {Fer Servadou} {} {}
+"Festiva\u013enyj" "Seyve-Villard 23657 x Veltl\355nsk\351 \u010derven\351 rann\351" {} {}
+{Feteasca Alba} {} {} {}
+{Feteasca Neagra} {} {} {}
+{Feteasca Regala} {} {Grasa x Feteasca Alba} {}
+{Feteasca} {Feteasca Alba or Feteasca Neagra or Feteasca Regala} {} {}
+{Fetesca Alba} {Feteasca Alba} {} {}
+{Fetiaska} {Feteasca Alba or Feteasca Neagra or Feteasca Regala} {} {}
+{Fiano} {} {} {}
+"F\355kov\375 hrozen" {Sauvignon Blanc} {} {}
+{Fileri} {all greek grapes ...} {} {}
+{Findling} {} {} {}
+"Fi\u00e9" {} {} {}
+{Fogoneu} {} {} {}
+{Folgasso} {} {} {}
+"Folha de Ab\u00f3bora" {Trincadeira} {} {}
+{Folle Blanche} {} {} {}
+{Folle Noir} "Juran\u00e7on Noir" {} {}
+{Fontanara} {} "Rieslaner x M\u00fcller-Thurgau" {}
+"Fo\u00f1o" {Tempranillo} {} {}
+{Forastera} {} {} {}
+{Fortana} {} {} {}
+{Fragola} {} {} {}
+{Franc Pineau} {Pinot Noir} {} {}
+{Franc-Blanc} {Chenin Blanc} {} {}
+{Franche} {Chenin Blanc} {} {}
+{Franconia} "Blaufr\u00e4nkisch" {} {}
+{Frankenriesling} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Frankinja Crna} {Gamay} {} {}
+{Frankovka} "Blaufr\u00e4nkisch" {} {}
+{Frappato} {} {} {}
+{Freiburgunder} {Chardonnay} {} {}
+{Freisamer} {} {Pinot Gris x Silvaner} {}
+{Freisa} {} {} {}
+{Freminier} {} {} {}
+{French Colombard} {Colombard} {} {}
+{Friulano} {Muscadelle or Raboso Veronese} {} {}
+{Friularo} {Raboso del Piave} {} {}
+{Fromenteau} {Roussanne} {} {}
+{Fromentin} {Weiﬂer Traminer} {} {}
+{Fromentot} {Pinot Gris} {} {}
+{Frontignac} "Muscat Blanc \u00e0 Petits Grains" {} {}
+"Fr\u00eencusa" {} {} {}
+"Fr\u00fchburgunder" {} {} {}
+"Fr\u00fchroter Veltliner" {} {} {Silvaner x Roter Veltliner}
+{Fuella Nera} "Juran\u00e7on Noir" {} {}
+{Fuella} "Juran\u00e7on Noir" {} {}
+{Fumin} {} {} {}
+"Fum\u00e9 Blanc" {Sauvignon Blanc} {} {}
+"Fum\u00e9" {Sauvignon Blanc} {} {}
+{Furmint} {} {} {}
+"F\u00e4rbertraube" {Teinturier} {} {}
+{G'schlafene} {Vernatsch} {} {}
+{Gagliano} {Aglianico} {} {}
+{Gaglioppo} {} {} {}
+{Gaillac} {Mauzac} {} {}
+{Gallego Dourado} {Loureiro Blanco} {} {}
+{Galopine} {Viognier} {} {}
+{Gamaret} {} {Gamay x Reichensteiner} {}
+{Gamay Beaujolais} {Gamay} {} {}
+{Gamay Blanc} {Chardonnay or Silvaner} {} {}
+"Gamay Noir \u00e0 Jus Blanc" {Gamay} {} {}
+{Gamay Saint-Laurent} {Abouriou} {} {}
+"Gamay Six Pi\u00e8ces" {Gamay de Chaudenay} {} {}
+{Gamay de Bouze} {} {} {}
+{Gamay de Chaudenay} {} {} {}
+{Gamay d¥Auvergne} {Gamay} {} {}
+"Gamay-Fr\u00e9au" {Teinturier} {} {}
+{Gamay} {} {} {}
+{Gamet Blanc} {Chenin Blanc} {} {}
+{Game} {Gamay} {} {}
+{Gamza} {Kadarka} {} {}
+"Gam\u00e9" "Blauerfr\u00e4nkisch" {} {}
+{Garanoir} {} {Gamay x Reichensteiner} {}
+{Gargana} {Garganega} {} {}
+{Garganega} {Greco} {} {}
+{Garnaccia} {Grenache} {} {}
+{Garnacha Blanc} {Grenache Blanc} {} {}
+{Garnacha Tinta} {Grenache} {} {}
+{Garnacha Tintorera} {Teintourier} {} {}
+{Garnacha} {Grenache} {} {}
+{Garnacho} {Grenache or Tempranillo} {} {}
+{Garnatxa Negra} {Grenache} {} {}
+{Garnatxa} {Grenache Blanc} {} {}
+{Gelber Moster} {Furmint} {} {}
+{Gelber Muskateller} {Moscato Giallo} {} {}
+{Gelber Orleans} {} {} {}
+{Gelber Ortlieber} {Ortlieber} {} {}
+{Gelber Weiﬂburgunder} {Chardonnay} {} {}
+{Gelbriesling} {Goldriesling} {} {}
+{Gentil Blanc} {Weiﬂer Traminer} {} {}
+{Gentil Vert} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Gentin \u00e0 Romorantin" {Sauvignon Blanc} {} {}
+"Gew\374rztraube" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"Gew\u00fcrztraminer" {} {} {}
+{Giallo} {Trebbiano di Soave} {} {}
+{Giboudot Blanc} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
+{Gimza} {Kadarka} {} {}
+{Ginestra} {} {} {}
+{Giro} {} {} {}
+{Glera} {Prosecco} {} {}
+{GM 8107-3 Geisenheim} {} {?} {}
+{Goamez} {Gamay} {} {}
+{Godello} {} {} {}
+{Goldburger} {} {Orangetraube x Welschriesling} {}
+{Goldmuskateller} {Moscato Giallo} {} {}
+{Goldmuskat} {Goldriesling} {} {}
+{Goldriesling} {} "Riesling x Courtillier Musqu\u00e9" {}
+{Goldtraube} "M\u00e9zes Feh\u00e9r" {} {}
+{Gouais Blanc} {Heunisch} {} {}
+{Gouveio} {} {} {}
+{Graciana} {Graciano} {} {}
+{Graciano} {} {} {}
+"Gr\344fenberger" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Grande Vidure} "Carmen\u00e8re or Cabernet Sauvignon" {} {}
+{Grande-Vidure} "Carmen\u00e8re or Cabernet Sauvignon" {} {}
+{Granoir} {Garanoir} {} {}
+{Grasa} {} {} {}
+{Grasevina} {Welschriesling} {} {}
+"Gra\u0161evina" {Welschriesling} {} {}
+{Grassica} {Welschriesling} {} {}
+{Grauburgunder} {Pinot Gris} {} {}
+{Grauer Burgunder} {Pinot Gris} {} {}
+{Grauer Portugieser} {} {} {}
+"Grauer V\u00f6slauer" {Grauer Portugieser} {} {}
+{Grauklevner} {Pinot Gris} {} {}
+{Grauvernatsch} {Vernatsch} {} {}
+{Grecanico} {Greco} {} {}
+{Grechetto di Todi} {Grechetto} {} {}
+{Grechetto} {} {} {}
+{Greco Bianco} {} {} {}
+{Greco Nero} {} {} {}
+{Greco} {} {} {}
+{Green Grape} "S\u00e9millon" {} {}
+{Grenache Blanc} {} {} {}
+{Grenache Gris} {} {} {}
+{Grenache Noir} {Grenache} {} {}
+{Grenache Poilu} {Grenache} {} {}
+{Grenache Tomenteux} {Grenache} {} {}
+{Grenache Velu} {Grenache} {} {}
+{Grenache d¥Afrique} {Grenache} {} {}
+{Grenache} {} {} {}
+{Grenash Crni} {Grenache} {} {}
+{Grifforin} {Malbec} {} {}
+{Grignolino} {} {} {}
+{Grillo} {} {} {}
+{Gringet} {Weiﬂer Traminer} {} {}
+{Gris Meunier} {Pinot Meunier} {} {}
+{Griset Blanc} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
+{Grk} {} {} {}
+{Grobriesling} {Elbling} {} {}
+{Grolleau Noir} {Grolleau} {} {}
+{Grolleau} {} {} {}
+{Grolleau de Cinq-Mars} {} {} {}
+{Groppello Gentile} {Groppello} {} {}
+{Groppello Mocasina} {Groppello} {} {}
+{Groppello Santo Stefano} {Groppello} {} {}
+{Groppellone} {Groppello} {} {}
+{Groppello} {} {} {}
+{Gros Auxerrois} "Melon or Valdigui\u00e9" {} {}
+{Gros Blanc} {Elbling} {} {}
+{Gros Courbu} {} {} {}
+{Gros Manseng} {Manseng} {} {}
+{Gros Noirien} {Pinot Noir} {} {}
+{Gros Noir} {Malbec} {} {}
+{Gros Pineau} {Chenin Blanc} {} {}
+{Gros Plant} {Folle Blanche} {} {}
+{Gros Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Gros Sauvignon} {Sauvignon Blanc} {} {}
+{Gros Vien} {Ner d'Ala} {} {}
+{Gros-Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Groslot} {} {} {}
+{Grosse Roussette} {Marsanne} {} {}
+{Grosse Sainte-Marie} {Melon} {} {}
+{Grosse-Vidure} {Cabernet Franc} {} {}
+{Grosso Nero} {} {} {}
+{Groﬂmuttertraube} {Babeasca Neagra} {} {}
+{Groﬂriesler} {Elbling} {} {}
+{Groﬂvernatsch} {Vernatsch} {} {}
+{Grunzinskii} {Rkatsiteli} {} {}
+"Gr\u00fcner Burgunder" {Neuburger} {} {Roter Veltliner x Silvaner}
+"Gr\u00fcner Silvaner" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Gr\u00fcner Veltliner" {} {} {}
+"Gr\u00fcner V\u00f6slauer" {Weiﬂer Portugieser} {} {}
+"Gr\u00fcnmuskateller" "Gr\u00fcner Veltliner" {} {}
+{Gual} {} {} {}
+{Guanico} {Aglianico} {} {}
+{Guarnaccia} {Vernaccia} {} {}
+{Gumpoldskircher} {Zierfandler} {} {Traminer x Roter Veltliner}
+{Gutedel} {Chasselas} {} {}
+{Hachat Lovelin} "H\u00e1rslevel\u00fc" {} {}
+{Hanepoot} {Muscat d¥Alexandrie} {} {}
+{Harriague} {Tannat} {} {}
+{Hegel} {} {Helfensteiner x Heroldrebe} {}
+{Heida} {Weiﬂer Traminer} {} {}
+{Helfensteiner} {} "Gew\u00fcrztraminer x Vernatsch" {}
+{Helios} {} {Merzling x Freiburg 986-60} {}
+{Hermitage Blanc} {Marsanne} {} {}
+{Hermitage} {Cinsaut} {} {}
+{Heroldrebe} {} "Blaufr\u00e4nkisch x Portugieser" {}
+{Heunisch} {} {} {}
+{Hibernal} {} {Weiﬂer Riesling x Seibel 7053} {}
+{Hibia} {} {Hibernal x Bianca} {}
+{Hochheimer} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Hondarrabi Beltza} {Ondarribi Beltza} {} {}
+{Hondarrabi Zuri} {Ondarribi Zuri} {} {}
+{Hondarrabi} {Ondarrabi Beltza or Ondarrabi Zuri} {} {}
+{Humagne Blanche} {} {} {}
+{Humagne Rouge} {Cornalin} {} {}
+{Huxelrebe} {} "Chasselas x Courtillier Musqu\u00e9" {}
+"H\u00e1rslevel\u00fc" {} {} {}
+"H\u00e8re" {Fer Servadou} {} {}
+"H\u00f6lder" {} {Riesling x Pinot Gris} {}
+{Incrocio Manzoni 6.0.13} {} {Riesling Renano x Pinot Blanc} {}
+{Inzolia} {} {} {}
+"Irsai Oliv\u00e9r" {Irsay Oliver} "Bratislavsk\351 b\355l\351 x \u010caba\u0148sk\341 perla" {}
+{Irsay Oliver} {} "Bratislavsk\351 b\355l\351 x \u010caba\u0148sk\341 perla" {}
+{Isabella} {} {} {}
+{Ischaker} "Izs\u00e1ki" {} {}
+{Italienischer Riesling} {Welschriesling} {} {}
+"Izs\u00e1ki Sarpiros" {} {} {}
+"Izs\u00e1ki" {} {} {}
+{Jaciuera} {Tempranillo} {} {}
+"Jacqu\u00e8re" {} {} {}
+"Ja\u00e9n" {} {} {}
+{Johannisberg Riesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Johannisberger} {Silvaner oder Weiﬂer Riesling} {} {}
+{Johanniter} {} "Riesling x Rul\u00e4nder x Chasselas" {}
+{Jonico} {Negro Amaro} {} {}
+"Jo\u00e3o de Santar\u00e9m" {Periquita} {} {}
+"Juan Garc\u00eda" {} {} {}
+"Juan Iba\u00f1ez" {} {} {}
+"Jubil\u00e4umsrebe" {} "Grauer Portugieser x Fr\u00fchroter Veltliner" {}
+{Juhfark} {} {} {}
+{Junker} {Chasselas} {} {}
+"Juran\u00e7on Blanc" {} {} {}
+"Juran\u00e7on Noir" {} {} {}
+"Juran\u00e7on Rouge" "Juran\u00e7on Noir" {} {}
+{Juwel} {} {Kerner x Silvaner} {}
+{Kaberon} {} "Merlot x Blaufr\u00e4nkisch x St. Laurent x Siebel 13666" {}
+{Kadarka} {} {} {}
+{Kakotryghis} {} {} {}
+{Kalambaki} {Limnio} {} {}
+{Kalecik} {} {} {}
+{Kanzler} {} "M\u00fcller-Thurgau x Silvaner" {}
+{Karbacher Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Karvouniaris} {Agiorgitiko} {} {}
+{Kastellberger} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Keratzuda} {} {} {}
+{Kerner} {} {Vernatsch x Riesling} {}
+{Kernling} {} {} {}
+"Kir\u00e1lyle\u00e1nyka" {Feteasca Regala} {Grasa x Feteasca Alba} {}
+{Kleinberger} {Elbling} {} {}
+{Kleinrieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Kleinriesler} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Kleinvernatsch} {Vernatsch} {} {}
+{Klevner} "Pinot Noir or Pinot Blanc or Pinot Gris or Gew\u00fcrztraminer or Chardonnay" {} {}
+{Klingelberger} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Knipperle} {Ortlieber} {} {}
+{Kofanka} {Laurot} "Merlot x Blaufr\u00e4nkisch x St. Laurent x Siebel 13666" {}
+{Koroleki} {Rkatsiteli} {} {}
+{Kotsifali} {} {} {}
+{Kountoura Aspri} {Savatiano} {} {}
+{Kountoura Mavri} {Mandelari} {} {}
+{Kraljevina} {Portugieser} {} {}
+{Krassato} {} {} {}
+{Kratosija} {} {} {}
+{Krstac} {} {} {}
+{Ktima Averoff} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+{Kuc} {Trbljan} {} {}
+{Kuc Bijeli} {} {} {}
+{Kug} {Trbljan} {} {}
+{Kugelevernatsch} {Vernatsch} {} {}
+{Kujundzusa} {} {} {}
+"Kumanisches M\u00e4dchen" "Kunle\u00e1ny" {} {}
+"Kunle\u00e1ny" {} {} {}
+{Kutjevo Zelenac} {} {} {}
+"K\u00e9k Kisburgundi" {Pinot Noir} {} {}
+"K\u00e9kfrankos" "Blaufr\u00e4nkisch" {} {}
+"K\u00e9knyel\u00fc" {} {} {}
+"K\u00e9koporto" {Portugieser} {} {}
+"K\366nigliche" {Feteasca Regala} {Grasa x Feteasca Alba} {}
+"K\366nigsast" {Feteasca Regala} {Grasa x Feteasca Alba} {}
+"K\u00f6nigm\u00e4dchentraube" {Feteasca Regala} {Grasa x Feteasca Alba} {}
+"K\u00f6vidinka" {} {} {}
+{Lacrima Nera} {} {} {}
+{Lado} {} {} {}
+{Lafite} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+{Lafnetscha} {} {} {}
+{Lagarino} {Lagrein} {} {}
+{Lagorthi} {} {} {}
+{Lagrein} {} {} {}
+"Lair\u00e9n" "Air\u00e9n" {} {}
+{Lambrusca} {Colorino} {} {}
+{Lambrusco Maestri} {Lambrusco} {} {}
+{Lambrusco Montericco} {Lambrusco} {} {}
+{Lambrusco Salamino} {Lambrusco} {} {}
+{Lambrusco Sorbara} {Lambrusco} {} {}
+{Lambrusco a foglia frastagliata} {Enantio} {} {}
+{Lambrusco} {} {} {}
+{Lambrusquet} {Petit Verdot} {} {}
+{Lampia} {Nebbiolo} {} {}
+{Landal} {} {Plantet x Seibel 8216} {}
+{Langrina} {Lagrein} {} {}
+{Lardot} "Macab\u00e9o" {} {}
+{Laski Riesling} {Welschriesling} {} {}
+{Laski Rizling} {Welschriesling} {} {}
+{Laski Rizlink} {Welschriesling} {} {}
+{Laurenzitraube} {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
+{Laurot} {} "Merlot x Blaufr\u00e4nkisch x St. Laurent x Siebel 13666" {}
+{Lauzet} {} {} {}
+{Lemberger} "Blaufr\u00e4nkisch" {} {}
+{Len de l¥El} {} {} {}
+"Le\341\u0148ka" {Feteasca Regala} {Grasa x Feteasca Alba} {}
+"Le\u00e1yka" {Feteasca Regala} {Grasa x Feteasca Alba} {}
+"Le\u00e1nyka" {Feteasca Alba} {} {}
+{Lena} {} "H\u00e1rslevel\u00fc x Irsay Oliver" {}
+{Leon Foch} {} {?} {}
+"L\u00e9on Millot" {} {101-14 x Goldriesling} {}
+{Liatiko} {} {} {}
+{Limberger} "Blaufr\u00e4nkisch" {} {}
+{Lime Leaf} "H\u00e1rslevel\u00fc" {} {}
+{Limnio} {} {} {}
+{Limnos} {Limnio} {} {}
+"Lindenbl\u00e4ttrige" "H\u00e1rslevel\u00fc" {} {}
+{Lipovina} "H\u00e1rslevel\u00fc" {} {}
+"List\u00e1n Bianco" {Palomino} {} {}
+"List\u00e1n Blanco" {Palomino} {} {}
+"List\u00e1n Negro" {} {} {}
+"List\u00e1n" {Palomino Fino} {} {}
+"List\u00e3o" {Palomino Fino} {} {}
+{Lizzana} {Garganega} {} {}
+{Lladoner Pelut} {Grenache} {} {}
+{Lladoner} {Grenache} {} {}
+{Lledoner Pelut} {Grenache} {} {}
+{Loin de l¥OEil} {Len de l¥El} {} {}
+"Lou Salba\u00efre" {Malbec} {} {}
+{Loureira} {Loureiro Blanco} {} {}
+{Loureiro Blanco} {} {} {}
+{Loureiro} {Loureiro Blanco} {} {}
+{Lovrijenka} {} {} {}
+{Lugana} {Trebbiano} {} {}
+{Luglienca Bianca} {} {} {}
+{Luminassina} {} {} {}
+{Lyonnaise} {Gamay} {} {}
+"L\u00e4mmerschwanz" {Juhfark} {} {}
+"Macab\u00e9o" {} {} {}
+"Maccab\u00e9u" "Macab\u00e9o" {} {}
+"M\342connais" {Chardonnay} {} {Pinot Noir x Heunisch}
+{Madeleine Angevine} {} {} {}
+{Madeleine Royale} {Magdalenen-Traube} {} {}
+"Madlenka ran\341" {Madeleine Angevine} {} {}
+{Magdalenen-Traube} {} {} {}
+{Magliocco} {} {} {}
+{Malaga} "S\u00e9millon" {} {}
+{Malagousia} {} {} {}
+{Malbec} {} {} {}
+{Malbo Gentile} {} {} {}
+{Malmsey} {Malvasia or Pinot Gris} {} {}
+{Malvar} {} {} {}
+{Malvasia Bianca di Candia} {} {} {}
+{Malvasia Bianca} {} {} {}
+{Malvasia Fina} {any white grape} {} {}
+{Malvasia Grossa} {Vermentino} {} {}
+{Malvasia Istriana} {} {} {}
+{Malvasia Nera} {} {} {}
+{Malvasia Riojana} {} {} {}
+{Malvasia Toscana} {Malvasia Bianca} {} {}
+{Malvasia del Chianti} {Malvasia Bianca} {} {}
+{Malvasia del Lazio} {Malvasia} {} {}
+{Malvasia di Bitonto} {Malvasia Nera} {} {}
+{Malvasia di Candia} {} {} {}
+{Malvasia di Sardegna} {} {} {}
+{Malvasia di Trani} {Malvasia Nera} {} {}
+{Malvasia} {any white Malvasia grape} {} {}
+{Malvasier} "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Malvazia} {Malvasia} {} {}
+{Malvazija} {Malvasia} {} {}
+"Malverina" {} "(Siebel 13666 x Merlot) x (Seyve-Villard 12375 x Veltl\355nsk\351 \u010derven\351 rann\351)" {}
+{Malvoise de Corse} {Vermentino} {} {}
+{Malvoise} "Bourboulenc Blanc or Macab\u00e9o or Vermentino or Pinot Gris" {} {}
+"Malvoisia \u00e1 Gros Grains" {Vermentino} {} {}
+"Malvoisie Ros\351" "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Malvoisie Rouge} "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Malvoisie de Corse} {Vermentino} {} {}
+{Malvoisie Noire} {Trousseau} {} {}
+"Malvoisie Pr\u00e9coce d'Espagne" {Vermentino} {} {}
+{Malvoisie du Valais} {Pinot Gris} {} {}
+{Malvoisie} "Pinot Gris or Malvasia or Macab\u00e9o" {} {}
+{Malvosisie Rouge d'Italie} "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Mammolo} {} {} {}
+{Mamolo} {Mammolo} {} {}
+{Mandelaria} {Mandelari} {} {}
+{Mandelari} {} {} {}
+{Mandilari} {Mandelari} {} {}
+{Mangiaverme} {Negro Amaro} {} {}
+{Manhartsrebe} "Gr\u00fcner Veltliner" {} {}
+{Manosquin} {} {} {}
+{Manseng} {} {} {}
+{Mansois} {Fer Servadou} {} {}
+{Mansoi} {Fer Servadou} {} {}
+{Manto Negro} {} {} {}
+{Mantonico} {} {} {}
+{Manzoi} {Fer Servadou} {} {}
+{Marastina} {} {} {}
+{Maratheftico} {} {} {}
+{Marchigiano} {Trebbiano di Soave} {} {}
+{Marchoupet} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+"Maria Ordo\u00f1a" {Merenzao} {} {}
+{Mariensteiner} {} {Silvaner x Rieslaner} {}
+{Marquez} {Loureiro Blanco} {} {}
+{Marsanne Blanche} {Marsanne} {} {}
+{Marsanne Noir} {Syrah} {} {Dureza x Mondeuse Blanche}
+{Marsanne} {} {} {}
+{Marzemina Bianca} {Chasselas} {} {}
+{Marzemino} {} {} {}
+"Mar\u00e9chal Foch" {} {101-14 x Goldriesling} {}
+"Mar\u00eda Gomes" "Fern\u00e3o Pires" {} {}
+{Mataro} "Mourv\u00e8dre" {} {}
+{Mauzac Blanc} {Mauzac} {} {}
+{Mauzac} {} {} {}
+{Mavraki} {} {} {}
+{Mavro Goumenissas} {Negoska} {} {}
+{Mavro Naoussis} {Xynomavro} {} {}
+{Mavro Nemeas} {Agiorgitiko} {} {}
+{Mavrodaphne} {} {} {}
+{Mavroudi Arahovas} {Mavroudi} {} {}
+{Mavroudi Kalavryton} {Mavroudi} {} {}
+{Mavroudi Nemeas} {Agiorgitiko} {} {}
+{Mavroudi Syriano} {Mavroudi} {} {}
+{Mavroudi} {Mavroudi or Agiorgitiko} {} {}
+{Mavro} {} {} {}
+{Mavrud} {} {} {}
+{Mayolet} {} {} {}
+{Mayorquin} {} {} {}
+{Mazuelo} {Carignan} {} {}
+{Mazzanico} {Trebbiano di Soave} {} {}
+{Melnik} {} {} {}
+{Melon Blanc} {Chardonnay or Melon de Bourgogne} {} {}
+{Melon de Bourgogne} {} {} {}
+{Melon d¥Arbois} {Chardonnay} {} {Pinot Noir x Heunisch}
+{Melon} {Melon de Bourgogne} {} {}
+"Menc\u00eda" "Menc\u00eda or Cabernet Franc" {} {}
+{Merenzao} {} {} {}
+{Merlan} {Laurot} "Merlot x Blaufr\u00e4nkisch x St. Laurent x Siebel 13666" {}
+{Merlau} {Merlot} {} {}
+{Merlaut Noir} {Merlot} {} {}
+{Merlot Pix} {} {} {}
+{Merlot} {} {} {}
+"Merou\u00e9" {Chardonnay} {} {}
+{Merseguera} {} {} {}
+{Merweh} {Sauvignon Blanc} {} {}
+{Merzling} {} "Seyve Villard 5-276 x (Riesling x Rul\u00e4nder)" {}
+{Mesenikola} {Messenikola} {} {}
+{Messenikola} {} {} {}
+{Meunier Blanc} {Weiﬂer Traminer} {} {}
+{Meunier} {Pinot Meunier} {} {}
+{Michet} {Nebbiolo} {} {}
+{Milgranet} {} {} {}
+{Miller Grape} {Pinot Meunier} {} {}
+{Ministral} "Mourv\u00e8dre" {} {}
+{Miousap} {} {} {}
+{Misket} {} {Dimyat x Riesling} {}
+{Mittervernatsch} {Vernatsch} {} {}
+"Modra Klev\u00e1nyka" {Pinot Noir} {} {}
+{Modrava} {} "Merlot x Blaufr\u00e4nkisch x St. Laurent x Siebel 13666" {}
+{Modri Tirolan} {Vernatsch} {} {}
+"Modr\375 portugal" {Portugieser} {} {}
+{Molette} "Jacqu\u00e8re" {} {}
+{Molinara} {} {} {}
+{Moll} {} {} {}
+{Monarch} {} {Solaris x Dornfelder} {}
+{Monastrell} "Mourv\u00e8dre" {} {}
+{Mondeuse Blanche} {} {} {}
+{Mondeuse Noire} {} {} {}
+{Mondeuse} {} {} {}
+{Monemvasia} {Monemvassia or Pinot Gris} {} {}
+{Monemvassia} {} {} {}
+{Monica} {} {} {}
+{Montepulciano} {} {} {}
+{Monterey Riesling} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Montonico} {} {} {}
+"Mont\u00f9" {} {} {}
+{Mopr} "Mu\u0161k\341t moravsk\375" {Muscat Ottonel x Prachttraube} {}
+{Morastell} "Mourv\u00e8dre" {} {}
+{Moravia} {Cabernet Moravia} {Cabernet Franc x Zweigel} {}
+{Moravka} "Blaufr\u00e4nkisch" {} {}
+"Mor\u00e1fka" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Morellino} {Sangiovese} {} {}
+{Morellone} {Montepulciano} {} {}
+{Moreto} {} {} {}
+{Morillon} {Chardonnay or Pinot Noir} {} {}
+{Morio-Muskat} {} {Silvaner x Pinot Blanc} {}
+{Moristel} {} {} {}
+{Morrastel} "Graciano or Mourv\u00e8dre" {} {}
+"Mort\u00e1gua" {Touriga Nacional or Trincadeira} {} {}
+{Moscadel Gordo Blanco} {Muscat d¥Alexandrie} {} {}
+{Moscadello} "Muscat Blanc \u00e0 Petits Grains" {} {}
+{Moscadel} {Muscat d¥Alexandrie} {} {}
+{Moscate Roxo} {Moscatel Galego Roxo} {} {}
+{Moscatel Galego Roxo} {} {} {}
+"Moscatel Gra\u00fado" {Muscat d¥Alexandrie} {} {}
+{Moscatel de Alejandria} {Muscat d¥Alexandrie} {} {}
+{Moscatel de Grano Menudo} "Muscat Blanc \u00e0 Petits Grains" {} {}
+"Moscatel de Set\u00fabal" {Muscat d'Alexandrie} {} {}
+{Moscatel} "Muscat Blanc \u00e0 Petits Grains" {} {}
+{Moscato Bianco} "Muscat Blanc \u00e0 Petits Grains" {} {}
+{Moscato Giallo} {} {} {}
+{Moscato Rosa} {} {} {}
+{Moscato di Alessandria} {Muscat d'Alexandrie} {} {}
+{Moscato d¥Amburgo} {Muscat d¥Hamburg} {} {}
+{Moscato} {any Muscat grape} {} {}
+{Moschophilero} {Moskofilero} {} {}
+{Moscofilero} {Moskofilero} {} {}
+{Moselriesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Moskofilero} {} {} {}
+{Mosler} {Furmint} {} {}
+{Moslovac Bijeli} {Furmint} {} {}
+{Moster} {Chasselas} {} {}
+{Mouhardsrebe} "Gr\u00fcner Veltliner" {} {}
+"Mourv\u00e8dre" {} {} {}
+{Moustron} {Tannat} {} {}
+{Moustrou} {Tannat} {} {}
+"Mouyssagu\u00e8s" {} {} {}
+{Moza Fresca} "Do\u00f1a Blanca" {} {}
+{Mtsvane} {} {} {}
+{Muscadelle} {} {} {}
+{Muscadel Ottonel} {Muscat Ottonel} {} {}
+{Muscadet} {Melon de Bourgogne} {} {}
+{Muscardin} {} {} {}
+{Muscat Bianco} {} {} {}
+"Muscat Blanc \u00e0 Petits Grains" {} {} {}
+{Muscat Blanc} "Muscat Blanc \u00e0 Petits Grains" {} {}
+"Muscat Dor\u00e9 de Frontignan" "Muscat Blanc \u00e0 Petits Grains" {} {}
+{Muscat Gordo Blanc} {} {} {}
+{Muscat Ottonel} {} {} {}
+"Mu\u0161k\341t Ottonel" {Muscat Ottonel} {} {}
+{Muscat Romain} {Muscat d¥Alexandrie} {} {}
+{Muscat Spinas} {} {} {}
+{Muscat d'Alexandrie} {} {} {}
+{Muscat de Frontignan} "Muscat Blanc \u00e0 Petits Grains" {} {}
+{Muscat de Marseille} {} {} {}
+{Muscat de Provence} {} {} {}
+{Muscat de Rivesaltes} "Muscat Blanc \u00e0 Petits Grains" {} {}
+{Muscat d¥Alexandrie} {} {} {}
+{Muscat d¥Aubagne} {} {} {}
+{Muscat d¥Hamburg} {} {} {}
+{Muscatel} "Muscat Blanc \u00e0 Petits Grains" {} {}
+{Muscat} {any Muscat grape} {} {}
+"Mu\u0161k\341t moravsk\375" {} {Muscat Ottonel x Prachttraube} {}
+{Muskat Hamburg} {Muscat d¥Hamburg} {} {}
+{Muskat-Ottonel} {Muscat Ottonel} {} {}
+{Muskat-Sylvaner} {Sauvignon Blanc} {} {}
+{Muskat-Trollinger} {} {} {}
+"Mu\u0161katel" "Gr\u00fcner Veltliner" {} {}
+{Muskateller} "Muscat Blanc \u00e0 Petits Grains" {} {}
+{MuskatSilvaner} {Sauvignon Blanc} {} {}
+"Muskot\341ly" {Muscat Ottonel} {} {}
+"M\u00e4dchentraube" {Feteasca Regala or Feteasca Alba} {} {}
+"M\u00e9doc Noir" {Merlot} {} {}
+"M\u00e9zes Feh\u00e9r" {} {} {}
+"M\u00fcller-Thurgau" {} {Riesling x Madeleine Royale} {}
+"M\u00fcllerrebe" {Pinot Meunier} {} {}
+{Nagyburgundi} {Pinot Noir} {} {}
+{Najburk} {Neuburger} {} {Roter Veltliner x Silvaner}
+{Naouses} {Xynomavro} {} {}
+{Naoustiano} {Xynomavro} {} {}
+{Napa Gamay} {Gamay} {} {}
+{Narince} {} {} {}
+{Nasco} {} {} {}
+"Natur\u00e9" {Weiﬂer Traminer} {} {}
+{Nebbiolo} {} {} {}
+{Negosca} {Negoska} {} {}
+{Negoska} {} {} {}
+{Negoska Popolka} {Negoska} {} {}
+{Negra} {Ondarribi Beltza} {} {}
+{Negra de Madrid} {Grenache} {} {}
+{Negra de Mesa} {Tempranillo} {} {}
+{Negra Mole} {Negra Mole or Negramoll} {} {}
+{Negramoll} {} {} {}
+{Negrara} {} {} {}
+{Negreda} {Trincadeira} {} {}
+"N\u00e9grette" {} {} {}
+"N\u00e9gret de Fronton" "N\u00e9grette" {} {}
+"N\u00e9gret de Gaillac" "N\u00e9grette" {} {}
+{Negria} "Mourv\u00e8dre" {} {}
+{Negro Amaro} {} {} {}
+"Negro Com\u00fan" "List\u00e1n Negro" {} {}
+{Negroamaro} {Negro Amaro} {} {}
+"N\u00e9gron" "Mourv\u00e8dre" {} {}
+{Nemea} {Agiorgitiko} {} {}
+{Nemes Kadarka} {Kadarka} {} {}
+{Ner d'Ala} {} {} {}
+{Nerello Cappuccio} {Nerello} {} {}
+{Nerello Mascalese} {Nerello} {} {}
+{Nerello} {} {} {}
+{Neretto} {} {} {}
+{Nerino} {Sangiovese} {} {}
+{Nero Leccese} {Negro Amaro} {} {}
+{Nero d'Avola} {} {} {}
+{Neronet} {} {St. Laurent x Portugieser x Cabernet Sauvignon x Alibernet} {}
+"Neubursk\351" {Neuburger} {} {Roter Veltliner x Silvaner}
+{Neuburg} {Neuburger} {} {Roter Veltliner x Silvaner}
+{Neuburger} {} {} {Roter Veltliner x Silvaner}
+{Neyret} {} {} {}
+{Niagara} {} {} {}
+{Niaoysa} {Xynomavro} {} {}
+{Niaoystino} {Xynomavro} {} {}
+{Nicra Amaro} {Negro Amaro} {} {}
+"Niederl\344nder" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Niella} {Sangiovese} {} {}
+{Nielluccio} {Sangiovese} {} {}
+{Niuru Maru} {Negro Amaro} {} {}
+{Noah} {} {} {}
+"Noble-Jou\u00e9" {Pinot Noir} {} {}
+{Nobling} {} {Silvaner x Chasselas} {}
+{Nocera} {} {} {}
+{Noir Dur} {Cabernet Franc} {} {}
+{Noir de Pressac} {Malbec} {} {}
+{Noirien} {Pinot Noir} {} {}
+{Noirin} {Pinot Noir} {} {}
+"Noirin Enfarin\u00e9" {Pinot Meunier} {} {}
+{Nosiola} {} {} {}
+{Nostrano} {} {} {}
+{Nuragus} {} {} {}
+{Obaideh} {Chardonnay} {} {}
+{Odenc Blanquette} {Mauzac} {} {}
+"Od\u011bsskij \u010dornyj" {Alibernet} {Teinturier x Cabernet Sauvignon} {}
+{Ojo de Liebre} {Tempranillo} {} {}
+{Okatac} {Zinfandel} {} {}
+{Olasz Rizling} {Welschriesling} {} {}
+{Olasz Rizlink} {Welschriesling} {} {}
+{Olaszrizling} {Welschriesling} {} {}
+{Olivello} {Sciascinoso} {} {}
+{Olivette} {Gamay} {} {}
+{Ondarrabiya Beltza} {Ondarribi Beltza} {} {}
+{Ondarribi Beltza} {} {} {}
+{Ondarribi Zuri} {} {} {}
+{Ondarrubiya Beltza} {Ondarribi Beltza} {} {}
+{Ondenc} {} {} {}
+{Oporto} {Portugieser} {} {}
+"Oport\u00f3" {Portugieser} {} {}
+{Opthalmo} {} {} {}
+{Optima} {} "Silvaner x Riesling x M\u00fcller-Thurgau" {}
+{Orangetraube} {} {} {}
+{Oremus} "Z\u00e9ta" {} {}
+{Orion} {} {Optima x Villard Blanc} {}
+{Oriou} {Cornalin} {} {}
+{Ormeasco} {Dolcetto} {} {}
+{Ortega} {} "M\u00fcller-Thurgau x Siegerrebe" {}
+{Ortlieber} {} {} {}
+{Ortrugo} {} {} {}
+{Oseleta} {} {} {}
+{Osteiner} {} {Riesling x Silvaner} {}
+{Ostesona} {Garganega} {} {}
+{Ottavianello} {Cinsaut} {} {}
+"Ottonel Muskot\u00e1ly" {Muskat Ottonel} {} {}
+"\u00d6k\u00fczg\u00f6z\u00fc" {} {} {}
+"\u00d6sterreicher" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"\u00d6sterreich Weiﬂ" {} {} {}
+{Padeiro} "Tinto C\u00e3o" {} {}
+"Padern\u00e3" {Arinto} {} {}
+"Pader\u00f1ao" {Arinto} {} {}
+{Palas} {} {Vernatsch x Rubintraube} {}
+"P\341lava" {} "Roter Traminer x M\u00fcller-Thurgau" {}
+{Palomino Fino} {Palomino} {} {}
+{Palomino} {} {} {}
+{Pamid} {} {} {}
+{Pampanuta} {} {} {}
+"Pans\u00e0" {Xarel-Lo} {} {}
+"Pans\u00e0 Blanca" {Xarel-Lo} {} {}
+"Pans\u00e0 Rosada" {} {} {}
+{Parellada} {} {} {}
+{Pardillo} {} {} {}
+{Pardina} {Pardillo} {} {}
+{Parellada} {} {} {}
+{Parrelata} {} {} {}
+{Pascal Blanc} {} {} {}
+{Passerina} {Trebbiano} {} {}
+"Pa\u00eds" {} {} {}
+"Pa\u00efen" {Weiﬂer Traminer} {} {}
+{Pecorino} {} {} {}
+"Pedern\u00e3" {Arinto} {} {}
+"Pedern\u00e3o" {Arinto} {} {}
+"Pedro Xim\u00e9nez" {} {} {}
+{Pelara} {} {} {}
+{Peloso} {Trebbiano di Soave} {} {}
+{Peloursin} {} {} {}
+{Peperdy} {Malbec} {} {}
+{Per'e Palummo} {Piedirosso} {} {}
+{Periquita} {} {} {}
+{Perlan} {Chasselas} {} {}
+{Perle} {} "Gew\u00fcrztraminer x M\u00fcller-Thurgau" {}
+{Perpignan} "Macab\u00e9o" {} {}
+{Perricone} {} {} {}
+"Peseck\341 le\341nka" {Feteasca Regala} {Grasa x Feteasca Alba} {}
+{Petit Bourguignon} {Gamay} {} {}
+{Petit Bouschet} {} {Teinturier de Cher x Aramon} {}
+{Petit Brun} {} {} {}
+{Petit Cabernet} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+{Petit Courbu} {} {} {}
+{Petit Gamay} {Gamay} {} {}
+{Petit Manseng} {Manseng} {} {}
+{Petit Merle} {Merlot} {} {}
+{Petit Rhin} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Petit Rouge} {Cornalin} {} {}
+{Petit Verdot} {} {} {}
+{Petit Vidure} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+{Petit Viognier} {Viognier} {} {}
+{Petite Arvine} {} {} {}
+{Petite Sirah} {} {} {Peloursin x Syrah}
+{PetiteVidure} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+{Petrokoritho} {} {} {}
+{Pfefferl} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Phoenix} {} {Bacchus x Villard Blanc} {}
+"Ph\u00f6nix" {Phoenix} {Bacchus x Villard Blanc} {}
+{Picapoll} {} {} {}
+{Picardan} {} {} {}
+{Picardan Noir} {Cinsaut} {} {}
+{Picardon Blanc} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Picolit} {} {} {}
+{Picotener} {Nebbiolo} {} {}
+{Picotrendo} {Nebbiolo} {} {}
+{Picoutener} {Nebbiolo} {} {}
+{Picpoul} {Folle Blanche} {} {}
+{Picpoul Noir} {} {} {}
+{Piedirosso} {} {} {}
+{Pigato} {Vermentino} {} {}
+{Pignatello} {} {} {}
+{Pignola} {Pinot Noir} {} {}
+{Pignoletto} {Greco or Welschriesling} {} {}
+{Pignolo} {} {} {}
+{Pignul} {Pignolo} {} {}
+{Pineu Blanc} {Pinot Blanc} {} {}
+{Pineau} {Pinot Noir} {} {}
+{Pineau d¥Anjou} {Chenin Blanc} {} {}
+{Pineau d¥Aunis} {} {} {}
+{Pineau de la Loire} {Chenin Blanc} {} {}
+{Pinenc} {Fer Servadou} {} {}
+{Pinot Beurot} {Pinot Gris} {} {}
+{Pinot Bianco} {Pinot Blanc} {} {}
+{Pinot Bijeli} {Pinot Blanc} {} {}
+{Pinot Blanc} {} {} {}
+{Pinot Chardonnay} {Chardonnay or Pinot Blanc} {} {}
+{Pinot Crni} {Pinot Noir} {} {}
+{Pinot d¥Aunis} {Pineau d¥Aunis} {} {}
+{Pinot Grigio} {Pinot Gris} {} {}
+{Pinot Gris} {} {} {}
+{Pinot Madeleine} "Fr\u00fchburgunder" {} {}
+{Pinot Mestry Bely} {Sauvignon Blanc} {} {}
+{Pinot Meunier} {} {} {}
+{Pinot Nero} {Pinot Noir} {} {}
+{Pinot Noir} {} {} {}
+{Pinot Sivi} {Pinot Gris} {} {}
+{Pinot Tinto} {Pinot Noir} {} {}
+{Pinot-St-Laurent} {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
+{Pinotage} {} {Pinot Noir x Cinsaut} {}
+{Pinotin} {} {?} {}
+"Piquepoul d'Uz\u00e8s" {Cinsaut} {} {}
+{Piquepoul} {Folle Blanche} {} {}
+{Piros Szlanka} {} {} {}
+{Piros Tramini} {Roter Traminer} {} {}
+{Piros Veltlini} {Roter Veltliner} {} {}
+"Pi\u00e9montais" "Mourv\u00e8dre" {} {}
+"Plant Dor\u00e9" {Pinot Noir} {} {}
+"Plant Dress\u00e9" "Juran\u00e7on Blanc" {} {}
+{Plant Gris} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
+{Plant Gris} {Gamay de Chaudenay} {} {}
+{Plant Rouge de Chaudenay} {Gamay de Chaudenay} {} {}
+{Plant d'Anjou} {Chenin Blanc} {} {}
+{Plant d'Arles} {Cinsaut} {} {}
+{Plant-Robert} {} {} {}
+{Planta Fina} {} {} {}
+{Planta Fina de Pedralba} {Planta Fina} {} {}
+{Planta Nova} {} {} {}
+{Planta Pedralba} {Planta Fina} {} {}
+{Plantet} {} {S. 4461 x V. Berlandieri} {}
+{Plavac Bijeli} {} {} {}
+{Plavac Mali} {} {} {Zinfandel x Dobricic}
+{Plavina Crna} {} {} {}
+{Plavina} {Plavina or Plavac Mali} {} {}
+{Plousard} {Poulsard} {} {}
+{Ploussard} {Poulsard} {} {}
+{Plovdina} {} {} {}
+{Plyto} {} {} {}
+"Poc\u00e0lza" {Schioppettino} {} {}
+{Poeirinha} {Baga} {} {}
+{Popolka} {Xynomavro} {} {}
+{Popolka Naoussis} {Negoska} {} {}
+{Portugais Bleu} {Portugieser} {} {}
+{Portugaljka} {Portugieser} {} {}
+{Portugieser} {} {} {}
+{Portugizac Crni} {Portugieser} {} {}
+{Posip} {} {} {}
+{Poulsard} {} {} {}
+{Povolide Paga Dividas} {Baga} {} {}
+{Prachttraube} {} {} {}
+{Premsal Blanc} {Moll} {} {}
+{Prensa} {} {} {}
+{Prensal Blanc} {Prensa} {} {}
+{Pressac} {Malbec} {} {}
+{Pretinho} {Baga} {} {}
+{Preto Marthinho} {} {} {}
+{Preto Mortagua} {Touriga Nacional} {} {}
+{Preto Rifete} {Baga} {} {}
+{Prieto Picudo} {} {} {}
+{Primaticcio} {Montepulciano or Zinfandel} {} {}
+{Primativo} {Zinfandel} {} {}
+{Primitivo} {Zinfandel} {} {}
+{Prinzipal} {} {Seibel x Riesling x Ehrenfelser} {}
+{Prior} {} {Pinot Noir x Merzling x St. Laurent} {}
+{Procanico} {Trebbiano} {} {}
+{Prokupac} {} {} {}
+{Prosecco} {Prosecco Tondo or Prosecco Lungo} {} {}
+{Prosecco Tondo} {} {} {}
+{Prosecco Balbo} {Prosecco Tondo} {} {}
+{Prosecco Lungo} {} {} {}
+"Provech\u00f3n" {Bobal} {} {}
+{Prugnet} {Nebbiolo} {} {}
+{Prugnolo Gentile} {Sangiovese} {} {}
+"Pr\u00ebmetta" {} {} {}
+{Pugnet} {Nebbiolo} {} {}
+{Queue Tendre} {Colombard} {} {}
+{Queue Verte} {Colombard} {} {}
+{Quillard} "Juran\u00e7on Blanc" {} {}
+{Quillat} "Juran\u00e7on Blanc" {} {}
+{Rabiosa Bianca} {Durella} {} {}
+{Rabiosa} {Durella} {} {}
+{Rabosa} {Raboso Veronese} {} {}
+{Raboso del Piave} {} {} {}
+{Raboso Veronese} {} {} {}
+{Radonska} {Bouvier} {} {Pinoc Blanc x so far unknown grape}
+{Raffiat de Moncade} {Arrufiac} {} {}
+{Rajnai Rizling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rajnski Rizling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Ramisco} {} {} {}
+{Rana Modra Mlinaria} {Pinot Meunier} {} {}
+{Ranfoliza} "Gew\u00fcrztraminer" {} {}
+{Ranina} {Bouvier} {} {Pinoc Blanc x so far unknown grape}
+"R\u00e1thay" {} "Blauburger x Seyve Villard x Blaufr\u00e4nkisch" {}
+{Raverusto} {Cortese} {} {}
+{Rebo} {} {Marzemino x Merlot} {}
+{Rebula} {Ribolla} {} {}
+{Refosc} {Refosco del Carso} {} {}
+{Refosco dal Peduncolo Rosso} {Refosco} {} {}
+{Refosco del Carso} {Refosco} {} {}
+{Refosco del Terrano} {Refosco} {} {}
+{Refosco di Faedis} {Refosco} {} {}
+{Refosco di Rauscedo} {Refosco} {} {}
+{Refosco d¥Istria} {Refosco} {} {}
+{Refosco} {} {} {}
+{Refosk} {Refosco} {} {}
+{Regent} {} {Diana x Chambourcin} {}
+{Regner} {} {Luglienca Bianca x Gamay} {}
+{Reichensteiner} {} "M\u00fcller-Thurgau x Madeleine Angevine x Weiﬂer Calabreser" {}
+{Renski Rizling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"R\u00e8ze" {} {} {}
+{Rheingauer} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rheinriesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rhine Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rhine Riesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rhin} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Rhoditis} {Roditis} {} {}
+{Ribolla Gialla} {Ribolla} {} {}
+{Ribolla Nera} {Schioppettino} {} {}
+{Ribolla Riminese} {Greco} {} {}
+{Ribolla} {} {} {}
+{Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rieslaner} {} {Silvaner x Riesling} {}
+{Riesler} {Welschriesling oder Weiﬂer Riesling} {} {}
+{Rieslinger} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Riesling Italico} {Welschriesling} {} {}
+{Riesling Renano} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Riesling x Sylvaner} "M\u00fcller-Thurgau" {Riesling x Madeleine Royale} {}
+{Riesling-Sylvaner} "M\u00fcller-Thurgau" {Riesling x Madeleine Royale} {}
+{Riesling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rifete} {Baga or Touriga Franca} {} {}
+{Ripartella} {} {} {}
+{Ripolli} {} {} {}
+{Rivaner} "M\u00fcller-Thurgau" {Riesling x Madeleine Royale} {}
+{Rizling Vlassky} {Welschriesling} {} {}
+{Rizlingzilvani} "M\u00fcller-Thurgau" {Riesling x Madeleine Royale} {}
+{Rizlinkszilvanski} "M\u00fcller-Thurgau" {Riesling x Madeleine Royale} {}
+{Rkachiteli} {Rkatsiteli} {} {}
+{Rkaciteli} {Rkatsiteli} {} {}
+{Rkatiteli} {Rkatsiteli} {} {}
+{Rkatsiteli} {} {} {}
+{Rkatziteli} {Rkatsiteli} {} {}
+{Robinet} "Jacqu\u00e8re" {} {}
+{Robola} {} {} {}
+{Roditis} {} {} {}
+{Roesler} {} "Zweigelt x Seyve Villard x Blaufr\u00e4nkisch" {}
+{Rolle} {Vermentino} {} {}
+{Rollo} {} {} {}
+{Romeiko} {} {} {}
+{Romorantin} {} {} {}
+{Rondinella} {} {} {}
+{Rondo} {} {Zarya Severa x St. Laurent} {}
+{Rosenmuskateller} {Moscato Rosa} {} {}
+{Rosete} {Baga} {} {}
+"Ros\u00e9" {Nebbiolo} {} {}
+{Rosmarintraube} {Chasselas} {} {}
+{Rossanella} {Molinara} {} {}
+{Rossara} {Molinara} {} {}
+{Rossese} {Rossese or Dolcetto} {} {}
+{Rossignola} {} {} {}
+"R\366ssling" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Rossola} {} {} {}
+{Rossola Nera} "Mourv\u00e8dre" {} {}
+{Rotberger} {} {Vernatsch x Riesling} {}
+{Rotburger} {Zweigelt} "Blaufr\u00e4nkisch x St. Laurent" {}
+{Rotclevner} "Gew\u00fcrztraminer" {} {}
+{Rote Babotraube} "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Roter Elbling} {} {} {}
+{Roter Malvasier} "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Roter Riesling} "Ryzlink \u010derven\375" {} {}
+{Roter Slanka} {Piros Szlanka} {} {}
+{Roter Traminer} "Gew\u00fcrztraminer" {} {}
+{Roter Veltliner} {} {} {}
+{Roter Zierfandler} {Zierfandler} {} {Traminer x Roter Veltliner}
+{Rotgipfler} {} {} {}
+{Rotweiﬂer Veltliner} {} {} {}
+"Rou\u010d\355 b\355l\351" {Pinot Blanc} {} {}
+"Rou\u010d\355 modr\351" {Pinot Noir} {} {}
+"Rou\u010d\355 \u0161ed\351" {Pinot Gris} {} {}
+{Rouge de Dioly} {} {} {}
+{Roupeiro} {} {} {}
+{Rousanne} {Roussanne} {} {}
+{Rousann} {Trebbiano} {} {}
+{Roussanne} {} {} {}
+{Rousselet} "Gew\u00fcrztraminer" {} {}
+"Roussette de Saint-P\u00e9ray" {Marsanne} {} {}
+{Roussette} "Altesse or Jacqu\u00e8re" {} {}
+{Roussillon} {Grenache} {} {}
+{Roussin} {} {} {}
+{Roz} "Gew\u00fcrztraminer" {} {}
+{Rubin} {} {Nebbiolo x Syrah} {}
+{Rubired} {} "Alicante Ganzin x Tinto C\u00e3o" {}
+{Ruby Cabernet} {} {Carignan x Cabernet Sauvignon} {}
+{Ruche'} {} {} {}
+{Rufete} {} {} {}
+{Ruffiac} {Arrufiac or Petit Courbu or Gros Courbu} {} {}
+{Ruffiat} {} {} {}
+{Rukatac} {} {} {}
+{Rulanda} {Pinot Gris} {} {}
+"Rul\u00e4nder" {Pinot Gris} {} {}
+"Rulandsk\351 b\355l\351" {Pinot Blanc} {} {}
+"Rulandsk\u00e9 Modr\u00e9" {Pinot Noir} {} {}
+"Rulandsk\u00e9 \u0161ed\u00e9" {Pinot Gris} {} {}
+"Rulandsk\u00e9 Sed\u00e9" {Pinot Gris} {} {}
+{Rumeni Muskat} {Moscato Giallo} {} {}
+{Rynsky Razlink} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"Ryzlink \u010derven\375" {} {} {}
+{Ryzlink Rynsky} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Ryzlink Rajinsky} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"Ryzlink r\375nsk\375" {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+"Ryzlink Vla\u0161sk\375" {Welschriesling} {} {}
+"R\u00e4ifrench" {Elbling} {} {}
+"R\u00e4uschling" {} {} {}
+{Sacy} {} {} {}
+"S\u00e1gamuskot\u00e1ly" {Moscato Giallo} {} {}
+{Sagrantino} {} {} {}
+"Saint-\u00c9milion" "S\u00e9millon" {} {}
+{Salerne} {Cinsaut} {} {}
+{Salvagnin} {Pinot Noir} {} {}
+{Sametovka} {} {} {}
+{Sams} {Carignan} {} {}
+"Sams\u00f3" {Carignan} {} {}
+{Samtrot} {} {} {}
+{San Lunardo} {} {} {}
+{Sanvicetro} {Sangiovese} {} {}
+{Sangiovese Grosso} {Sangiovese} {} {}
+{Sangiovese Piccolo} {Sangiovese} {} {}
+{Sangiovese} {} {} {}
+{Sangioveto} {Sangiovese} {} {}
+{Sankt-Georgs-Rebe} {Agiorgitiko} {} {}
+{Sanktlorenztraube} {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
+"Santar\u00e9m" {Periquita} {} {}
+{Sanvicetro} {Sangiovese} {} {}
+{Saperavi Severnyi} {} {} {}
+{Saperavi} {} {} {}
+{Saphira} {} {Arnsburger x Seyve Villard} {}
+{Sarga-Muskotaly} {} {} {}
+{Sauvignon} {Sauvignon Blanc} {} {}
+{Sauvignon Blanc} {} {} {}
+{Sauvignon Gris} "Fi\u00e9" {} {}
+{Sauvignon Gros} {Muscadelle} {} {}
+"Sauvignon Ros\u00e9" "Fi\u00e9" {} {}
+{Sauvignon Rouge} {Cabernet Sauvignon} {} {Cabernet Franc x Sauvignon Blanc}
+{Sauvignon Vert} {Muscadelle} {} {}
+{Sauvignonasse} {Muscadelle} {} {}
+{Savagnin Blanc} {Weiﬂer Traminer} {} {}
+"Savagnin Musqu\351" {Sauvignon Blanc} {} {}
+{Savagnin Noir} {Pinot Noir} {} {}
+"Savagnin Ros\u00e9" "Gew\u00fcrztraminer" {} {}
+{Savagnin} {Weiﬂer Traminer} {} {}
+{Savatiano} {} {} {}
+{Savilon} {} "Veltl\355nsk\351 \u010derven\351 ran\351 x Merlot" {}
+{Scheurebe} {} {so far unknown grape x Riesling} {}
+{Schiava Grigia} {Vernatsch} {} {}
+{Schiava Grossa} {Vernatsch} {} {}
+{Schiava} {Vernatsch} {} {}
+{Schioppettino} {} {} {}
+{Schiuchitajolu} {Sciacarello} {} {}
+{Schwarze Frankische} "Blaufr\u00e4nkisch" {} {}
+{Schwarzriesling} {Pinot Meunier} {} {}
+"Sch\u00f6nburger" {} {Pinot Noir x Chasselas x Muscat} {}
+"Sch\u00f6nedel" {Chasselas} {} {}
+{Sciacarello} {} {} {}
+{Sciacarellu} {Sciacarello} {} {}
+{Sciaccarellu} {Sciacarello} {} {}
+{Sciascinoso} {} {} {}
+{Seibel} {} {} {}
+{Semidano} {} {} {}
+"Semil\u00e3o" "S\u00e9millon" {} {}
+{Semijon} "S\u00e9millon" {} {}
+{Sentlovrenka} {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
+{Sercial} {} {} {}
+{Sereksia} {} {} {}
+"Ser\u00e8ne" {Syrah} {} {Dureza x Mondeuse Blanche}
+{Serprina} {Prosecco} {} {}
+{Servagnin} {Pinot Noir} {} {}
+{Seyval Blanc} {} {Seibel 5656 x Rayon d¥Or} {}
+{Seyve Villard} {} {} {}
+{Shiraz} {Syrah} {} {Dureza x Mondeuse Blanche}
+{Shiroka Melnishka Loza} {Melnik} {} {}
+{Sideritis} {} {} {}
+{Siegerrebe} {} "Madeleine Angevine x Gew\u00fcrztraminer" {}
+{Silberling} {Chasselas} {} {}
+{Silcher} {} {Kerner x Silvaner} {}
+{Silla Blanc} {Grenache Blanc} {} {}
+{Silvanec} {} {} {}
+{Silvaner} {} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Silvanske} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Sipon} {Furmint} {} {}
+"S\u00ediria" {Roupeiro} {} {}
+{Sirah} {Syrah} {} {Dureza x Mondeuse Blanche}
+{Sirius} {} {Bacchus x Villard Blanc} {}
+{Skopelitis} {} {} {}
+{Skrlet} {} {} {}
+{Smederevka} {Smederevo} {} {}
+{Smederevo} {} {} {}
+{Solaris} {} {Merzling x Muskat Ottonel} {}
+{Soleil Blanc} {} {Seibel 10.868} {}
+{Sonoma Riesling} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Souman\u00e8s" {Fer Servadou} {} {}
+"Sous\u00f3n" {} {} {}
+{Sovinjon} {Sauvignon Blanc} {} {}
+{Spaniol} {Mayorquin} {} {}
+{Spanna} {Nebbiolo} {} {}
+{Spargelen} {Nosiola} {} {}
+"Sp\u00e4tburgunder" {Pinot Noir} {} {}
+"Sp\u00e4trot" {Zierfandler} {} {Traminer x Roter Veltliner}
+{St-Georgs-Rebe} {Agiorgitiko} {} {}
+{St. Laurent} {} {} {so far unknown Pinot x so far unknown grape}
+{Staufer} {} {Bacchus x Villard Blanc} {}
+{Stavroto} {} {} {}
+{Steen} {Chenin Blanc} {} {}
+{Steinschiller} "K\u00f6vidinka" {} {}
+{Subirat Parent} {Malvasia Riojana} {} {}
+{Sumoll} {} {} {}
+{Surin} {Sauvignon Blanc} {} {}
+"S\374ssling" {Chasselas} {} {}
+"S\374sstraube" {Chasselas} {} {}
+"Svatovavrineck\u00e9" {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
+"Svatovav\u0159ineck\351" {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
+{Svatovrinecke} {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
+{Sylvaner} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Sylv\341nsk\351" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Sylv\341nsk\351 zelen\351" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Sypernavi Severnyi} {Muskat Ottonel} {} {}
+{Syra} {Syrah} {} {Dureza x Mondeuse Blanche}
+{Syrac} {Syrah} {} {Dureza x Mondeuse Blanche}
+{Syrah} {} {} {Dureza x Mondeuse Blanche}
+"Sz\u00fcrkebar\u00e1t" {Pinot Gris} {} {}
+"Sz\374rkeb\341r\341t" {Pinot Gris} {} {}
+"S\u00e4mling 88" {Scheurebe} {so far unknown grape x Riesling} {}
+"S\u00e9millon" {} {} {}
+"S\351millon Rouge" {Merlot} {} {}
+"T\u00e1lia" {Trebbiano} {} {}
+{Talianska Grasevina} {Welschriesling} {} {}
+{Tamarez} {Trincadeira des Pratas} {} {}
+"Tama\u00eeioasa Romaneasca" "Tam\u00eeioasa Romaneasca" {} {}
+{Tamianka} {Misket} {} {}
+"Tam\u00eeioasa Romaneasca" {} {} {}
+{Tannat} {} {} {}
+{Tapolek} {Rkatsiteli} {} {}
+{Tauberschwarz} {} {} {}
+{Tausendgut} "Ezerj\u00f3" {} {}
+{Tazzelenghe} {} {} {}
+{Teinturier de Chaudenay} {Gamay de Chaudenay} {} {}
+{Teinturier de Cher} {} {} {}
+{Teinturier} {} {Hybrid-Family with Grenache} {}
+{Temjanika} {} {} {}
+{Tempranillo} {} {} {}
+{Teran} {Refosco del Carso} {} {}
+{Terano} {Refosco del Carso} {} {}
+{Terlaner} {Greco} {} {}
+{Teroldego} {} {} {}
+{Teroldego Rotaliano} {Teroldego} {} {}
+{Teroldigo} {Teroldego Rotaliano} {} {}
+{Terrano} {Refosco del Carso} {} {}
+{Terravin} {Chasselas} {} {}
+{Terret} {any Terret grape} {} {}
+{Terret Blanc} {} {} {}
+{Terret Gris} {} {} {}
+{Terret Noir} {} {} {}
+{Thalia} {Trebbiano} {} {}
+{Thiniatiko} {} {} {}
+{Thrapsanthiri} {} {} {}
+{Tibouren} {} {} {}
+{Tiburen} {Tibouren} {} {}
+{Timorasso} {} {} {}
+{Tinta Amarela} {Trincadeira} {} {}
+{Tinta Aragones} {Grenache} {} {}
+{Tinta Bairradinha} {Baga} {} {}
+{Tinta Barroca} {} {} {}
+"Tinta del Pa\u00eds" {Tempranillo} {} {}
+{Tinta Fina} {Baga} {} {}
+{Tinta Grossa} {Tinta Barroca} {} {}
+{Tinta Madeira} {Tinta Negra Mole} {} {}
+{Tinta Mole} {Tinta Negra Mole} {} {}
+{Tinta Montereio} {Tempranillo} {} {}
+{Tinta Negra Mole} {} {} {}
+{Tinta Pomar} {} {} {}
+{Tinta Roriz} {Tempranillo} {} {}
+{Tinta Santiago} {Tempranillo} {} {}
+{Tinta da Bairrada} {Baga} {} {}
+{Tinta de Navalcarnero} {Grenache} {} {}
+{Tinta de Toro} {Tempranillo} {} {}
+{Tintet} {} {} {}
+{Tinto Aragones} {Grenache} {} {}
+"Tinto C\u00e3o" {} {} {}
+{Tinto de Madrid} {Tempranillo} {} {}
+{Tinto Fino} {Tempranillo} {} {}
+{Tinto Mata} "Tinto C\u00e3o" {} {}
+{Tinto Mazuelo} {Carignan} {} {}
+{Tinto Menodo} {Grenache} {} {}
+{Tinto Navalcarnero} {Grenache} {} {}
+{Tinto Riojano} {Tempranillo} {} {}
+{Tinto de Requena} {Bobal} {} {}
+{Tinto de Zurra} {Bobal} {} {}
+"Tinto del Pa\u00eds" {Tempranillo} {} {}
+{Tinturin} {Malbec} {} {}
+{Tiraldega} {Teroldego Rotaliano} {} {}
+{Tocai Bianco} {Muscadelle} {} {}
+{Tocai Friulano} {Muscadelle} {} {}
+{Tocai Italico} {Muscadelle} {} {}
+{Tocai Rosso} {Grenache} {} {}
+{Tokaisky} {Furmint} {} {}
+{Tokay d¥Alsace} {Pinot Gris} {} {}
+{Tokay Pinot Gris} {Pinot Gris} {} {}
+{Tokay} {Muscadelle or Pinot Gris} {} {}
+{Tondo} {Prosecco} {} {}
+{Torbato} {} {} {}
+{Torneiro} {Trincadeira} {} {}
+{Toroldola} {Teroldego Rotaliano} {} {}
+{Torontel} "Torront\u00e9s" {} {}
+"Toront\u00e9s" "Torront\u00e9s" {} {}
+"Torront\u00e9s" "any Torront\u00e9s grape" {} {}
+"Torront\u00e9s Mendozino" {} {} {}
+"Torront\u00e9s Riojana" {} {} {}
+"Torront\u00e9s Sanjuanino" {} {} {}
+{Tourica Fina} {Touriga Nacional} {} {}
+{Touriga Franca} {} {} {}
+{Touriga Francesca} {Touriga Franca} {} {}
+{Touriga Nacional} {} {} {}
+{Touriga} {Touriga Nacional} {} {}
+{Tourigo Antigo} {Touriga Nacional} {} {}
+"Tourigo do D\u00e3o" {Touriga Nacional} {} {}
+"Tourig\u00e3o" {Touriga Nacional} {} {}
+{Tourkopoula} {Roditis} {} {}
+{Toustain} {Sangiovese} {} {}
+{Trajadura} {} {} {}
+{Traminac} {Traminer} {} {}
+{Traminer} {Weiﬂer Traminer} {} {}
+{Traminer Aromatico} "Gew\u00fcrztraminer" {} {}
+"Traminer Musqu\351" "Gew\u00fcrztraminer" {} {}
+{Tramini} "Weiﬂer Traminer or Gew\u00fcrztraminer" {} {}
+{Tramini Feher} {Weiﬂer Traminer} {} {}
+"Tram\355n b\355l\375" {} {} {}
+"Tram\355n \u010derven\375" "Roter Traminer or Gew\u00fcrztraminer" {} {}
+"Tram\355n ko\u0159enn\375" "Gew\u00fcrztraminer" {} {}
+{Trbljan} {} {} {}
+{Trebbianello} {Muscadelle} {} {}
+{Trebbiano Abruzzese} {} {} {}
+{Trebbiano Giallo} {} {} {}
+{Trebbiano Modenese} {} {} {}
+{Trebbiano Toscano} {} {} {}
+{Trebbiano Verde} {Trebbiano di Soave} {} {}
+{Trebbiano di Lazio} {} {} {}
+{Trebbiano di Lugana} {Trebbiano Toscano} {} {}
+{Trebbiano di Romagna} {} {} {}
+{Trebbiano di Soave} {Trebbiano Toscano} {} {}
+{Trebbiano di Spoletino} {} {} {}
+{Trebbiano} {any Trebbiano grape} {} {}
+{Treixadura} {Trajadura} {} {}
+{Trepat} {} {} {}
+{Tressot} {} {} {}
+"T\u0159i sestry" {Laurot} "Merlot x Blaufr\u00e4nkisch x St. Laurent x Siebel 13666" {}
+{Tribianco Tedesco} {Chasselas} {} {}
+{Trincadeira des Pratas} {} {} {}
+{Trincadeira Preta} {Trincadeira} {} {}
+{Trincadeira} {Trincadeira or Trajadura} {} {}
+{Triumph vom Elsass} {} "101-14 Mgt x Knipperl\u00e9" {}
+{Trojiscina} {} {} {}
+"Trol\355nsk\351" {Vernatsch} {} {}
+{Trollinger} {Vernatsch} {} {}
+{Trouchet Noir} {Cabernet Franc} {} {}
+{Trousseau} {} {} {}
+{Tsaoussi} {} {} {}
+{Tschaggelevernatsch} {Vernatsch} {} {}
+{Turiga} {Touriga Nacional} {} {}
+{Ugni Blanc} {Trebbiano Toscano} {} {}
+{Uhgetta} {Vespolina} {} {}
+{Uhudler} {} {} {}
+{Ull de Lebre} {Tempranillo} {} {}
+{Ull de Llebre} {Tempranillo} {} {}
+{Uva Aminea} {Trebbiano di Soave} {} {}
+{Uva Cane} {Negro Amaro} {} {}
+{Uva Grossa} {Malvasia di Sardegna} {} {}
+{Uva Grosso} {Malvasia di Sardegna} {} {}
+{Uva Marana} {Trebbiano di Soave} {} {}
+{Uva Rara} {Bonarda} {} {}
+{Uva Rilla} {} {} {}
+{Uva dei Cani} {Aglianico} {} {}
+{Uva di Spagna} {Carignan} {} {}
+{Uva di Troia} {} {} {}
+"Vaccar\u00e8se" {} {} {}
+{Valdepenas} {Tempranillo} {} {}
+"Valdigui\u00e9" {} {} {}
+{Valenciana Tinta} {Bobal} {} {}
+{Valenciana} "Do\u00f1a Blanca" {} {}
+{Variedad} {} {} {}
+{Vavrinecke} {St. Laurent} {} {so far unknown Pinot x so far unknown grape}
+"Ve\u010derka" "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+{Veltlini} "Gr\u00fcner Veltliner" {} {}
+{Veltlin Zelene} "Gr\u00fcner Veltliner" {} {}
+"Veltl\u00ednsk\u00e9 Zelen\u00e9" "Gr\u00fcner Veltliner" {} {}
+"Veltl\355nsk\351 \u010derven\351" {Roter Veltliner} {} {}
+"Veltl\355nsk\351 \u010derven\351 ran\351" "Fr\u00fchroter Veltliner" {} {Silvaner x Roter Veltliner}
+"Veltl\355nsk\351 \u010dervenobiele" {Rotweiﬂer Veltliner} {} {}
+{Vennentino} {Vermentino} {} {}
+{Verdeca} {} {} {}
+{Verdejo} {} {} {}
+{Verdelho} {Verdelho or Gouveio} {} {}
+{Verdello} {} {} {}
+{Verdicchio} {Trebbiano di Soave} {} {}
+{Verdiell} {Tempranillo} {} {}
+{Verdone} {Trebbiano di Soave} {} {}
+{Verdot Rouge} {Petit Verdot} {} {}
+{Verduzzo Friulano} {} {} {}
+{Verduzzo Trevigiano} {} {} {}
+{Veritas} {} "Ryzlink \u010derven\375 x Bouvier" {}
+{Vermentini} {Vermentino} {} {}
+{Vermentino} {} {} {}
+{Vermentinu} {Vermentino} {} {}
+{Vernaccia} {} {} {}
+{Vernaccia Nera} {} {} {}
+{Vernaccia di Oristano} {} {} {}
+{Vernassa} {Ner d'Ala} {} {}
+{Vernatsch} {} {} {}
+{Vert Blanc} "Aligot\u00e9" {} {Pinot Noir x Heunisch}
+{Verzaro} {Trebbiano di Soave} {} {}
+{Vespaiolo} {} {} {}
+{Vesparol} {Malbec} {} {}
+{Vespolina} {} {} {}
+{Vespolino} {Vespolina} {} {}
+{Vid de Aranda} {Tempranillo} {} {}
+{Vidal Blanc} {} {Ugni x Rayon d¥Or} {}
+{Vien de Nus} {} {} {}
+{Vignoles} {} {S. 6905 x Pinot Noir} {}
+{Vilana} {} {} {}
+{Villard Blanc} {} {Seibel 6468 x Seibel 6905} {}
+{Viogne} {Viognier} {} {}
+{Viognier} {} {} {}
+{Violone} {Montepulciano} {} {}
+{Vionier} {Viognier} {} {}
+{Vionnier} {Viognier} {} {}
+{Vitovska} {} {} {}
+{Vitovska Grganja} {Vitovska} {} {}
+{Vitraille} {Merlot} {} {}
+{Vitralle} {Merlot} {} {}
+{Viura} "Macab\u00e9o" {} {}
+{Vlassky Razlink} {Welschriesling} {} {}
+{Volitza Aspri} {} {} {}
+{Volitza Mavri} {} {} {}
+{Vranac} {} {} {}
+{Vratza Misket} {Misket} {} {}
+{Vrbnik} {Zlahtina} {} {}
+{Vuera} "Macab\u00e9o" {} {}
+{Vugava} {} {} {}
+{Vuillermin} {} {} {}
+{Vulgava Bijela} {Viognier} {} {}
+"V\u00f6slauer" {Portugieser} {} {}
+{Weihrauchtraube} "Tam\u00eeioasa Romaneasca" {} {}
+{Weissburgunder} {Pinot Blanc} {} {}
+{Weisser Kleiner Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Weisser Rieseling} {Weiﬂer Riesling} {} {Heunisch x Roter Traminer}
+{Weissgipfler} "Gr\u00fcner Veltliner" {} {}
+{Weiﬂburgunder} {Pinot Blanc} {} {}
+{Weiﬂer Burgunder} {Pinot Blanc} {} {}
+{Weiﬂer Calabreser} {} {} {}
+{Weiﬂer Heunisch} {Heunisch} {} {}
+{Weiﬂer Muskateller} "Muscat Blanc \u00e0 Petit Grains" {} {}
+{Weiﬂer Portugieser} {} {} {}
+{Weiﬂer Riesling} {} {} {Heunisch x Roter Traminer}
+{Weiﬂer Traminer} {} {} {}
+{Weiﬂgipfler} "Gr\u00fcner Veltliner" {} {}
+{Welschel} {Elbling} {} {}
+{Welschrieseling} {Welschriesling} {} {}
+{Welschriesling} {} {} {}
+{Welsch Rizling} {Welschriesling} {} {}
+{White Frontignac} "Muscat Blanc \u00e0 Petit Grains" {} {}
+{White Frontignan} "Muscat Blanc \u00e0 Petit Grains" {} {}
+{Wildbacher} {Blauer Wildbacher} {} {}
+"W\u00e4lscher" {Chasselas} {} {}
+"W\344lschriesling" {Welschriesling} {} {}
+"W\u00fcrzer" {} "Gew\u00fcrztraminer x M\u00fcller-Thurgau" {}
+{Xarel-Lo} {} {} {}
+{Xinomavro} {Xynomavro} {} {}
+{Xinomavro Naoussis} {Xynomavro} {} {}
+{Xynisteri} {} {} {}
+{Xynomavro} {} {} {}
+{Zakynthino} {} {} {}
+"Zalagy\u00f6ngye" {} "Villard Blanc x Casba Gy\u00f6ngye" {}
+{Zalema} {} {} {}
+{Zapfner} {Furmint} {} {}
+{Zarya Severa} {} {} {}
+{Zeleny} {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+{Zenit} {} {} {}
+{Zerjavina} {Roter Zierfandler} {} {Traminer x Roter Veltliner}
+"Z\u00e9ta" {} {Furmint x Bouvier} {}
+{Zibibbo} {Muscat d¥Alexandrie} {} {}
+{Zierfandler} {} {} {Traminer x Roter Veltliner}
+{Zilavka} {} {} {}
+{Zinfandel} {} {} {}
+{Zlahtina} {} {} {}
+"Zleni Veltina\u010d" "Gr\u00fcner Veltliner" {} {}
+{Zupljanka} {Chasselas} {} {}
+{Zweigelt} {} "Blaufr\u00e4nkisch x St. Laurent" {}
+{Zweigelt Blau} {Zweigelt} "Blaufr\u00e4nkisch x St. Laurent" {}
+{Zynomavro} {Xynomavro} {} {}
+"Z\u00f6ldszilv\u00e1ni" "Gr\u00fcner Silvaner" {} {}
+"Z\366ldsilv\341ni" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"
+"Z\u00f6ldveltelini" "Gr\u00fcner Veltliner" {} {}
+"Z\u00f6ld Veltelini" "Gr\u00fcner Veltliner" {} {}
+"Z\u00f6ld Szilvani" {Silvaner} {} "Traminer x \u00d6sterreich Weiﬂ"

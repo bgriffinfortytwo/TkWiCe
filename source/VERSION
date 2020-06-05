@@ -1,0 +1,7 @@
+1.0.0 (March 2009)
+
+| | |  basically, and only for releases (not development):
+| | |
+| | +- patchlevel           (increases if only bugs were fixed)
+| +--- minor version number (increases if new things were included)
++----- major version number (0 == alpha or beta, 1 == finished version)

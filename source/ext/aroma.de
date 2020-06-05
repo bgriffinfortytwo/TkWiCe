@@ -1,0 +1,90 @@
+{mikrobiologisch} {hefig}                  {Backhefe}
+{mikrobiologisch} {hefig}                  {Brioche}
+{mikrobiologisch} {milchig}                {Buttermilch}
+{mikrobiologisch} {milchig}                {Sauerkraut}
+{mikrobiologisch} {milchig}                {schweiﬂig}
+{mikrobiologisch} {milchig}                {Joghurt}
+{mikrobiologisch} {animalisch}             {Pferd}
+{mikrobiologisch} {animalisch}             "M\u00e4usenest"
+{blumig}          "Orangenbl\u00fcte"      {}
+{blumig}          {Rose}                   {}
+{blumig}          {Veilchen}               {}
+{blumig}          {Geranie}                {}
+"w\u00fcrzig"     "Gew\u00fcrznelken"      {}
+"w\u00fcrzig"     {schwarzer Pfeffer}      {}
+"w\u00fcrzig"     {Lakritz / Anis}         {}
+{fruchtig}        {Zitrus}                 {Grapefruit}
+{fruchtig}        {Zitrus}                 {Limone}
+{fruchtig}        {beerig}                 {Brombeere}
+{fruchtig}        {beerig}                 {Himbeere}
+{fruchtig}        {beerig}                 {Erdbeere}
+{fruchtig}        {beerig}                 {Johannisbeere}
+{fruchtig}        "Baumfr\u00fcchte"       {Kirsche}
+{fruchtig}        "Baumfr\u00fcchte"       {Aprikose}
+{fruchtig}        "Baumfr\u00fcchte"       {Pfirsich}
+{fruchtig}        "Baumfr\u00fcchte"       {Apfel}
+{fruchtig}        "Tropenfr\u00fcchte"     {Ananas}
+{fruchtig}        "Tropenfr\u00fcchte"     {Melone}
+{fruchtig}        "Tropenfr\u00fcchte"     {Banane}
+{fruchtig}        "Trockenfr\u00fcchte"    {Erdbeermarmelade}
+{fruchtig}        "Trockenfr\u00fcchte"    {Rosine}
+{fruchtig}        "Trockenfr\u00fcchte"    {Pflaume}
+{fruchtig}        "Trockenfr\u00fcchte"    {Feige}
+{fruchtig}        "k\u00fcnstliche Frucht" {}
+{fruchtig}        {Multivitamin}           {}
+{vegetativ}       {frisch / Natur}         "gem\u00e4hter Rasen"
+{vegetativ}       {frisch / Natur}         {Paprika}
+{vegetativ}       {frisch / Natur}         {Eukalyptus}
+{vegetativ}       {frisch / Natur}         {Minze}
+{vegetativ}       {gekocht / Natur}        "gr\u00fcne Bohnen"
+{vegetativ}       {gekocht / Natur}        {Spargel}
+{vegetativ}       {gekocht / Natur}        {Kokos}
+{vegetativ}       {gekocht / Natur}        "gr\u00fcne Oliven"
+{vegetativ}       {gekocht / Natur}        {schwarze Oliven}
+{vegetativ}       {gekocht / Natur}        {Artischocke}
+{vegetativ}       {getrocknet / Natur}     {Heu / Stroh}
+{vegetativ}       {getrocknet / Natur}     {Tee}
+{vegetativ}       {getrocknet / Natur}     {Tabak}
+{nussig}          {Walnuﬂ}                 {}
+{nussig}          {Haselnuﬂ}               {}
+{nussig}          {Mandel}                 {}
+{karamelisiert}   {Honig}                  {}
+{karamelisiert}   {Karamelbonbon}          {}
+{karamelisiert}   {Butter / diacetyl}      {}
+{karamelisiert}   {Sojasoﬂe}               {}
+{karamelisiert}   {Schokolade}             {}
+{karamelisiert}   {Zuckersirup}            {}
+{holzig}          {harzig}                 {Vanille}
+{holzig}          {harzig}                 {Zeder}
+{holzig}          {harzig}                 {Eiche}
+{holzig}          {Desinfektionsmittel}    {Speck}
+{holzig}          {Desinfektionsmittel}    {Phenol}
+{holzig}          {Desinfektionsmittel}    {medizinisch}
+{holzig}          {verbrannt}              {Kaffee}
+{holzig}          {verbrannt}              "ger\u00f6stet"
+{holzig}          {verbrannt}              {rauchig}
+{erdig}           {erdig}                  {dusty}
+{erdig}           {erdig}                  {Pilz}
+{erdig}           {modrig}                 {modriger Kork}
+{erdig}           {modrig}                 {muffig / schimmelig}
+{chemisch}        {stahlig}                {}
+{chemisch}        {Petroleum}              {Teer}
+{chemisch}        {Petroleum}              {Kunststoff}
+{chemisch}        {Petroleum}              {Kerosin}
+{chemisch}        {Petroleum}              "Diesel\u00f6l"
+{chemisch}        {Schwefel}               {Gummi}
+{chemisch}        {Schwefel}               {hydrogene Sulfide}
+{chemisch}        {Schwefel}               {Wasserglas}
+{chemisch}        {Schwefel}               {Knoblauch}
+{chemisch}        {Schwefel}               {Stinktier}
+{chemisch}        {Schwefel}               {Asche}
+{chemisch}        {Schwefel}               {abgebranntes Streichholz}
+{chemisch}        {Schwefel}               {Schwefeldioxid}
+{chemisch}        {Schwefel}               {nasse Wolle / naser Hund}
+{chemisch}        {stechend}               {Nagellackentferner}
+{chemisch}        {stechend}               {Essig}
+{chemisch}        {stechend}               {Methanol}
+{chemisch}        {stechend}               {Schwefeldioxid}
+{scharf}          {heiﬂ}                   {Alkohol}
+{scharf}          {kalt}                   {Menthol}
+{oxydiert}        {Sherry}                 {}

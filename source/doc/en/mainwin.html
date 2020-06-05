@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+  <title>TkWiCe Help File</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+
+<h1>The Main Window</h1>
+<p>
+  This document describes the main window, its behaviour, and its
+  elements.
+</p>
+
+<h2>Menubar</h2>
+<p>
+  The first button is the mainmenu; As in many other menus
+  too, you can tear it off it by selecting the dashed line.
+</p>
+<h3>New</h3>
+<p>
+  If you want to add a completely new wine to the databes use this.
+  Please read the explanation of the &raquo;Next Vintage&laquo;-button,
+  too.
+</p>
+
+<h3>Edit</h3>
+<p>
+  This button can only be pressed if you selected one wine from
+  the list. You will get a new window in which you can change anything
+  correspondig to the selected wine.
+</p>
+
+<h3>Next Vintage</h3>
+<p>
+  This button can only be pressed if you selected one wine
+  from the list. You will get a new entry into your database correspondig
+  to the selectetd wine, but one year younger. Note that some of your
+  entries won't be added, because they might have changed with the new
+  vintage.<br>
+  If you want to add any other wine from a already in the databes
+  known winery using this button might be a really good idea - you've only
+  got to change some things, but don't have to enter everything about the
+  winery. Due to your filter settings it might be that you won't see a
+  result of pressing this button (for example the amount of bottles is
+  zero until you entered the amount - so if you're in front of the
+  &raquo;Available&laquo; list ... but in that case you will see an
+  notice, too).
+</p>
+
+<h3>Delete</h3>
+<p>
+  This button can only be pressed if you selected one wine from
+  the list. You will be asked if you're sure.
+</p>
+
+<h3>Label</h3>
+<p>
+  Opens the photo window in browser mode in a own window.
+</p>
+
+<h3>Search</h3>
+<p>
+  There you can type in any string, and by pressing the button
+  or enter the wine list will be updated. Note that the result will also
+  consider any other selectetd filter. Note also that this filter will
+  be last until you press enter or the button with a clear entry.
+</p>
+
+
+<h2>Countrybar</h2>
+<p>
+  Here you can select or deselect countries from your wine list:
+</p><ul>
+  <li>first click selects a country</li>
+  <li>second removes a country from the selection</li>
+</ul><p>
+  To select all countries you can deselect all done selections, select
+  all countries, or simply use the &raquo;All&laquo;-button on the left.
+  If there are too many buttons to fit to window width you can scroll
+  them with the scroll bar on the bottom right.
+</p>
+
+
+<h2>Winelist</h2>
+<p>
+  A single mous click selects a database entry, and a double mouse click
+  opens it in the wine editor.
+</p><p>
+  You can sort the list with a mouse click on the labels on the top
+  line of the list; A second click will invert their order.
+</p><p>
+  As of too many fields their sizes can't be changed within the list -
+  therefore use the preferences.
+</p><p>
+  On Microsoft Windows the mouse wheel scroll seems not to work - not
+  my fault. Trust me, with open source software such things work ;)
+</p><p>
+  It was planed to make it optical penetrably which wine is white -
+  instead of reading the word &raquo;White&laquo; in the list (would also
+  be smaller, which means more space for other relevant informations).
+  But: With a nice, small sign it isn't possible to differ between Red
+  and Ros&eacute;, and a bigger one figured out to be ugly. The next side
+  effect was: Much slower (on the authors very old computer). So you can
+  get it if you want (it's in the preferences), but by default you see t
+  he word instead of a color box.
+</p>
+
+
+<h2>Filter</h2>
+<p>
+  If you click on a selected button it will be deactivated - so the
+  (superfluous) &raquo;All&laquo; button will be activated.
+</p>
+
+<h2>Show</h2>
+
+<h3>Available</h3>
+<p>
+  All database entries with an amount greater than zero are displayed.
+</p>
+
+<h3>Try</h3>
+<p>
+  All database entries with an amount greater than zero and none taste
+  note or drink history are displayed.
+</p>
+
+<h3>Drink</h3>
+<p>
+  All database entries with an amount greater than zero and a valid
+  date of &raquo;Next Bottle&laquo; are displayed.
+</p>
+
+<h3>Modified</h3>
+<p>
+  Any database entry which is written/changed in the last five days
+  is displayed. So it's easy to find a opened wine with amount zero to
+  add a tasting note etc.
+</p>
+
+<h3>Bio</h3>
+<p>
+  If you activate &raquo;Bio&laquo;, only wines with a not false or
+  unset bio entry are listed. Of course this button only makes sense
+  if you've filled out the corresponding entries carefully.
+</p>
+
+
+<h2>Statusbar</h2>
+<p>
+  On startup it will tell you where your database and where this
+  software is stored on your drive.<br>
+  If you select a wine, you will see the wine name and vintage
+  completely.
+</p><p>
+  Additional you get a short summary of your wine cellar.
+</p>
+
+
+<h2>Window Placement</h2>
+<p>
+  A usable window manager draws a new window on a proper place on your
+  desktop. As this software runs with various systems (and as the author
+  notices that the most popular computer system has great trouble with
+  such really basic stuff ...), you can predefine the behaviour of the
+  window placement in the preferences.
+</p>
+
+<h2>Window Size</h2>
+<p>
+  There are also other settings which are relevant for the window itself;
+  The size corresponds to your settings of:
+</p><ul>
+  <li>font size</li>
+  <li>font family</li>
+  <li>amount of characters in the wine list</li>
+  <li>amount of lines in the wine list</li>
+</ul>
+
+</body>
+
+</html>

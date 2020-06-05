@@ -1,0 +1,90 @@
+{microbiologique}             {levure}               {levure de boulanger}
+{microbiologique}             {levure}               {lie}
+{microbiologique}             {lactique}             {babeurre}
+{microbiologique}             {lactique}             {choucroute}
+{microbiologique}             {lactique}             {sueur}
+{microbiologique}             {lactique}             {yogourt}
+{microbiologique}             {animal}               {chevalin}
+{microbiologique}             {animal}               {nid de souris}
+{floral}                      {pelure d'orange}      {}
+{floral}                      {rose}                 {}
+{floral}                      {violette}             {}
+{floral}                      {geranium}             {}
+"\u00e9pice"                  {clou de girofle}      {}
+"\u00e9pice"                  {poivre noir}          {}
+"\u00e9pice"                  "r\u00e9glisse / anis" {}
+{fruit}                       {agrume}               {pamplemousse}
+{fruit}                       {agrume}               {citron}
+{fruit}                       {baie}                 "m\u00fbre"
+{fruit}                       {baie}                 {framboise}
+{fruit}                       {baie}                 {fraise}
+{fruit}                       {baie}                 {cassis}
+{fruit}                       {fruit d'arbre}        {cerise}
+{fruit}                       {fruit d'arbre}        {abricot}
+{fruit}                       {fruit d'arbre}        "p\u00eache"
+{fruit}                       {fruit d'arbre}        {pomme}
+{fruit}                       {fruit tropical}       {ananas}
+{fruit}                       {fruit tropical}       {melon}
+{fruit}                       {fruit tropical}       {banane}
+{fruit}                       {fruit sec}            {confiture de fraise}
+{fruit}                       {fruit sec}            {raisin}
+{fruit}                       {fruit sec}            {prune}
+{fruit}                       {fruit sec}            {figue}
+{fruit}                       {Fruit artificiel}     {}
+{fruit}                       {concord juice}        {}
+"herbac\u00e9 / veg\u00e9tal" {cru / naturel}        "herbe coup\u00e9e"
+"herbac\u00e9 / veg\u00e9tal" {cru / naturel}        {paprika}
+"herbac\u00e9 / veg\u00e9tal" {cru / naturel}        {eucalyptus}
+"herbac\u00e9 / veg\u00e9tal" {cru / naturel}        {menthe}
+"herbac\u00e9 / veg\u00e9tal" {cuit / naturel}       {haricot vert}
+"herbac\u00e9 / veg\u00e9tal" {cuit / naturel}       {asperge}
+"herbac\u00e9 / veg\u00e9tal" {cuit / naturel}       {coco}
+"herbac\u00e9 / veg\u00e9tal" {cuit / naturel}       {olive verte}
+"herbac\u00e9 / veg\u00e9tal" {cuit / naturel}       {olive noire}
+"herbac\u00e9 / veg\u00e9tal" {cuit / naturel}       {artichaut}
+"herbac\u00e9 / veg\u00e9tal" {sec / naturel}        {foin / paille}
+"herbac\u00e9 / veg\u00e9tal" {sec / naturel}        "th\u00e9"
+"herbac\u00e9 / veg\u00e9tal" {sec / naturel}        {tabac}
+{noix}                        {noix}                 {}
+{noix}                        {noisette}             {}
+{noix}                        {amande}               {}
+"caram\u00e9lis\u00e9"        {miel}                 {}
+"caram\u00e9lis\u00e9"        {caramel au beurre}    {}
+"caram\u00e9lis\u00e9"        {beurre / diacetyl}    {}
+"caram\u00e9lis\u00e9"        {soy sauce}            {}
+"caram\u00e9lis\u00e9"        {chocolat}             {}
+"caram\u00e9lis\u00e9"        "m\u00e9lasse"         {}
+"bois\u00e9"                  "r\u00e9sineux"        {vanille}
+"bois\u00e9"                  "r\u00e9sineux"        "c\u00e8dre"
+"bois\u00e9"                  "r\u00e9sineux"        "ch\u00eane"
+"bois\u00e9"                  "d\u00e9sinfectant"    {lard}
+"bois\u00e9"                  "d\u00e9sinfectant"    {phenol}
+"bois\u00e9"                  "d\u00e9sinfectant"    "m\u00e9dicinal"
+"bois\u00e9"                  "br\u00fbl\u00e9"      "caf\u00e9"
+"bois\u00e9"                  "br\u00fbl\u00e9"      "toast br\u00fbl\u00e9"
+"bois\u00e9"                  "br\u00fbl\u00e9"      "fum\u00e9e"
+{terreux}                     {terreux}              "poussi\u00e8re"
+{terreux}                     {terreux}              {champignon}
+{terreux}                     {moisi}                {bouchon moisi}
+{terreux}                     {moisi}                {moisissure / rouille}
+{chimique}                    {steely}               {}
+{chimique}                    "p\u00e9trole"         {goufron}
+{chimique}                    "p\u00e9trole"         {plastique}
+{chimique}                    "p\u00e9trole"         "k\u00e9ros\u00e8ne"
+{chimique}                    "p\u00e9trole"         {Diesel essence}
+{chimique}                    {soufre}               {caoutchouc}
+{chimique}                    {soufre}               "sulfure d'hydrog\u00e8ne"
+{chimique}                    {soufre}               {natural glas}
+{chimique}                    {soufre}               {ail}
+{chimique}                    {soufre}               {mouffette}
+{chimique}                    {soufre}               {chou cuit}
+{chimique}                    {soufre}               "allumette br\u00fbl\u00e9e"
+{chimique}                    {soufre}               {dioxyde de soufre}
+{chimique}                    {soufre}               "laine humide / chien mouill\u00e9"
+{chimique}                    {piquant}              "d\u00e9capant"
+{chimique}                    {piquant}              {vinaigre}
+{chimique}                    {piquant}              "\u00e9thanol"
+{chimique}                    {piquant}              {dioxyde de soufre}
+{piquant}                     {chaud}                {alcool}
+{piquant}                     {froid}                {menthol}
+"oxyd\u00e9"                  "Xer\u00e8s"           {}
