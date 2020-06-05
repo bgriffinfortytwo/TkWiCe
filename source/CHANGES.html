@@ -10,6 +10,16 @@
 
 <!-- content -->
 
+<h3>Version 1.0.0 to 1.0.1</h3>
+<ul>
+  <li>overall: Update to support Tcl/Tk 8.6, mostly bug fixes actually.</li>
+  <li> Change to "package require Tcl 8.6" where appropriate</li>
+  <li> Remove unnecessary quoting around literal values (everything is already a string)</li>
+  <li> Fix some global variable references by adding "::"</li>
+  <li> Remove or correct some grid and pack commands; errors not detected in earlier Tk versions."</li>
+  <li> Ttk detection not really necessary in 8.6, but I've left this code in place, but tried to improve it some.  This could should still work under Tk 8.5.</li>
+  <li> Some invalid UTF8 encodings where corrected in various files.</li> 
+</ul>
 <h3>Version 0.12.0 to 1.0.0</h3>
 <ul>
   <li>overall: on Tcl/Tk 8.5 some widgets take now tile into account (ttk-theme &quot;clam&quot;)</li>
