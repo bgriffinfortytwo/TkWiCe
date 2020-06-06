@@ -55,7 +55,7 @@
   this package are &raquo;setup.tcl&laquo; for the install wizard,
   and &raquo;tkwice.tcl&laquo; for TkWiCe. Example:
 </p><p style="margin-left:2em">
-  /path/to/tclsh8.5 /path/to/setup.tcl
+  /path/to/tclsh8.6 /path/to/setup.tcl
 </p><p>
   But: Most users mustn't know anything about how to execute Tcl scripts.
   Just executing &raquo;setup.tcl&laquo; or &raquo;tkwice.tcl&laquo; will
@@ -67,50 +67,51 @@
 <span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Tcl/Tk</span>
 <p>
   To run TkWice&nbsp;- and even to execute &raquo;setup.tcl&laquo;&nbsp;- you
-  need Tcl/Tk <span style="font-size:small">(recommended version 8.5&nbsp;-
-  8.4 should work, too)</span> already installed on your computer. On
+  need Tcl/Tk <span style="font-size:small">(recommended version 8.6&nbsp;-
+  8.5 should work, too)</span> already installed on your computer. On
   Unix&nbsp;/&nbsp;Linux it should be shipped with your operating system
   <span style="font-size:small">(in fact only Windows users need to get
   Tcl/Tk extra for sure)</span>; Otherwise you can get it for example from:
 </p><p style="margin-left:2em">
-  <a href="http://www.activestate.com/">http://www.activestate.com/</a>
+      <a href="https://www.activestate.com/">http://www.activestate.com/</a>
 </p><p>
   Choose on the website &quot;Language Distributions&nbsp;--
   ActiveTcl&nbsp;-- Get ActiveTCL&nbsp;- Download&quot;. Note that
   the register formular there is optional. It's free software. Also note
   that the binaries from www.activestate.com aren't artists of file sizes,
-  but they work. Alternative you may get a
+  but they work.
+</p><p>
+  Alternative you may get a
   <span style="font-size:small">(binary)</span> Tcl/Tk distribution from:
 </p><p style="margin-left:2em">
-  <a href="http://www.evolane.com/software/etcl/">http://www.evolane.com/software/etcl/</a> <span style="font-size:small">(works)</span><br>
-  <a href="http://wintcltk.berlios.de/">http://wintcltk.berlios.de/</a> <span style="font-size:small">(untested)</span>
+  <a href="https://www.magicsplat.com/">https://www.magicsplat.com/</a>
 </p><p>
   If you're a computer expert you may want source to compile
   instead of the above binaries; In that case visit
-  <a href="http://www.tcl.tk/">http://www.tcl.tk/</a>, the home of
+  <a href="https://www.tcl-lang.org/">https://www.tcl-lang.org/</a>, the home of
   Tcl/Tk. Their separate Tcl and Tk package is much smaller&nbsp;- and
   will work, too. Indeed this is absolutely unusable for average users.
   And you have for sure to take into account the graphic extensions
   manually, too.
 </p>
 
-<span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Img&nbsp;Extension</span>
+<span style="font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">tkImg&nbsp;Extension</span>
 <p>
-  Note: Img is not absolutely necessary to use TkWiCe!
+  Note: tkImg is not absolutely necessary to use TkWiCe!
 </p><p>
   And: You can ignore this chapter, if
 </p><ul style="list-style-type:circle">
   <li>you do not intend to add photos of your wine bottles to the
       database,</li>
   <li>or your Tcl/Tk distribution is from www.activestate.com,</li>
-  <li>or the install wizard doesn't complain about a missing Img
+  <li>or the install wizard doesn't complain about a missing tkImg
       extension.</li>
 </ul><p>
-  In any other cases please take sure that the &raquo;Img&laquo;
+  In any other cases please take sure that the &raquo;tkImg&laquo;
   extension to Tcl/Tk is installed. Most users may get it automatically
   with installing Tcl/Tk, but if not:
 </p><p style="margin-left:2em">
-  <a href="http://sourceforge.net/projects/tkimg/">http://sourceforge.net/projects/tkimg/</a>
+  <a href="https://sourceforge.net/projects/tkimg/">https://sourceforge.net/projects/tkimg/</a>
 </p><p>
   On unix-like distributions there should be a package named libimg,
   imglib, tklib, libtk, tkimg, imgtk or similar providing this software.
@@ -118,7 +119,7 @@
   And you can add this extension anytime after installing TkWiCe&nbsp;-
   your wine cellar software will use it as soon as found. Note that this
   extension is no dependency for the photo feature&nbsp;- it is optional.
-  But if you use the photo feature without Img, your database size will
+  But if you use the photo feature without tkImg, your database size will
   explode <span style="font-size:small">(factor 6)</span>, your images
   will be reduced to a lower color palette, and speed will slow down.
   But everything works without it, too.
@@ -134,10 +135,7 @@
   distributions will provide ImageMagick, but if you need to get it
   elsewhere:
 </p><p style="margin-left:2em">
-  <a href="http://www.imagemagick.org/">http://www.imagemagick.org/</a>
-</p><p>
-  On Windows and Macintosh operating systems this feature isn't supported
-  just because of the impossible test environment of the author&nbsp;...
+  <a href="https://imagemagick.org/">https://imagemagick.org/</a>
 </p>
 
 <span style="font-size:large; font-weight:bold; font-variant:small-caps; border-bottom:solid; border-bottom-width:1px; border-color:#bb0055">Deinstallation</span>
@@ -184,9 +182,9 @@
   <li>tkwice.tcl</li>
   <li>./tkwice.tcl</li>
   <li>tclsh tkwice.tcl</li>
-  <li>tclsh8.5 tkwice.tcl</li>
+  <li>tclsh8.6 tkwice.tcl</li>
   <li>tclsh /this/directory/tkwice.tcl</li>
-  <li>/path/to/tclsh8.5 /this/directory/tkwice.tcl</li>
+  <li>/path/to/tclsh8.6 /this/directory/tkwice.tcl</li>
 </ul><p>
   <span style="font-size:small">(On some installations you may use
   the former &raquo;wish&laquo; instead of the newly recommended
